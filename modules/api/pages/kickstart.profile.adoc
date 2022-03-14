@@ -4,40 +4,40 @@
 
 == Available methods
 
-* <<apidoc-kickstart_profile-addIpRange-1394111263,addIpRange>>
-* <<apidoc-kickstart_profile-addScript-391915263,addScript>>
-* <<apidoc-kickstart_profile-addScript-1648090182,addScript>>
-* <<apidoc-kickstart_profile-addScript-1091925703,addScript>>
-* <<apidoc-kickstart_profile-compareActivationKeys-311245180,compareActivationKeys>>
-* <<apidoc-kickstart_profile-compareAdvancedOptions-1434751602,compareAdvancedOptions>>
-* <<apidoc-kickstart_profile-comparePackages-692760632,comparePackages>>
-* <<apidoc-kickstart_profile-downloadKickstart-1169929192,downloadKickstart>>
-* <<apidoc-kickstart_profile-downloadRenderedKickstart-2036240117,downloadRenderedKickstart>>
-* <<apidoc-kickstart_profile-getAdvancedOptions-328690775,getAdvancedOptions>>
-* <<apidoc-kickstart_profile-getAvailableRepositories-693026222,getAvailableRepositories>>
-* <<apidoc-kickstart_profile-getCfgPreservation-1573405835,getCfgPreservation>>
-* <<apidoc-kickstart_profile-getChildChannels-298060389,getChildChannels>>
-* <<apidoc-kickstart_profile-getCustomOptions-95387183,getCustomOptions>>
-* <<apidoc-kickstart_profile-getKickstartTree-428035767,getKickstartTree>>
-* <<apidoc-kickstart_profile-getRepositories-237502470,getRepositories>>
-* <<apidoc-kickstart_profile-getUpdateType-641078642,getUpdateType>>
-* <<apidoc-kickstart_profile-getVariables-1053596586,getVariables>>
-* <<apidoc-kickstart_profile-getVirtualizationType-1327145660,getVirtualizationType>>
-* <<apidoc-kickstart_profile-listIpRanges-13068130,listIpRanges>>
-* <<apidoc-kickstart_profile-listScripts-295064445,listScripts>>
-* <<apidoc-kickstart_profile-orderScripts-645564279,orderScripts>>
-* <<apidoc-kickstart_profile-removeIpRange-767041877,removeIpRange>>
-* <<apidoc-kickstart_profile-removeScript-858132653,removeScript>>
-* <<apidoc-kickstart_profile-setAdvancedOptions-280475120,setAdvancedOptions>>
-* <<apidoc-kickstart_profile-setCfgPreservation-807771233,setCfgPreservation>>
-* <<apidoc-kickstart_profile-setChildChannels-1757653560,setChildChannels>>
-* <<apidoc-kickstart_profile-setCustomOptions-770854681,setCustomOptions>>
-* <<apidoc-kickstart_profile-setKickstartTree-975724693,setKickstartTree>>
-* <<apidoc-kickstart_profile-setLogging-869304868,setLogging>>
-* <<apidoc-kickstart_profile-setRepositories-1424214946,setRepositories>>
-* <<apidoc-kickstart_profile-setUpdateType-645018917,setUpdateType>>
-* <<apidoc-kickstart_profile-setVariables-1328191747,setVariables>>
-* <<apidoc-kickstart_profile-setVirtualizationType-333825340,setVirtualizationType>>
+* <<apidoc-kickstart_profile-addIpRange-2070645994,addIpRange>>
+* <<apidoc-kickstart_profile-addScript-1678923217,addScript>>
+* <<apidoc-kickstart_profile-addScript-1976965986,addScript>>
+* <<apidoc-kickstart_profile-addScript-1947573705,addScript>>
+* <<apidoc-kickstart_profile-compareActivationKeys-1436718473,compareActivationKeys>>
+* <<apidoc-kickstart_profile-compareAdvancedOptions-358049703,compareAdvancedOptions>>
+* <<apidoc-kickstart_profile-comparePackages-1835002468,comparePackages>>
+* <<apidoc-kickstart_profile-downloadKickstart-625086641,downloadKickstart>>
+* <<apidoc-kickstart_profile-downloadRenderedKickstart-1611272816,downloadRenderedKickstart>>
+* <<apidoc-kickstart_profile-getAdvancedOptions-942223469,getAdvancedOptions>>
+* <<apidoc-kickstart_profile-getAvailableRepositories-307868325,getAvailableRepositories>>
+* <<apidoc-kickstart_profile-getCfgPreservation-666389658,getCfgPreservation>>
+* <<apidoc-kickstart_profile-getChildChannels-179690980,getChildChannels>>
+* <<apidoc-kickstart_profile-getCustomOptions-766814282,getCustomOptions>>
+* <<apidoc-kickstart_profile-getKickstartTree-573424492,getKickstartTree>>
+* <<apidoc-kickstart_profile-getRepositories-1736027968,getRepositories>>
+* <<apidoc-kickstart_profile-getUpdateType-876994034,getUpdateType>>
+* <<apidoc-kickstart_profile-getVariables-757515938,getVariables>>
+* <<apidoc-kickstart_profile-getVirtualizationType-1747991213,getVirtualizationType>>
+* <<apidoc-kickstart_profile-listIpRanges-193362025,listIpRanges>>
+* <<apidoc-kickstart_profile-listScripts-626295499,listScripts>>
+* <<apidoc-kickstart_profile-orderScripts-1089268437,orderScripts>>
+* <<apidoc-kickstart_profile-removeIpRange-1930792245,removeIpRange>>
+* <<apidoc-kickstart_profile-removeScript-1393060828,removeScript>>
+* <<apidoc-kickstart_profile-setAdvancedOptions-686815807,setAdvancedOptions>>
+* <<apidoc-kickstart_profile-setCfgPreservation-564908963,setCfgPreservation>>
+* <<apidoc-kickstart_profile-setChildChannels-1886136102,setChildChannels>>
+* <<apidoc-kickstart_profile-setCustomOptions-1559191497,setCustomOptions>>
+* <<apidoc-kickstart_profile-setKickstartTree-316204726,setKickstartTree>>
+* <<apidoc-kickstart_profile-setLogging-1834041945,setLogging>>
+* <<apidoc-kickstart_profile-setRepositories-2096195291,setRepositories>>
+* <<apidoc-kickstart_profile-setUpdateType-1838225797,setUpdateType>>
+* <<apidoc-kickstart_profile-setVariables-56813310,setVariables>>
+* <<apidoc-kickstart_profile-setVirtualizationType-933454228,setVirtualizationType>>
 
 == Description
 
@@ -49,7 +49,7 @@ Provides methods to access and modify many aspects of
 kickstart.profile
 
 
-[#apidoc-kickstart_profile-addIpRange-1394111263]
+[#apidoc-kickstart_profile-addIpRange-2070645994]
 == Method: addIpRange 
 
 Description:
@@ -80,7 +80,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-addScript-391915263]
+[#apidoc-kickstart_profile-addScript-1678923217]
 == Method: addScript 
 
 Description:
@@ -120,7 +120,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-addScript-1648090182]
+[#apidoc-kickstart_profile-addScript-1976965986]
 == Method: addScript 
 
 Description:
@@ -162,7 +162,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-addScript-1091925703]
+[#apidoc-kickstart_profile-addScript-1947573705]
 == Method: addScript 
 
 Description:
@@ -207,7 +207,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-compareActivationKeys-311245180]
+[#apidoc-kickstart_profile-compareActivationKeys-1436718473]
 == Method: compareActivationKeys 
 
 Description:
@@ -292,7 +292,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-compareAdvancedOptions-1434751602]
+[#apidoc-kickstart_profile-compareAdvancedOptions-358049703]
 == Method: compareAdvancedOptions 
 
 Description:
@@ -336,7 +336,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-comparePackages-692760632]
+[#apidoc-kickstart_profile-comparePackages-1835002468]
 == Method: comparePackages 
 
 Description:
@@ -371,7 +371,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-downloadKickstart-1169929192]
+[#apidoc-kickstart_profile-downloadKickstart-625086641]
 == Method: downloadKickstart 
 
 Description:
@@ -389,7 +389,7 @@ Parameters:
  kickstart to download.
  
 * [.string]#string#  host - The host to use when
- referring to the SUSE Manager server. Usually this should be the FQDN,
+ referring to the Uyuni server. Usually this should be the FQDN,
  but could be the ip address or shortname as well.
  
 
@@ -403,7 +403,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-downloadRenderedKickstart-2036240117]
+[#apidoc-kickstart_profile-downloadRenderedKickstart-1611272816]
 == Method: downloadRenderedKickstart 
 
 Description:
@@ -428,7 +428,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-getAdvancedOptions-328690775]
+[#apidoc-kickstart_profile-getAdvancedOptions-942223469]
 == Method: getAdvancedOptions 
 
 Description:
@@ -457,7 +457,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-getAvailableRepositories-693026222]
+[#apidoc-kickstart_profile-getAvailableRepositories-307868325]
 == Method: getAvailableRepositories 
 
 Description:
@@ -483,7 +483,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-getCfgPreservation-1573405835]
+[#apidoc-kickstart_profile-getCfgPreservation-666389658]
 == Method: getCfgPreservation 
 
 Description:
@@ -509,7 +509,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-getChildChannels-298060389]
+[#apidoc-kickstart_profile-getChildChannels-179690980]
 == Method: getChildChannels 
 
 Description:
@@ -535,7 +535,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-getCustomOptions-95387183]
+[#apidoc-kickstart_profile-getCustomOptions-766814282]
 == Method: getCustomOptions 
 
 Description:
@@ -563,7 +563,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-getKickstartTree-428035767]
+[#apidoc-kickstart_profile-getKickstartTree-573424492]
 == Method: getKickstartTree 
 
 Description:
@@ -588,7 +588,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-getRepositories-237502470]
+[#apidoc-kickstart_profile-getRepositories-1736027968]
 == Method: getRepositories 
 
 Description:
@@ -613,7 +613,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-getUpdateType-641078642]
+[#apidoc-kickstart_profile-getUpdateType-876994034]
 == Method: getUpdateType 
 
 Description:
@@ -638,7 +638,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-getVariables-1053596586]
+[#apidoc-kickstart_profile-getVariables-757515938]
 == Method: getVariables 
 
 Description:
@@ -665,7 +665,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-getVirtualizationType-1327145660]
+[#apidoc-kickstart_profile-getVirtualizationType-1747991213]
 == Method: getVirtualizationType 
 
 Description:
@@ -690,7 +690,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-listIpRanges-13068130]
+[#apidoc-kickstart_profile-listIpRanges-193362025]
 == Method: listIpRanges 
 
 Description:
@@ -719,7 +719,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-listScripts-295064445]
+[#apidoc-kickstart_profile-listScripts-626295499]
 == Method: listScripts 
 
 Description:
@@ -760,7 +760,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-orderScripts-645564279]
+[#apidoc-kickstart_profile-orderScripts-1089268437]
 == Method: orderScripts 
 
 Description:
@@ -802,7 +802,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-removeIpRange-767041877]
+[#apidoc-kickstart_profile-removeIpRange-1930792245]
 == Method: removeIpRange 
 
 Description:
@@ -832,7 +832,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-removeScript-858132653]
+[#apidoc-kickstart_profile-removeScript-1393060828]
 == Method: removeScript 
 
 Description:
@@ -860,7 +860,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-setAdvancedOptions-280475120]
+[#apidoc-kickstart_profile-setAdvancedOptions-686815807]
 == Method: setAdvancedOptions 
 
 Description:
@@ -899,7 +899,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-setCfgPreservation-807771233]
+[#apidoc-kickstart_profile-setCfgPreservation-564908963]
 == Method: setCfgPreservation 
 
 Description:
@@ -927,7 +927,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-setChildChannels-1757653560]
+[#apidoc-kickstart_profile-setChildChannels-1886136102]
 == Method: setChildChannels 
 
 Description:
@@ -954,7 +954,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-setCustomOptions-770854681]
+[#apidoc-kickstart_profile-setCustomOptions-1559191497]
 == Method: setCustomOptions 
 
 Description:
@@ -980,7 +980,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-setKickstartTree-975724693]
+[#apidoc-kickstart_profile-setKickstartTree-316204726]
 == Method: setKickstartTree 
 
 Description:
@@ -1008,7 +1008,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-setLogging-869304868]
+[#apidoc-kickstart_profile-setLogging-1834041945]
 == Method: setLogging 
 
 Description:
@@ -1039,7 +1039,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-setRepositories-1424214946]
+[#apidoc-kickstart_profile-setRepositories-2096195291]
 == Method: setRepositories 
 
 Description:
@@ -1066,7 +1066,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-setUpdateType-645018917]
+[#apidoc-kickstart_profile-setUpdateType-1838225797]
 == Method: setUpdateType 
 
 Description:
@@ -1094,7 +1094,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-setVariables-1328191747]
+[#apidoc-kickstart_profile-setVariables-56813310]
 == Method: setVariables 
 
 Description:
@@ -1123,7 +1123,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-setVirtualizationType-333825340]
+[#apidoc-kickstart_profile-setVirtualizationType-933454228]
 == Method: setVirtualizationType 
 
 Description:

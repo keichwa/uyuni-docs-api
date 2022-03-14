@@ -4,13 +4,13 @@
 
 == Available methods
 
-* <<apidoc-cluster-addCluster-1429212051,addCluster>>
-* <<apidoc-cluster-deleteCluster-305407657,deleteCluster>>
-* <<apidoc-cluster-listClusterNodes-1129569088,listClusterNodes>>
-* <<apidoc-cluster-listClusters-935612756,listClusters>>
-* <<apidoc-cluster-scheduleJoinNodeToCluster-1451785359,scheduleJoinNodeToCluster>>
-* <<apidoc-cluster-scheduleRemoveNodeFromCluster-61966686,scheduleRemoveNodeFromCluster>>
-* <<apidoc-cluster-scheduleUpgradeCluster-813950703,scheduleUpgradeCluster>>
+* <<apidoc-cluster-addCluster-635051465,addCluster>>
+* <<apidoc-cluster-deleteCluster-60254480,deleteCluster>>
+* <<apidoc-cluster-listClusterNodes-1846842261,listClusterNodes>>
+* <<apidoc-cluster-listClusters-968481845,listClusters>>
+* <<apidoc-cluster-scheduleJoinNodeToCluster-431731222,scheduleJoinNodeToCluster>>
+* <<apidoc-cluster-scheduleRemoveNodeFromCluster-1828372669,scheduleRemoveNodeFromCluster>>
+* <<apidoc-cluster-scheduleUpgradeCluster-1419635675,scheduleUpgradeCluster>>
 
 == Description
 
@@ -21,7 +21,7 @@ Provides methods to access and modify clusters.
 cluster
 
 
-[#apidoc-cluster-addCluster-1429212051]
+[#apidoc-cluster-addCluster-635051465]
 == Method: addCluster 
 
 Description:
@@ -53,7 +53,7 @@ Returns:
 
 
 
-[#apidoc-cluster-deleteCluster-305407657]
+[#apidoc-cluster-deleteCluster-60254480]
 == Method: deleteCluster 
 
 Description:
@@ -77,7 +77,7 @@ Returns:
 
 
 
-[#apidoc-cluster-listClusterNodes-1129569088]
+[#apidoc-cluster-listClusterNodes-1846842261]
 == Method: listClusterNodes 
 
 Description:
@@ -102,7 +102,7 @@ Returns:
 
 
 
-[#apidoc-cluster-listClusters-935612756]
+[#apidoc-cluster-listClusters-968481845]
 == Method: listClusters 
 
 Description:
@@ -126,7 +126,7 @@ Returns:
 
 
 
-[#apidoc-cluster-scheduleJoinNodeToCluster-1451785359]
+[#apidoc-cluster-scheduleJoinNodeToCluster-431731222]
 == Method: scheduleJoinNodeToCluster 
 
 Description:
@@ -157,7 +157,7 @@ Returns:
 
 
 
-[#apidoc-cluster-scheduleRemoveNodeFromCluster-61966686]
+[#apidoc-cluster-scheduleRemoveNodeFromCluster-1828372669]
 == Method: scheduleRemoveNodeFromCluster 
 
 Description:
@@ -188,7 +188,7 @@ Returns:
 
 
 
-[#apidoc-cluster-scheduleUpgradeCluster-813950703]
+[#apidoc-cluster-scheduleUpgradeCluster-1419635675]
 == Method: scheduleUpgradeCluster 
 
 Description:

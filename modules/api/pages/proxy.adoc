@@ -4,13 +4,13 @@
 
 == Available methods
 
-* <<apidoc-proxy-activateProxy-1640043321,activateProxy>>
-* <<apidoc-proxy-createMonitoringScout-896315952,createMonitoringScout>>
-* <<apidoc-proxy-deactivateProxy-505957776,deactivateProxy>>
-* <<apidoc-proxy-isProxy-1354203477,isProxy>>
-* <<apidoc-proxy-listAvailableProxyChannels-837603331,listAvailableProxyChannels>>
-* <<apidoc-proxy-listProxies-1564299842,listProxies>>
-* <<apidoc-proxy-listProxyClients-27639992,listProxyClients>>
+* <<apidoc-proxy-activateProxy-877918108,activateProxy>>
+* <<apidoc-proxy-createMonitoringScout-1998948845,createMonitoringScout>>
+* <<apidoc-proxy-deactivateProxy-201591949,deactivateProxy>>
+* <<apidoc-proxy-isProxy-1176077642,isProxy>>
+* <<apidoc-proxy-listAvailableProxyChannels-1868724762,listAvailableProxyChannels>>
+* <<apidoc-proxy-listProxies-1700499817,listProxies>>
+* <<apidoc-proxy-listProxyClients-1226283307,listProxyClients>>
 
 == Description
 
@@ -22,7 +22,7 @@ Provides methods to activate/deactivate a proxy
 proxy
 
 
-[#apidoc-proxy-activateProxy-1640043321]
+[#apidoc-proxy-activateProxy-877918108]
 == Method: activateProxy 
 
 Description:
@@ -48,7 +48,7 @@ Returns:
 
 
 
-[#apidoc-proxy-createMonitoringScout-896315952]
+[#apidoc-proxy-createMonitoringScout-1998948845]
 == Method: createMonitoringScout 
 
 Description:
@@ -71,7 +71,7 @@ Returns:
 Available since API version: 10.7
 
 
-[#apidoc-proxy-deactivateProxy-505957776]
+[#apidoc-proxy-deactivateProxy-201591949]
 == Method: deactivateProxy 
 
 Description:
@@ -94,7 +94,7 @@ Returns:
 
 
 
-[#apidoc-proxy-isProxy-1354203477]
+[#apidoc-proxy-isProxy-1176077642]
 == Method: isProxy 
 
 Description:
@@ -117,7 +117,7 @@ Returns:
 
 
 
-[#apidoc-proxy-listAvailableProxyChannels-837603331]
+[#apidoc-proxy-listAvailableProxyChannels-1868724762]
 == Method: listAvailableProxyChannels 
 
 Description:
@@ -142,7 +142,7 @@ Returns:
 Available since API version: 10.5
 
 
-[#apidoc-proxy-listProxies-1564299842]
+[#apidoc-proxy-listProxies-1700499817]
 == Method: listProxies 
 
 Description:
@@ -175,7 +175,7 @@ Returns:
 
 
 
-[#apidoc-proxy-listProxyClients-27639992]
+[#apidoc-proxy-listProxyClients-1226283307]
 == Method: listProxyClients 
 
 Description:

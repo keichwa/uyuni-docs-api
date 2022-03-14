@@ -4,21 +4,21 @@
 
 == Available methods
 
-* <<apidoc-sync_master-addToMaster-1681886910,addToMaster>>
-* <<apidoc-sync_master-create-88544066,create>>
-* <<apidoc-sync_master-delete-1318916377,delete>>
-* <<apidoc-sync_master-getDefaultMaster-1618596377,getDefaultMaster>>
-* <<apidoc-sync_master-getMaster-1394529934,getMaster>>
-* <<apidoc-sync_master-getMasterByLabel-1427732162,getMasterByLabel>>
-* <<apidoc-sync_master-getMasterOrgs-1602314131,getMasterOrgs>>
-* <<apidoc-sync_master-getMasters-1807564872,getMasters>>
-* <<apidoc-sync_master-hasMaster-1322846980,hasMaster>>
-* <<apidoc-sync_master-makeDefault-1561921531,makeDefault>>
-* <<apidoc-sync_master-mapToLocal-1694580081,mapToLocal>>
-* <<apidoc-sync_master-setCaCert-2111384118,setCaCert>>
-* <<apidoc-sync_master-setMasterOrgs-2056144971,setMasterOrgs>>
-* <<apidoc-sync_master-unsetDefaultMaster-1751830047,unsetDefaultMaster>>
-* <<apidoc-sync_master-update-772801497,update>>
+* <<apidoc-sync_master-addToMaster-1617767058,addToMaster>>
+* <<apidoc-sync_master-create-1760459579,create>>
+* <<apidoc-sync_master-delete-1290483339,delete>>
+* <<apidoc-sync_master-getDefaultMaster-116449140,getDefaultMaster>>
+* <<apidoc-sync_master-getMaster-681279230,getMaster>>
+* <<apidoc-sync_master-getMasterByLabel-883716803,getMasterByLabel>>
+* <<apidoc-sync_master-getMasterOrgs-1151309352,getMasterOrgs>>
+* <<apidoc-sync_master-getMasters-1826145139,getMasters>>
+* <<apidoc-sync_master-hasMaster-1119605276,hasMaster>>
+* <<apidoc-sync_master-makeDefault-500979799,makeDefault>>
+* <<apidoc-sync_master-mapToLocal-1250213559,mapToLocal>>
+* <<apidoc-sync_master-setCaCert-680533991,setCaCert>>
+* <<apidoc-sync_master-setMasterOrgs-931163339,setMasterOrgs>>
+* <<apidoc-sync_master-unsetDefaultMaster-1475476398,unsetDefaultMaster>>
+* <<apidoc-sync_master-update-362427044,update>>
 
 == Description
 
@@ -30,7 +30,7 @@ Contains methods to set up information about known-"masters", for use
 sync.master
 
 
-[#apidoc-sync_master-addToMaster-1681886910]
+[#apidoc-sync_master-addToMaster-1617767058]
 == Method: addToMaster 
 
 Description:
@@ -60,7 +60,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-create-88544066]
+[#apidoc-sync_master-create-1760459579]
 == Method: create 
 
 Description:
@@ -89,7 +89,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-delete-1318916377]
+[#apidoc-sync_master-delete-1290483339]
 == Method: delete 
 
 Description:
@@ -113,7 +113,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-getDefaultMaster-1618596377]
+[#apidoc-sync_master-getDefaultMaster-116449140]
 == Method: getDefaultMaster 
 
 Description:
@@ -140,7 +140,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-getMaster-1394529934]
+[#apidoc-sync_master-getMaster-681279230]
 == Method: getMaster 
 
 Description:
@@ -169,7 +169,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-getMasterByLabel-1427732162]
+[#apidoc-sync_master-getMasterByLabel-883716803]
 == Method: getMasterByLabel 
 
 Description:
@@ -198,7 +198,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-getMasterOrgs-1602314131]
+[#apidoc-sync_master-getMasterOrgs-1151309352]
 == Method: getMasterOrgs 
 
 Description:
@@ -227,7 +227,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-getMasters-1807564872]
+[#apidoc-sync_master-getMasters-1826145139]
 == Method: getMasters 
 
 Description:
@@ -255,7 +255,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-hasMaster-1322846980]
+[#apidoc-sync_master-hasMaster-1119605276]
 == Method: hasMaster 
 
 Description:
@@ -275,7 +275,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-makeDefault-1561921531]
+[#apidoc-sync_master-makeDefault-500979799]
 == Method: makeDefault 
 
 Description:
@@ -299,7 +299,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-mapToLocal-1694580081]
+[#apidoc-sync_master-mapToLocal-1250213559]
 == Method: mapToLocal 
 
 Description:
@@ -328,7 +328,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-setCaCert-2111384118]
+[#apidoc-sync_master-setCaCert-680533991]
 == Method: setCaCert 
 
 Description:
@@ -354,7 +354,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-setMasterOrgs-2056144971]
+[#apidoc-sync_master-setMasterOrgs-931163339]
 == Method: setMasterOrgs 
 
 Description:
@@ -384,7 +384,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-unsetDefaultMaster-1751830047]
+[#apidoc-sync_master-unsetDefaultMaster-1475476398]
 == Method: unsetDefaultMaster 
 
 Description:
@@ -406,7 +406,7 @@ Returns:
 
 
 
-[#apidoc-sync_master-update-772801497]
+[#apidoc-sync_master-update-362427044]
 == Method: update 
 
 Description:

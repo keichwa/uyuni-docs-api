@@ -4,14 +4,14 @@
 
 == Available methods
 
-* <<apidoc-image-delete-1917717111,delete>>
-* <<apidoc-image-getCustomValues-88256198,getCustomValues>>
-* <<apidoc-image-getDetails-593341655,getDetails>>
-* <<apidoc-image-getRelevantErrata-120617702,getRelevantErrata>>
-* <<apidoc-image-importImage-1946618260,importImage>>
-* <<apidoc-image-listImages-1072499716,listImages>>
-* <<apidoc-image-listPackages-1237669315,listPackages>>
-* <<apidoc-image-scheduleImageBuild-2088857414,scheduleImageBuild>>
+* <<apidoc-image-delete-1051589563,delete>>
+* <<apidoc-image-getCustomValues-817012565,getCustomValues>>
+* <<apidoc-image-getDetails-997361164,getDetails>>
+* <<apidoc-image-getRelevantErrata-966416978,getRelevantErrata>>
+* <<apidoc-image-importImage-2132487943,importImage>>
+* <<apidoc-image-listImages-1370665958,listImages>>
+* <<apidoc-image-listPackages-376961419,listPackages>>
+* <<apidoc-image-scheduleImageBuild-1733110667,scheduleImageBuild>>
 
 == Description
 
@@ -22,7 +22,7 @@ Provides methods to access and modify images.
 image
 
 
-[#apidoc-image-delete-1917717111]
+[#apidoc-image-delete-1051589563]
 == Method: delete 
 
 Description:
@@ -46,7 +46,7 @@ Returns:
 
 
 
-[#apidoc-image-getCustomValues-88256198]
+[#apidoc-image-getCustomValues-817012565]
 == Method: getCustomValues 
 
 Description:
@@ -72,7 +72,7 @@ Returns:
 
 
 
-[#apidoc-image-getDetails-593341655]
+[#apidoc-image-getDetails-997361164]
 == Method: getDetails 
 
 Description:
@@ -126,7 +126,7 @@ Returns:
 
 
 
-[#apidoc-image-getRelevantErrata-120617702]
+[#apidoc-image-getRelevantErrata-966416978]
 == Method: getRelevantErrata 
 
 Description:
@@ -160,7 +160,7 @@ Returns:
 
 
 
-[#apidoc-image-importImage-1946618260]
+[#apidoc-image-importImage-2132487943]
 == Method: importImage 
 
 Description:
@@ -198,7 +198,7 @@ Returns:
 
 
 
-[#apidoc-image-listImages-1072499716]
+[#apidoc-image-listImages-1370665958]
 == Method: listImages 
 
 Description:
@@ -230,7 +230,7 @@ Returns:
 
 
 
-[#apidoc-image-listPackages-1237669315]
+[#apidoc-image-listPackages-376961419]
 == Method: listPackages 
 
 Description:
@@ -260,7 +260,7 @@ Returns:
 
 
 
-[#apidoc-image-scheduleImageBuild-2088857414]
+[#apidoc-image-scheduleImageBuild-1733110667]
 == Method: scheduleImageBuild 
 
 Description:

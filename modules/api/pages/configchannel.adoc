@@ -4,34 +4,34 @@
 
 == Available methods
 
-* <<apidoc-configchannel-channelExists-1040916227,channelExists>>
-* <<apidoc-configchannel-create-1846842261,create>>
-* <<apidoc-configchannel-create-431731222,create>>
-* <<apidoc-configchannel-create-1828372669,create>>
-* <<apidoc-configchannel-createOrUpdatePath-39179479,createOrUpdatePath>>
-* <<apidoc-configchannel-createOrUpdateSymlink-1114370802,createOrUpdateSymlink>>
-* <<apidoc-configchannel-deleteChannels-771996532,deleteChannels>>
-* <<apidoc-configchannel-deleteFileRevisions-1419635675,deleteFileRevisions>>
-* <<apidoc-configchannel-deleteFiles-1852194933,deleteFiles>>
-* <<apidoc-configchannel-deployAllSystems-224447405,deployAllSystems>>
-* <<apidoc-configchannel-deployAllSystems-1373194140,deployAllSystems>>
-* <<apidoc-configchannel-deployAllSystems-1965129924,deployAllSystems>>
-* <<apidoc-configchannel-deployAllSystems-322202212,deployAllSystems>>
-* <<apidoc-configchannel-getDetails-1527597068,getDetails>>
-* <<apidoc-configchannel-getDetails-1059154409,getDetails>>
-* <<apidoc-configchannel-getEncodedFileRevision-1618322666,getEncodedFileRevision>>
-* <<apidoc-configchannel-getFileRevision-1521510441,getFileRevision>>
-* <<apidoc-configchannel-getFileRevisions-517952230,getFileRevisions>>
-* <<apidoc-configchannel-listAssignedSystemGroups-66893623,listAssignedSystemGroups>>
-* <<apidoc-configchannel-listFiles-862069640,listFiles>>
-* <<apidoc-configchannel-listGlobals-1706125628,listGlobals>>
-* <<apidoc-configchannel-listSubscribedSystems-402847244,listSubscribedSystems>>
-* <<apidoc-configchannel-lookupChannelInfo-731256267,lookupChannelInfo>>
-* <<apidoc-configchannel-lookupFileInfo-754817802,lookupFileInfo>>
-* <<apidoc-configchannel-lookupFileInfo-524136404,lookupFileInfo>>
-* <<apidoc-configchannel-scheduleFileComparisons-475468130,scheduleFileComparisons>>
-* <<apidoc-configchannel-update-1720303364,update>>
-* <<apidoc-configchannel-updateInitSls-161958547,updateInitSls>>
+* <<apidoc-configchannel-channelExists-580904875,channelExists>>
+* <<apidoc-configchannel-create-1175742514,create>>
+* <<apidoc-configchannel-create-492836007,create>>
+* <<apidoc-configchannel-create-1970665441,create>>
+* <<apidoc-configchannel-createOrUpdatePath-874023329,createOrUpdatePath>>
+* <<apidoc-configchannel-createOrUpdateSymlink-694762269,createOrUpdateSymlink>>
+* <<apidoc-configchannel-deleteChannels-1411531045,deleteChannels>>
+* <<apidoc-configchannel-deleteFileRevisions-1176958340,deleteFileRevisions>>
+* <<apidoc-configchannel-deleteFiles-2080453984,deleteFiles>>
+* <<apidoc-configchannel-deployAllSystems-1693626804,deployAllSystems>>
+* <<apidoc-configchannel-deployAllSystems-296563327,deployAllSystems>>
+* <<apidoc-configchannel-deployAllSystems-1266713639,deployAllSystems>>
+* <<apidoc-configchannel-deployAllSystems-377458755,deployAllSystems>>
+* <<apidoc-configchannel-getDetails-363187310,getDetails>>
+* <<apidoc-configchannel-getDetails-78011456,getDetails>>
+* <<apidoc-configchannel-getEncodedFileRevision-1692311460,getEncodedFileRevision>>
+* <<apidoc-configchannel-getFileRevision-1045343603,getFileRevision>>
+* <<apidoc-configchannel-getFileRevisions-597049482,getFileRevisions>>
+* <<apidoc-configchannel-listAssignedSystemGroups-523699314,listAssignedSystemGroups>>
+* <<apidoc-configchannel-listFiles-888350069,listFiles>>
+* <<apidoc-configchannel-listGlobals-998575031,listGlobals>>
+* <<apidoc-configchannel-listSubscribedSystems-1735523369,listSubscribedSystems>>
+* <<apidoc-configchannel-lookupChannelInfo-1601952112,lookupChannelInfo>>
+* <<apidoc-configchannel-lookupFileInfo-975328564,lookupFileInfo>>
+* <<apidoc-configchannel-lookupFileInfo-1154939343,lookupFileInfo>>
+* <<apidoc-configchannel-scheduleFileComparisons-267039662,scheduleFileComparisons>>
+* <<apidoc-configchannel-update-1338526866,update>>
+* <<apidoc-configchannel-updateInitSls-1745010958,updateInitSls>>
 
 == Description
 
@@ -43,7 +43,7 @@ Provides methods to access and modify many aspects of
 configchannel
 
 
-[#apidoc-configchannel-channelExists-1040916227]
+[#apidoc-configchannel-channelExists-580904875]
 == Method: channelExists 
 
 Description:
@@ -67,7 +67,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-create-1846842261]
+[#apidoc-configchannel-create-1175742514]
 == Method: create 
 
 Description:
@@ -109,7 +109,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-create-431731222]
+[#apidoc-configchannel-create-492836007]
 == Method: create 
 
 Description:
@@ -153,7 +153,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-create-1828372669]
+[#apidoc-configchannel-create-1970665441]
 == Method: create 
 
 Description:
@@ -201,7 +201,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-createOrUpdatePath-39179479]
+[#apidoc-configchannel-createOrUpdatePath-874023329]
 == Method: createOrUpdatePath 
 
 Description:
@@ -277,7 +277,7 @@ Returns:
 Available since API version: 10.2
 
 
-[#apidoc-configchannel-createOrUpdateSymlink-1114370802]
+[#apidoc-configchannel-createOrUpdateSymlink-694762269]
 == Method: createOrUpdateSymlink 
 
 Description:
@@ -339,7 +339,7 @@ Returns:
 Available since API version: 10.2
 
 
-[#apidoc-configchannel-deleteChannels-771996532]
+[#apidoc-configchannel-deleteChannels-1411531045]
 == Method: deleteChannels 
 
 Description:
@@ -365,7 +365,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-deleteFileRevisions-1419635675]
+[#apidoc-configchannel-deleteFileRevisions-1176958340]
 == Method: deleteFileRevisions 
 
 Description:
@@ -394,7 +394,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-deleteFiles-1852194933]
+[#apidoc-configchannel-deleteFiles-2080453984]
 == Method: deleteFiles 
 
 Description:
@@ -421,7 +421,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-deployAllSystems-224447405]
+[#apidoc-configchannel-deployAllSystems-1693626804]
 == Method: deployAllSystems 
 
 Description:
@@ -446,7 +446,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-deployAllSystems-1373194140]
+[#apidoc-configchannel-deployAllSystems-296563327]
 == Method: deployAllSystems 
 
 Description:
@@ -473,7 +473,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-deployAllSystems-1965129924]
+[#apidoc-configchannel-deployAllSystems-1266713639]
 == Method: deployAllSystems 
 
 Description:
@@ -500,7 +500,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-deployAllSystems-322202212]
+[#apidoc-configchannel-deployAllSystems-377458755]
 == Method: deployAllSystems 
 
 Description:
@@ -529,7 +529,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-getDetails-1527597068]
+[#apidoc-configchannel-getDetails-363187310]
 == Method: getDetails 
 
 Description:
@@ -566,7 +566,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-getDetails-1059154409]
+[#apidoc-configchannel-getDetails-78011456]
 == Method: getDetails 
 
 Description:
@@ -603,7 +603,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-getEncodedFileRevision-1618322666]
+[#apidoc-configchannel-getEncodedFileRevision-1692311460]
 == Method: getEncodedFileRevision 
 
 Description:
@@ -660,7 +660,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-getFileRevision-1521510441]
+[#apidoc-configchannel-getFileRevision-1045343603]
 == Method: getFileRevision 
 
 Description:
@@ -716,7 +716,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-getFileRevisions-517952230]
+[#apidoc-configchannel-getFileRevisions-597049482]
 == Method: getFileRevisions 
 
 Description:
@@ -771,7 +771,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-listAssignedSystemGroups-66893623]
+[#apidoc-configchannel-listAssignedSystemGroups-523699314]
 == Method: listAssignedSystemGroups 
 
 Description:
@@ -802,7 +802,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-listFiles-862069640]
+[#apidoc-configchannel-listFiles-888350069]
 == Method: listFiles 
 
 Description:
@@ -836,7 +836,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-listGlobals-1706125628]
+[#apidoc-configchannel-listGlobals-998575031]
 == Method: listGlobals 
 
 Description:
@@ -873,7 +873,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-listSubscribedSystems-402847244]
+[#apidoc-configchannel-listSubscribedSystems-1735523369]
 == Method: listSubscribedSystems 
 
 Description:
@@ -901,7 +901,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-lookupChannelInfo-731256267]
+[#apidoc-configchannel-lookupChannelInfo-1601952112]
 == Method: lookupChannelInfo 
 
 Description:
@@ -940,7 +940,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-lookupFileInfo-754817802]
+[#apidoc-configchannel-lookupFileInfo-975328564]
 == Method: lookupFileInfo 
 
 Description:
@@ -998,7 +998,7 @@ Returns:
 Available since API version: 10.2
 
 
-[#apidoc-configchannel-lookupFileInfo-524136404]
+[#apidoc-configchannel-lookupFileInfo-1154939343]
 == Method: lookupFileInfo 
 
 Description:
@@ -1056,7 +1056,7 @@ Returns:
 Available since API version: 10.12
 
 
-[#apidoc-configchannel-scheduleFileComparisons-475468130]
+[#apidoc-configchannel-scheduleFileComparisons-267039662]
 == Method: scheduleFileComparisons 
 
 Description:
@@ -1087,7 +1087,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-update-1720303364]
+[#apidoc-configchannel-update-1338526866]
 == Method: update 
 
 Description:
@@ -1130,7 +1130,7 @@ Returns:
 
 
 
-[#apidoc-configchannel-updateInitSls-161958547]
+[#apidoc-configchannel-updateInitSls-1745010958]
 == Method: updateInitSls 
 
 Description:

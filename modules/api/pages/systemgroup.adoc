@@ -4,28 +4,28 @@
 
 == Available methods
 
-* <<apidoc-systemgroup-addOrRemoveAdmins-360328326,addOrRemoveAdmins>>
-* <<apidoc-systemgroup-addOrRemoveSystems-620415815,addOrRemoveSystems>>
-* <<apidoc-systemgroup-create-1612762434,create>>
-* <<apidoc-systemgroup-delete-728286619,delete>>
-* <<apidoc-systemgroup-getDetails-1270529736,getDetails>>
-* <<apidoc-systemgroup-getDetails-272876691,getDetails>>
-* <<apidoc-systemgroup-listActiveSystemsInGroup-214170716,listActiveSystemsInGroup>>
-* <<apidoc-systemgroup-listAdministrators-1251831481,listAdministrators>>
-* <<apidoc-systemgroup-listAllGroups-647226268,listAllGroups>>
-* <<apidoc-systemgroup-listAssignedConfigChannels-400761853,listAssignedConfigChannels>>
-* <<apidoc-systemgroup-listAssignedFormuals-1941379381,listAssignedFormuals>>
-* <<apidoc-systemgroup-listGroupsWithNoAssociatedAdmins-1077898244,listGroupsWithNoAssociatedAdmins>>
-* <<apidoc-systemgroup-listInactiveSystemsInGroup-389415616,listInactiveSystemsInGroup>>
-* <<apidoc-systemgroup-listInactiveSystemsInGroup-266267666,listInactiveSystemsInGroup>>
-* <<apidoc-systemgroup-listSystems-96061258,listSystems>>
-* <<apidoc-systemgroup-listSystemsMinimal-95655406,listSystemsMinimal>>
-* <<apidoc-systemgroup-scheduleApplyErrataToActive-485281961,scheduleApplyErrataToActive>>
-* <<apidoc-systemgroup-scheduleApplyErrataToActive-1210242977,scheduleApplyErrataToActive>>
-* <<apidoc-systemgroup-scheduleApplyErrataToActive-1873149031,scheduleApplyErrataToActive>>
-* <<apidoc-systemgroup-subscribeConfigChannel-1844498480,subscribeConfigChannel>>
-* <<apidoc-systemgroup-unsubscribeConfigChannel-858889712,unsubscribeConfigChannel>>
-* <<apidoc-systemgroup-update-846019069,update>>
+* <<apidoc-systemgroup-addOrRemoveAdmins-2065936034,addOrRemoveAdmins>>
+* <<apidoc-systemgroup-addOrRemoveSystems-1690412910,addOrRemoveSystems>>
+* <<apidoc-systemgroup-create-49365994,create>>
+* <<apidoc-systemgroup-delete-1529649769,delete>>
+* <<apidoc-systemgroup-getDetails-1194181141,getDetails>>
+* <<apidoc-systemgroup-getDetails-520296852,getDetails>>
+* <<apidoc-systemgroup-listActiveSystemsInGroup-156304703,listActiveSystemsInGroup>>
+* <<apidoc-systemgroup-listAdministrators-1107168664,listAdministrators>>
+* <<apidoc-systemgroup-listAllGroups-2020466851,listAllGroups>>
+* <<apidoc-systemgroup-listAssignedConfigChannels-1156916634,listAssignedConfigChannels>>
+* <<apidoc-systemgroup-listAssignedFormuals-1328968427,listAssignedFormuals>>
+* <<apidoc-systemgroup-listGroupsWithNoAssociatedAdmins-1879769947,listGroupsWithNoAssociatedAdmins>>
+* <<apidoc-systemgroup-listInactiveSystemsInGroup-1866841711,listInactiveSystemsInGroup>>
+* <<apidoc-systemgroup-listInactiveSystemsInGroup-1698185801,listInactiveSystemsInGroup>>
+* <<apidoc-systemgroup-listSystems-1072487680,listSystems>>
+* <<apidoc-systemgroup-listSystemsMinimal-1432547991,listSystemsMinimal>>
+* <<apidoc-systemgroup-scheduleApplyErrataToActive-1682037548,scheduleApplyErrataToActive>>
+* <<apidoc-systemgroup-scheduleApplyErrataToActive-562851134,scheduleApplyErrataToActive>>
+* <<apidoc-systemgroup-scheduleApplyErrataToActive-1677203878,scheduleApplyErrataToActive>>
+* <<apidoc-systemgroup-subscribeConfigChannel-780607123,subscribeConfigChannel>>
+* <<apidoc-systemgroup-unsubscribeConfigChannel-1814062048,unsubscribeConfigChannel>>
+* <<apidoc-systemgroup-update-429407697,update>>
 
 == Description
 
@@ -36,12 +36,12 @@ Provides methods to access and modify system groups.
 systemgroup
 
 
-[#apidoc-systemgroup-addOrRemoveAdmins-360328326]
+[#apidoc-systemgroup-addOrRemoveAdmins-2065936034]
 == Method: addOrRemoveAdmins 
 
 Description:
 
-Add or remove administrators to/from the given group. SUSE Manager and
+Add or remove administrators to/from the given group. Uyuni and
  Organization administrators are granted access to groups within their organization
  by default; therefore, users with those roles should not be included in the array
  provided. Caller must be an organization administrator.
@@ -68,7 +68,7 @@ Returns:
 
 
 
-[#apidoc-systemgroup-addOrRemoveSystems-620415815]
+[#apidoc-systemgroup-addOrRemoveSystems-1690412910]
 == Method: addOrRemoveSystems 
 
 Description:
@@ -98,7 +98,7 @@ Returns:
 
 
 
-[#apidoc-systemgroup-create-1612762434]
+[#apidoc-systemgroup-create-49365994]
 == Method: create 
 
 Description:
@@ -131,7 +131,7 @@ Returns:
 
 
 
-[#apidoc-systemgroup-delete-728286619]
+[#apidoc-systemgroup-delete-1529649769]
 == Method: delete 
 
 Description:
@@ -155,7 +155,7 @@ Returns:
 
 
 
-[#apidoc-systemgroup-getDetails-1270529736]
+[#apidoc-systemgroup-getDetails-1194181141]
 == Method: getDetails 
 
 Description:
@@ -185,7 +185,7 @@ Returns:
 
 
 
-[#apidoc-systemgroup-getDetails-272876691]
+[#apidoc-systemgroup-getDetails-520296852]
 == Method: getDetails 
 
 Description:
@@ -215,7 +215,7 @@ Returns:
 
 
 
-[#apidoc-systemgroup-listActiveSystemsInGroup-214170716]
+[#apidoc-systemgroup-listActiveSystemsInGroup-156304703]
 == Method: listActiveSystemsInGroup 
 
 Description:
@@ -240,7 +240,7 @@ Returns:
 
 
 
-[#apidoc-systemgroup-listAdministrators-1251831481]
+[#apidoc-systemgroup-listAdministrators-1107168664]
 == Method: listAdministrators 
 
 Description:
@@ -272,7 +272,7 @@ Returns:
 
 
 
-[#apidoc-systemgroup-listAllGroups-647226268]
+[#apidoc-systemgroup-listAllGroups-2020466851]
 == Method: listAllGroups 
 
 Description:
@@ -302,7 +302,7 @@ Returns:
 
 
 
-[#apidoc-systemgroup-listAssignedConfigChannels-400761853]
+[#apidoc-systemgroup-listAssignedConfigChannels-1156916634]
 == Method: listAssignedConfigChannels 
 
 Description:
@@ -341,7 +341,7 @@ Returns:
 Available since API version: 25
 
 
-[#apidoc-systemgroup-listAssignedFormuals-1941379381]
+[#apidoc-systemgroup-listAssignedFormuals-1328968427]
 == Method: listAssignedFormuals 
 
 Description:
@@ -371,7 +371,7 @@ Returns:
 Available since API version: 25
 
 
-[#apidoc-systemgroup-listGroupsWithNoAssociatedAdmins-1077898244]
+[#apidoc-systemgroup-listGroupsWithNoAssociatedAdmins-1879769947]
 == Method: listGroupsWithNoAssociatedAdmins 
 
 Description:
@@ -402,7 +402,7 @@ Returns:
 
 
 
-[#apidoc-systemgroup-listInactiveSystemsInGroup-389415616]
+[#apidoc-systemgroup-listInactiveSystemsInGroup-1866841711]
 == Method: listInactiveSystemsInGroup 
 
 Description:
@@ -431,7 +431,7 @@ Returns:
 
 
 
-[#apidoc-systemgroup-listInactiveSystemsInGroup-266267666]
+[#apidoc-systemgroup-listInactiveSystemsInGroup-1698185801]
 == Method: listInactiveSystemsInGroup 
 
 Description:
@@ -457,7 +457,7 @@ Returns:
 
 
 
-[#apidoc-systemgroup-listSystems-96061258]
+[#apidoc-systemgroup-listSystems-1072487680]
 == Method: listSystems 
 
 Description:
@@ -519,7 +519,7 @@ Returns:
 
 
 
-[#apidoc-systemgroup-listSystemsMinimal-95655406]
+[#apidoc-systemgroup-listSystemsMinimal-1432547991]
 == Method: listSystemsMinimal 
 
 Description:
@@ -555,7 +555,7 @@ Returns:
 
 
 
-[#apidoc-systemgroup-scheduleApplyErrataToActive-485281961]
+[#apidoc-systemgroup-scheduleApplyErrataToActive-1682037548]
 == Method: scheduleApplyErrataToActive 
 
 Description:
@@ -585,7 +585,7 @@ Returns:
 Available since API version: 13.0
 
 
-[#apidoc-systemgroup-scheduleApplyErrataToActive-1210242977]
+[#apidoc-systemgroup-scheduleApplyErrataToActive-562851134]
 == Method: scheduleApplyErrataToActive 
 
 Description:
@@ -617,7 +617,7 @@ Returns:
 Available since API version: 13.0
 
 
-[#apidoc-systemgroup-scheduleApplyErrataToActive-1873149031]
+[#apidoc-systemgroup-scheduleApplyErrataToActive-1677203878]
 == Method: scheduleApplyErrataToActive 
 
 Description:
@@ -649,7 +649,7 @@ Returns:
 Available since API version: 24
 
 
-[#apidoc-systemgroup-subscribeConfigChannel-1844498480]
+[#apidoc-systemgroup-subscribeConfigChannel-780607123]
 == Method: subscribeConfigChannel 
 
 Description:
@@ -676,7 +676,7 @@ Returns:
 
 
 
-[#apidoc-systemgroup-unsubscribeConfigChannel-858889712]
+[#apidoc-systemgroup-unsubscribeConfigChannel-1814062048]
 == Method: unsubscribeConfigChannel 
 
 Description:
@@ -703,7 +703,7 @@ Returns:
 
 
 
-[#apidoc-systemgroup-update-846019069]
+[#apidoc-systemgroup-update-429407697]
 == Method: update 
 
 Description:

@@ -4,14 +4,14 @@
 
 == Available methods
 
-* <<apidoc-org_trusts-addTrust-1128933904,addTrust>>
-* <<apidoc-org_trusts-getDetails-1749988512,getDetails>>
-* <<apidoc-org_trusts-listChannelsConsumed-1932244125,listChannelsConsumed>>
-* <<apidoc-org_trusts-listChannelsProvided-1605410974,listChannelsProvided>>
-* <<apidoc-org_trusts-listOrgs-1172737964,listOrgs>>
-* <<apidoc-org_trusts-listSystemsAffected-1880990481,listSystemsAffected>>
-* <<apidoc-org_trusts-listTrusts-430231018,listTrusts>>
-* <<apidoc-org_trusts-removeTrust-1844179384,removeTrust>>
+* <<apidoc-org_trusts-addTrust-264686278,addTrust>>
+* <<apidoc-org_trusts-getDetails-440306536,getDetails>>
+* <<apidoc-org_trusts-listChannelsConsumed-892155721,listChannelsConsumed>>
+* <<apidoc-org_trusts-listChannelsProvided-102373363,listChannelsProvided>>
+* <<apidoc-org_trusts-listOrgs-1679092632,listOrgs>>
+* <<apidoc-org_trusts-listSystemsAffected-1023842266,listSystemsAffected>>
+* <<apidoc-org_trusts-listTrusts-1496705948,listTrusts>>
+* <<apidoc-org_trusts-removeTrust-1401758472,removeTrust>>
 
 == Description
 
@@ -23,7 +23,7 @@ Contains methods to access common organization trust information
 org.trusts
 
 
-[#apidoc-org_trusts-addTrust-1128933904]
+[#apidoc-org_trusts-addTrust-264686278]
 == Method: addTrust 
 
 Description:
@@ -49,7 +49,7 @@ Returns:
 
 
 
-[#apidoc-org_trusts-getDetails-1749988512]
+[#apidoc-org_trusts-getDetails-440306536]
 == Method: getDetails 
 
 Description:
@@ -90,7 +90,7 @@ Returns:
 
 
 
-[#apidoc-org_trusts-listChannelsConsumed-1932244125]
+[#apidoc-org_trusts-listChannelsConsumed-892155721]
 == Method: listChannelsConsumed 
 
 Description:
@@ -120,7 +120,7 @@ Returns:
 
 
 
-[#apidoc-org_trusts-listChannelsProvided-1605410974]
+[#apidoc-org_trusts-listChannelsProvided-102373363]
 == Method: listChannelsProvided 
 
 Description:
@@ -150,7 +150,7 @@ Returns:
 
 
 
-[#apidoc-org_trusts-listOrgs-1172737964]
+[#apidoc-org_trusts-listOrgs-1679092632]
 == Method: listOrgs 
 
 Description:
@@ -177,7 +177,7 @@ Returns:
 
 
 
-[#apidoc-org_trusts-listSystemsAffected-1880990481]
+[#apidoc-org_trusts-listSystemsAffected-1023842266]
 == Method: listSystemsAffected 
 
 Description:
@@ -208,7 +208,7 @@ Returns:
 
 
 
-[#apidoc-org_trusts-listTrusts-430231018]
+[#apidoc-org_trusts-listTrusts-1496705948]
 == Method: listTrusts 
 
 Description:
@@ -237,7 +237,7 @@ Returns:
 
 
 
-[#apidoc-org_trusts-removeTrust-1844179384]
+[#apidoc-org_trusts-removeTrust-1401758472]
 == Method: removeTrust 
 
 Description:
