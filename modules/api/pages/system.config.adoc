@@ -4,17 +4,17 @@
 
 == Available methods
 
-* <<apidoc-system_config-addChannels-552085610,addChannels>>
-* <<apidoc-system_config-createOrUpdatePath-1124506335,createOrUpdatePath>>
-* <<apidoc-system_config-createOrUpdateSymlink-418234073,createOrUpdateSymlink>>
-* <<apidoc-system_config-deleteFiles-1978865375,deleteFiles>>
-* <<apidoc-system_config-deployAll-47491804,deployAll>>
-* <<apidoc-system_config-listChannels-2000344873,listChannels>>
-* <<apidoc-system_config-listFiles-1453157901,listFiles>>
-* <<apidoc-system_config-lookupFileInfo-1210315984,lookupFileInfo>>
-* <<apidoc-system_config-removeChannels-1793414776,removeChannels>>
-* <<apidoc-system_config-scheduleApplyConfigChannel-1271355282,scheduleApplyConfigChannel>>
-* <<apidoc-system_config-setChannels-1296074566,setChannels>>
+* <<apidoc-system_config-addChannels-271449893,addChannels>>
+* <<apidoc-system_config-createOrUpdatePath-500483729,createOrUpdatePath>>
+* <<apidoc-system_config-createOrUpdateSymlink-1419194266,createOrUpdateSymlink>>
+* <<apidoc-system_config-deleteFiles-117890788,deleteFiles>>
+* <<apidoc-system_config-deployAll-1012752603,deployAll>>
+* <<apidoc-system_config-listChannels-1364947765,listChannels>>
+* <<apidoc-system_config-listFiles-268547125,listFiles>>
+* <<apidoc-system_config-lookupFileInfo-448491930,lookupFileInfo>>
+* <<apidoc-system_config-removeChannels-1994458484,removeChannels>>
+* <<apidoc-system_config-scheduleApplyConfigChannel-2083062342,scheduleApplyConfigChannel>>
+* <<apidoc-system_config-setChannels-560849466,setChannels>>
 
 == Description
 
@@ -27,7 +27,7 @@ Provides methods to access and modify many aspects of
 system.config
 
 
-[#apidoc-system_config-addChannels-552085610]
+[#apidoc-system_config-addChannels-271449893]
 == Method: addChannels
 
 HTTP `POST`
@@ -68,7 +68,7 @@ Returns:
 
 
 
-[#apidoc-system_config-createOrUpdatePath-1124506335]
+[#apidoc-system_config-createOrUpdatePath-500483729]
 == Method: createOrUpdatePath
 
 HTTP `POST`
@@ -151,7 +151,7 @@ Returns:
 Available since API version: 10.2
 
 
-[#apidoc-system_config-createOrUpdateSymlink-418234073]
+[#apidoc-system_config-createOrUpdateSymlink-1419194266]
 == Method: createOrUpdateSymlink
 
 HTTP `POST`
@@ -218,7 +218,7 @@ Returns:
 Available since API version: 10.2
 
 
-[#apidoc-system_config-deleteFiles-1978865375]
+[#apidoc-system_config-deleteFiles-117890788]
 == Method: deleteFiles
 
 HTTP `POST`
@@ -252,7 +252,7 @@ Returns:
 
 
 
-[#apidoc-system_config-deployAll-47491804]
+[#apidoc-system_config-deployAll-1012752603]
 == Method: deployAll
 
 HTTP `POST`
@@ -281,7 +281,7 @@ Returns:
 
 
 
-[#apidoc-system_config-listChannels-2000344873]
+[#apidoc-system_config-listChannels-1364947765]
 == Method: listChannels
 
 HTTP `GET`
@@ -322,7 +322,7 @@ Returns:
 
 
 
-[#apidoc-system_config-listFiles-1453157901]
+[#apidoc-system_config-listFiles-268547125]
 == Method: listFiles
 
 HTTP `GET`
@@ -372,7 +372,7 @@ Returns:
 
 
 
-[#apidoc-system_config-lookupFileInfo-1210315984]
+[#apidoc-system_config-lookupFileInfo-448491930]
 == Method: lookupFileInfo
 
 HTTP `GET`
@@ -436,7 +436,7 @@ Returns:
 Available since API version: 10.2
 
 
-[#apidoc-system_config-removeChannels-1793414776]
+[#apidoc-system_config-removeChannels-1994458484]
 == Method: removeChannels
 
 HTTP `POST`
@@ -465,7 +465,7 @@ Returns:
 
 
 
-[#apidoc-system_config-scheduleApplyConfigChannel-1271355282]
+[#apidoc-system_config-scheduleApplyConfigChannel-2083062342]
 == Method: scheduleApplyConfigChannel
 
 HTTP `POST`
@@ -495,7 +495,7 @@ Returns:
 
 
 
-[#apidoc-system_config-setChannels-1296074566]
+[#apidoc-system_config-setChannels-560849466]
 == Method: setChannels
 
 HTTP `POST`

@@ -4,11 +4,11 @@
 
 == Available methods
 
-* <<apidoc-kickstart_keys-create-742199288,create>>
-* <<apidoc-kickstart_keys-delete-481770130,delete>>
-* <<apidoc-kickstart_keys-getDetails-906065973,getDetails>>
-* <<apidoc-kickstart_keys-listAllKeys-244886962,listAllKeys>>
-* <<apidoc-kickstart_keys-update-2101325597,update>>
+* <<apidoc-kickstart_keys-create-289304070,create>>
+* <<apidoc-kickstart_keys-delete-1793450447,delete>>
+* <<apidoc-kickstart_keys-getDetails-1851947704,getDetails>>
+* <<apidoc-kickstart_keys-listAllKeys-844789788,listAllKeys>>
+* <<apidoc-kickstart_keys-update-261716431,update>>
 
 == Description
 
@@ -19,7 +19,7 @@ Provides methods to manipulate kickstart keys.
 kickstart.keys
 
 
-[#apidoc-kickstart_keys-create-742199288]
+[#apidoc-kickstart_keys-create-289304070]
 == Method: create
 
 HTTP `POST`
@@ -49,7 +49,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_keys-delete-481770130]
+[#apidoc-kickstart_keys-delete-1793450447]
 == Method: delete
 
 HTTP `POST`
@@ -75,7 +75,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_keys-getDetails-906065973]
+[#apidoc-kickstart_keys-getDetails-1851947704]
 == Method: getDetails
 
 HTTP `GET`
@@ -104,7 +104,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_keys-listAllKeys-244886962]
+[#apidoc-kickstart_keys-listAllKeys-844789788]
 == Method: listAllKeys
 
 HTTP `GET`
@@ -132,7 +132,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_keys-update-2101325597]
+[#apidoc-kickstart_keys-update-261716431]
 == Method: update
 
 HTTP `POST`

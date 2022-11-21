@@ -4,10 +4,10 @@
 
 == Available methods
 
-* <<apidoc-audit-listImagesByPatchStatus-879042661,listImagesByPatchStatus>>
-* <<apidoc-audit-listImagesByPatchStatus-1035726142,listImagesByPatchStatus>>
-* <<apidoc-audit-listSystemsByPatchStatus-763937215,listSystemsByPatchStatus>>
-* <<apidoc-audit-listSystemsByPatchStatus-909570727,listSystemsByPatchStatus>>
+* <<apidoc-audit-listImagesByPatchStatus-1768069354,listImagesByPatchStatus>>
+* <<apidoc-audit-listImagesByPatchStatus-232834050,listImagesByPatchStatus>>
+* <<apidoc-audit-listSystemsByPatchStatus-1670989986,listSystemsByPatchStatus>>
+* <<apidoc-audit-listSystemsByPatchStatus-1097699568,listSystemsByPatchStatus>>
 
 == Description
 
@@ -18,7 +18,7 @@ Methods to audit systems.
 audit
 
 
-[#apidoc-audit-listImagesByPatchStatus-879042661]
+[#apidoc-audit-listImagesByPatchStatus-1768069354]
 == Method: listImagesByPatchStatus
 
 HTTP `GET`
@@ -56,7 +56,7 @@ Returns:
 
 
 
-[#apidoc-audit-listImagesByPatchStatus-1035726142]
+[#apidoc-audit-listImagesByPatchStatus-232834050]
 == Method: listImagesByPatchStatus
 
 HTTP `GET`
@@ -101,7 +101,7 @@ Returns:
 
 
 
-[#apidoc-audit-listSystemsByPatchStatus-763937215]
+[#apidoc-audit-listSystemsByPatchStatus-1670989986]
 == Method: listSystemsByPatchStatus
 
 HTTP `GET`
@@ -139,7 +139,7 @@ Returns:
 
 
 
-[#apidoc-audit-listSystemsByPatchStatus-909570727]
+[#apidoc-audit-listSystemsByPatchStatus-1097699568]
 == Method: listSystemsByPatchStatus
 
 HTTP `GET`

@@ -4,12 +4,12 @@
 
 == Available methods
 
-* <<apidoc-virtualhostmanager-create-1611841256,create>>
-* <<apidoc-virtualhostmanager-delete-1622720604,delete>>
-* <<apidoc-virtualhostmanager-getDetail-1658265745,getDetail>>
-* <<apidoc-virtualhostmanager-getModuleParameters-62415796,getModuleParameters>>
-* <<apidoc-virtualhostmanager-listAvailableVirtualHostGathererModules-1990747767,listAvailableVirtualHostGathererModules>>
-* <<apidoc-virtualhostmanager-listVirtualHostManagers-245582109,listVirtualHostManagers>>
+* <<apidoc-virtualhostmanager-create-289571900,create>>
+* <<apidoc-virtualhostmanager-delete-965988043,delete>>
+* <<apidoc-virtualhostmanager-getDetail-1141371177,getDetail>>
+* <<apidoc-virtualhostmanager-getModuleParameters-1996346865,getModuleParameters>>
+* <<apidoc-virtualhostmanager-listAvailableVirtualHostGathererModules-1931205834,listAvailableVirtualHostGathererModules>>
+* <<apidoc-virtualhostmanager-listVirtualHostManagers-1411151613,listVirtualHostManagers>>
 
 == Description
 
@@ -20,7 +20,7 @@ Provides the namespace for the Virtual Host Manager methods.
 virtualhostmanager
 
 
-[#apidoc-virtualhostmanager-create-1611841256]
+[#apidoc-virtualhostmanager-create-289571900]
 == Method: create
 
 HTTP `POST`
@@ -50,7 +50,7 @@ Returns:
 
 
 
-[#apidoc-virtualhostmanager-delete-1622720604]
+[#apidoc-virtualhostmanager-delete-965988043]
 == Method: delete
 
 HTTP `POST`
@@ -76,7 +76,7 @@ Returns:
 
 
 
-[#apidoc-virtualhostmanager-getDetail-1658265745]
+[#apidoc-virtualhostmanager-getDetail-1141371177]
 == Method: getDetail
 
 HTTP `GET`
@@ -107,7 +107,7 @@ Returns:
 
 
 
-[#apidoc-virtualhostmanager-getModuleParameters-62415796]
+[#apidoc-virtualhostmanager-getModuleParameters-1996346865]
 == Method: getModuleParameters
 
 HTTP `GET`
@@ -134,7 +134,7 @@ Returns:
 
 
 
-[#apidoc-virtualhostmanager-listAvailableVirtualHostGathererModules-1990747767]
+[#apidoc-virtualhostmanager-listAvailableVirtualHostGathererModules-1931205834]
 == Method: listAvailableVirtualHostGathererModules
 
 HTTP `GET`
@@ -158,7 +158,7 @@ Returns:
 
 
 
-[#apidoc-virtualhostmanager-listVirtualHostManagers-245582109]
+[#apidoc-virtualhostmanager-listVirtualHostManagers-1411151613]
 == Method: listVirtualHostManagers
 
 HTTP `GET`

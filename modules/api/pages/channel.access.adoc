@@ -4,10 +4,10 @@
 
 == Available methods
 
-* <<apidoc-channel_access-disableUserRestrictions-1654919801,disableUserRestrictions>>
-* <<apidoc-channel_access-enableUserRestrictions-479668966,enableUserRestrictions>>
-* <<apidoc-channel_access-getOrgSharing-1240908382,getOrgSharing>>
-* <<apidoc-channel_access-setOrgSharing-342862272,setOrgSharing>>
+* <<apidoc-channel_access-disableUserRestrictions-2052619908,disableUserRestrictions>>
+* <<apidoc-channel_access-enableUserRestrictions-1789821644,enableUserRestrictions>>
+* <<apidoc-channel_access-getOrgSharing-1798272295,getOrgSharing>>
+* <<apidoc-channel_access-setOrgSharing-1647028001,setOrgSharing>>
 
 == Description
 
@@ -18,7 +18,7 @@ Provides methods to retrieve and alter channel access restrictions.
 channel.access
 
 
-[#apidoc-channel_access-disableUserRestrictions-1654919801]
+[#apidoc-channel_access-disableUserRestrictions-2052619908]
 == Method: disableUserRestrictions
 
 HTTP `POST`
@@ -45,7 +45,7 @@ Returns:
 
 
 
-[#apidoc-channel_access-enableUserRestrictions-479668966]
+[#apidoc-channel_access-enableUserRestrictions-1789821644]
 == Method: enableUserRestrictions
 
 HTTP `POST`
@@ -72,7 +72,7 @@ Returns:
 
 
 
-[#apidoc-channel_access-getOrgSharing-1240908382]
+[#apidoc-channel_access-getOrgSharing-1798272295]
 == Method: getOrgSharing
 
 HTTP `GET`
@@ -98,7 +98,7 @@ Returns:
 
 
 
-[#apidoc-channel_access-setOrgSharing-342862272]
+[#apidoc-channel_access-setOrgSharing-1647028001]
 == Method: setOrgSharing
 
 HTTP `POST`

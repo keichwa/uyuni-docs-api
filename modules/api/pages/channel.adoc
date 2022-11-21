@@ -4,14 +4,14 @@
 
 == Available methods
 
-* <<apidoc-channel-listAllChannels-188384341,listAllChannels>>
-* <<apidoc-channel-listManageableChannels-1893837344,listManageableChannels>>
-* <<apidoc-channel-listMyChannels-2072030980,listMyChannels>>
-* <<apidoc-channel-listPopularChannels-633776959,listPopularChannels>>
-* <<apidoc-channel-listRetiredChannels-1626241617,listRetiredChannels>>
-* <<apidoc-channel-listSharedChannels-608670733,listSharedChannels>>
-* <<apidoc-channel-listSoftwareChannels-404279307,listSoftwareChannels>>
-* <<apidoc-channel-listVendorChannels-1553141699,listVendorChannels>>
+* <<apidoc-channel-listAllChannels-623169658,listAllChannels>>
+* <<apidoc-channel-listManageableChannels-1085282072,listManageableChannels>>
+* <<apidoc-channel-listMyChannels-1071793776,listMyChannels>>
+* <<apidoc-channel-listPopularChannels-1431110669,listPopularChannels>>
+* <<apidoc-channel-listRetiredChannels-2103450069,listRetiredChannels>>
+* <<apidoc-channel-listSharedChannels-1011279606,listSharedChannels>>
+* <<apidoc-channel-listSoftwareChannels-820729289,listSoftwareChannels>>
+* <<apidoc-channel-listVendorChannels-815677236,listVendorChannels>>
 
 == Description
 
@@ -22,7 +22,7 @@ Provides method to get back a list of Software Channels.
 channel
 
 
-[#apidoc-channel-listAllChannels-188384341]
+[#apidoc-channel-listAllChannels-623169658]
 == Method: listAllChannels
 
 HTTP `GET`
@@ -55,7 +55,7 @@ Returns:
 
 
 
-[#apidoc-channel-listManageableChannels-1893837344]
+[#apidoc-channel-listManageableChannels-1085282072]
 == Method: listManageableChannels
 
 HTTP `GET`
@@ -88,7 +88,7 @@ Returns:
 
 
 
-[#apidoc-channel-listMyChannels-2072030980]
+[#apidoc-channel-listMyChannels-1071793776]
 == Method: listMyChannels
 
 HTTP `GET`
@@ -121,7 +121,7 @@ Returns:
 
 
 
-[#apidoc-channel-listPopularChannels-633776959]
+[#apidoc-channel-listPopularChannels-1431110669]
 == Method: listPopularChannels
 
 HTTP `GET`
@@ -158,7 +158,7 @@ Returns:
 
 
 
-[#apidoc-channel-listRetiredChannels-1626241617]
+[#apidoc-channel-listRetiredChannels-2103450069]
 == Method: listRetiredChannels
 
 HTTP `GET`
@@ -193,7 +193,7 @@ Returns:
 
 
 
-[#apidoc-channel-listSharedChannels-608670733]
+[#apidoc-channel-listSharedChannels-1011279606]
 == Method: listSharedChannels
 
 HTTP `GET`
@@ -227,7 +227,7 @@ Returns:
 
 
 
-[#apidoc-channel-listSoftwareChannels-404279307]
+[#apidoc-channel-listSoftwareChannels-820729289]
 == Method: listSoftwareChannels
 
 HTTP `GET`
@@ -257,7 +257,7 @@ Returns:
 
 
 
-[#apidoc-channel-listVendorChannels-1553141699]
+[#apidoc-channel-listVendorChannels-815677236]
 == Method: listVendorChannels
 
 HTTP `GET`

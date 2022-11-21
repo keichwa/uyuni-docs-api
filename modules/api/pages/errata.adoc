@@ -4,25 +4,25 @@
 
 == Available methods
 
-* <<apidoc-errata-addPackages-1356246919,addPackages>>
-* <<apidoc-errata-applicableToChannels-955505599,applicableToChannels>>
-* <<apidoc-errata-bugzillaFixes-1433290120,bugzillaFixes>>
-* <<apidoc-errata-clone-504561103,clone>>
-* <<apidoc-errata-cloneAsOriginal-515938920,cloneAsOriginal>>
-* <<apidoc-errata-cloneAsOriginalAsync-2108273452,cloneAsOriginalAsync>>
-* <<apidoc-errata-cloneAsync-487571644,cloneAsync>>
-* <<apidoc-errata-create-1189050702,create>>
-* <<apidoc-errata-delete-1557571623,delete>>
-* <<apidoc-errata-findByCve-2091447767,findByCve>>
-* <<apidoc-errata-getDetails-1591250481,getDetails>>
-* <<apidoc-errata-listAffectedSystems-61710314,listAffectedSystems>>
-* <<apidoc-errata-listCves-1464746372,listCves>>
-* <<apidoc-errata-listKeywords-1331556370,listKeywords>>
-* <<apidoc-errata-listPackages-1890262240,listPackages>>
-* <<apidoc-errata-publish-1825984578,publish>>
-* <<apidoc-errata-publishAsOriginal-1987377620,publishAsOriginal>>
-* <<apidoc-errata-removePackages-1985918977,removePackages>>
-* <<apidoc-errata-setDetails-1464079293,setDetails>>
+* <<apidoc-errata-addPackages-1488129598,addPackages>>
+* <<apidoc-errata-applicableToChannels-128026509,applicableToChannels>>
+* <<apidoc-errata-bugzillaFixes-1628242023,bugzillaFixes>>
+* <<apidoc-errata-clone-596243782,clone>>
+* <<apidoc-errata-cloneAsOriginal-899869274,cloneAsOriginal>>
+* <<apidoc-errata-cloneAsOriginalAsync-413880637,cloneAsOriginalAsync>>
+* <<apidoc-errata-cloneAsync-1533987146,cloneAsync>>
+* <<apidoc-errata-create-1877547288,create>>
+* <<apidoc-errata-delete-1295769221,delete>>
+* <<apidoc-errata-findByCve-1674661311,findByCve>>
+* <<apidoc-errata-getDetails-1787476367,getDetails>>
+* <<apidoc-errata-listAffectedSystems-1117642317,listAffectedSystems>>
+* <<apidoc-errata-listCves-727867010,listCves>>
+* <<apidoc-errata-listKeywords-1593084680,listKeywords>>
+* <<apidoc-errata-listPackages-577076657,listPackages>>
+* <<apidoc-errata-publish-257641638,publish>>
+* <<apidoc-errata-publishAsOriginal-39898352,publishAsOriginal>>
+* <<apidoc-errata-removePackages-1394960202,removePackages>>
+* <<apidoc-errata-setDetails-1297259456,setDetails>>
 
 == Description
 
@@ -33,7 +33,7 @@ Provides methods to access and modify errata.
 errata
 
 
-[#apidoc-errata-addPackages-1356246919]
+[#apidoc-errata-addPackages-1488129598]
 == Method: addPackages
 
 HTTP `POST`
@@ -62,7 +62,7 @@ Returns:
 
 
 
-[#apidoc-errata-applicableToChannels-955505599]
+[#apidoc-errata-applicableToChannels-128026509]
 == Method: applicableToChannels
 
 HTTP `GET`
@@ -95,7 +95,7 @@ Returns:
 
 
 
-[#apidoc-errata-bugzillaFixes-1433290120]
+[#apidoc-errata-bugzillaFixes-1628242023]
 == Method: bugzillaFixes
 
 HTTP `POST`
@@ -129,7 +129,7 @@ Returns:
 
 
 
-[#apidoc-errata-clone-504561103]
+[#apidoc-errata-clone-596243782]
 == Method: clone
 
 HTTP `POST`
@@ -165,7 +165,7 @@ Returns:
 
 
 
-[#apidoc-errata-cloneAsOriginal-515938920]
+[#apidoc-errata-cloneAsOriginal-899869274]
 == Method: cloneAsOriginal
 
 HTTP `POST`
@@ -201,7 +201,7 @@ Returns:
 
 
 
-[#apidoc-errata-cloneAsOriginalAsync-2108273452]
+[#apidoc-errata-cloneAsOriginalAsync-413880637]
 == Method: cloneAsOriginalAsync
 
 HTTP `POST`
@@ -230,7 +230,7 @@ Returns:
 
 
 
-[#apidoc-errata-cloneAsync-487571644]
+[#apidoc-errata-cloneAsync-1533987146]
 == Method: cloneAsync
 
 HTTP `POST`
@@ -258,7 +258,7 @@ Returns:
 
 
 
-[#apidoc-errata-create-1189050702]
+[#apidoc-errata-create-1877547288]
 == Method: create
 
 HTTP `POST`
@@ -321,7 +321,7 @@ Returns:
 
 
 
-[#apidoc-errata-delete-1557571623]
+[#apidoc-errata-delete-1295769221]
 == Method: delete
 
 HTTP `POST`
@@ -348,7 +348,7 @@ Returns:
 
 
 
-[#apidoc-errata-findByCve-2091447767]
+[#apidoc-errata-findByCve-1674661311]
 == Method: findByCve
 
 HTTP `GET`
@@ -383,7 +383,7 @@ Returns:
 
 
 
-[#apidoc-errata-getDetails-1591250481]
+[#apidoc-errata-getDetails-1787476367]
 == Method: getDetails
 
 HTTP `GET`
@@ -424,7 +424,7 @@ Returns:
 
 
 
-[#apidoc-errata-listAffectedSystems-61710314]
+[#apidoc-errata-listAffectedSystems-1117642317]
 == Method: listAffectedSystems
 
 HTTP `GET`
@@ -463,7 +463,7 @@ Returns:
 
 
 
-[#apidoc-errata-listCves-1464746372]
+[#apidoc-errata-listCves-727867010]
 == Method: listCves
 
 HTTP `GET`
@@ -491,7 +491,7 @@ Returns:
 
 
 
-[#apidoc-errata-listKeywords-1331556370]
+[#apidoc-errata-listKeywords-1593084680]
 == Method: listKeywords
 
 HTTP `GET`
@@ -519,7 +519,7 @@ Returns:
 
 
 
-[#apidoc-errata-listPackages-1890262240]
+[#apidoc-errata-listPackages-577076657]
 == Method: listPackages
 
 HTTP `GET`
@@ -570,7 +570,7 @@ Returns:
 
 
 
-[#apidoc-errata-publish-1825984578]
+[#apidoc-errata-publish-257641638]
 == Method: publish
 
 HTTP `POST`
@@ -605,7 +605,7 @@ Returns:
 
 
 
-[#apidoc-errata-publishAsOriginal-1987377620]
+[#apidoc-errata-publishAsOriginal-39898352]
 == Method: publishAsOriginal
 
 HTTP `POST`
@@ -641,7 +641,7 @@ Returns:
 
 
 
-[#apidoc-errata-removePackages-1985918977]
+[#apidoc-errata-removePackages-1394960202]
 == Method: removePackages
 
 HTTP `POST`
@@ -670,7 +670,7 @@ Returns:
 
 
 
-[#apidoc-errata-setDetails-1464079293]
+[#apidoc-errata-setDetails-1297259456]
 == Method: setDetails
 
 HTTP `POST`

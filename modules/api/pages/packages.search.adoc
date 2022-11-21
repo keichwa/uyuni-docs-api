@@ -4,12 +4,12 @@
 
 == Available methods
 
-* <<apidoc-packages_search-advanced-1214357269,advanced>>
-* <<apidoc-packages_search-advancedWithActKey-2024275149,advancedWithActKey>>
-* <<apidoc-packages_search-advancedWithChannel-2031003023,advancedWithChannel>>
-* <<apidoc-packages_search-name-1022473723,name>>
-* <<apidoc-packages_search-nameAndDescription-1167627805,nameAndDescription>>
-* <<apidoc-packages_search-nameAndSummary-2078826261,nameAndSummary>>
+* <<apidoc-packages_search-advanced-1007881394,advanced>>
+* <<apidoc-packages_search-advancedWithActKey-1193108849,advancedWithActKey>>
+* <<apidoc-packages_search-advancedWithChannel-1934634334,advancedWithChannel>>
+* <<apidoc-packages_search-name-525998804,name>>
+* <<apidoc-packages_search-nameAndDescription-126251002,nameAndDescription>>
+* <<apidoc-packages_search-nameAndSummary-634942227,nameAndSummary>>
 
 == Description
 
@@ -20,7 +20,7 @@ Methods to interface to package search capabilities in search server..
 packages.search
 
 
-[#apidoc-packages_search-advanced-1214357269]
+[#apidoc-packages_search-advanced-1007881394]
 == Method: advanced
 
 HTTP `GET`
@@ -64,7 +64,7 @@ Returns:
 
 
 
-[#apidoc-packages_search-advancedWithActKey-2024275149]
+[#apidoc-packages_search-advancedWithActKey-1193108849]
 == Method: advancedWithActKey
 
 HTTP `GET`
@@ -111,7 +111,7 @@ Returns:
 
 
 
-[#apidoc-packages_search-advancedWithChannel-2031003023]
+[#apidoc-packages_search-advancedWithChannel-1934634334]
 == Method: advancedWithChannel
 
 HTTP `GET`
@@ -158,7 +158,7 @@ Returns:
 
 
 
-[#apidoc-packages_search-name-1022473723]
+[#apidoc-packages_search-name-525998804]
 == Method: name
 
 HTTP `GET`
@@ -196,7 +196,7 @@ Returns:
 
 
 
-[#apidoc-packages_search-nameAndDescription-1167627805]
+[#apidoc-packages_search-nameAndDescription-126251002]
 == Method: nameAndDescription
 
 HTTP `GET`
@@ -234,7 +234,7 @@ Returns:
 
 
 
-[#apidoc-packages_search-nameAndSummary-2078826261]
+[#apidoc-packages_search-nameAndSummary-634942227]
 == Method: nameAndSummary
 
 HTTP `GET`

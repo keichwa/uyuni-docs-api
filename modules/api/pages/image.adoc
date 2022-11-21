@@ -4,20 +4,20 @@
 
 == Available methods
 
-* <<apidoc-image-addImageFile-1685344880,addImageFile>>
-* <<apidoc-image-delete-1877547288,delete>>
-* <<apidoc-image-deleteImageFile-1533987146,deleteImageFile>>
-* <<apidoc-image-getCustomValues-1586128778,getCustomValues>>
-* <<apidoc-image-getDetails-577076657,getDetails>>
-* <<apidoc-image-getPillar-1488129598,getPillar>>
-* <<apidoc-image-getRelevantErrata-899869274,getRelevantErrata>>
-* <<apidoc-image-importContainerImage-1661720039,importContainerImage>>
-* <<apidoc-image-importImage-1779082722,importImage>>
-* <<apidoc-image-importOSImage-596243782,importOSImage>>
-* <<apidoc-image-listImages-1593084680,listImages>>
-* <<apidoc-image-listPackages-413880637,listPackages>>
-* <<apidoc-image-scheduleImageBuild-1500321780,scheduleImageBuild>>
-* <<apidoc-image-setPillar-1394960202,setPillar>>
+* <<apidoc-image-addImageFile-2063059370,addImageFile>>
+* <<apidoc-image-delete-1664401624,delete>>
+* <<apidoc-image-deleteImageFile-1246101297,deleteImageFile>>
+* <<apidoc-image-getCustomValues-534955437,getCustomValues>>
+* <<apidoc-image-getDetails-484728344,getDetails>>
+* <<apidoc-image-getPillar-628502276,getPillar>>
+* <<apidoc-image-getRelevantErrata-1053106531,getRelevantErrata>>
+* <<apidoc-image-importContainerImage-1682431013,importContainerImage>>
+* <<apidoc-image-importImage-1517112814,importImage>>
+* <<apidoc-image-importOSImage-1885192614,importOSImage>>
+* <<apidoc-image-listImages-363172313,listImages>>
+* <<apidoc-image-listPackages-1528622589,listPackages>>
+* <<apidoc-image-scheduleImageBuild-546014245,scheduleImageBuild>>
+* <<apidoc-image-setPillar-691171870,setPillar>>
 
 == Description
 
@@ -28,7 +28,7 @@ Provides methods to access and modify images.
 image
 
 
-[#apidoc-image-addImageFile-1685344880]
+[#apidoc-image-addImageFile-2063059370]
 == Method: addImageFile
 
 HTTP `POST`
@@ -60,7 +60,7 @@ Returns:
 
 
 
-[#apidoc-image-delete-1877547288]
+[#apidoc-image-delete-1664401624]
 == Method: delete
 
 HTTP `POST`
@@ -86,7 +86,7 @@ Returns:
 
 
 
-[#apidoc-image-deleteImageFile-1533987146]
+[#apidoc-image-deleteImageFile-1246101297]
 == Method: deleteImageFile
 
 HTTP `POST`
@@ -114,7 +114,7 @@ Returns:
 
 
 
-[#apidoc-image-getCustomValues-1586128778]
+[#apidoc-image-getCustomValues-534955437]
 == Method: getCustomValues
 
 HTTP `GET`
@@ -142,7 +142,7 @@ Returns:
 
 
 
-[#apidoc-image-getDetails-577076657]
+[#apidoc-image-getDetails-484728344]
 == Method: getDetails
 
 HTTP `GET`
@@ -198,7 +198,7 @@ Returns:
 
 
 
-[#apidoc-image-getPillar-1488129598]
+[#apidoc-image-getPillar-628502276]
 == Method: getPillar
 
 HTTP `GET`
@@ -224,7 +224,7 @@ Returns:
 
 
 
-[#apidoc-image-getRelevantErrata-899869274]
+[#apidoc-image-getRelevantErrata-1053106531]
 == Method: getRelevantErrata
 
 HTTP `GET`
@@ -260,7 +260,7 @@ Returns:
 
 
 
-[#apidoc-image-importContainerImage-1661720039]
+[#apidoc-image-importContainerImage-1682431013]
 == Method: importContainerImage
 
 HTTP `POST`
@@ -296,7 +296,7 @@ Returns:
 
 
 
-[#apidoc-image-importImage-1779082722]
+[#apidoc-image-importImage-1517112814]
 == Method: importImage (Deprecated)
 
 HTTP `POST`
@@ -333,7 +333,7 @@ Returns:
 
 
 
-[#apidoc-image-importOSImage-596243782]
+[#apidoc-image-importOSImage-1885192614]
 == Method: importOSImage
 
 HTTP `POST`
@@ -363,7 +363,7 @@ Returns:
 
 
 
-[#apidoc-image-listImages-1593084680]
+[#apidoc-image-listImages-363172313]
 == Method: listImages
 
 HTTP `GET`
@@ -399,7 +399,7 @@ Returns:
 
 
 
-[#apidoc-image-listPackages-413880637]
+[#apidoc-image-listPackages-1528622589]
 == Method: listPackages
 
 HTTP `GET`
@@ -431,7 +431,7 @@ Returns:
 
 
 
-[#apidoc-image-scheduleImageBuild-1500321780]
+[#apidoc-image-scheduleImageBuild-546014245]
 == Method: scheduleImageBuild
 
 HTTP `POST`
@@ -463,7 +463,7 @@ Returns:
 
 
 
-[#apidoc-image-setPillar-1394960202]
+[#apidoc-image-setPillar-691171870]
 == Method: setPillar
 
 HTTP `POST`

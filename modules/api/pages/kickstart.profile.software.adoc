@@ -4,12 +4,12 @@
 
 == Available methods
 
-* <<apidoc-kickstart_profile_software-appendToSoftwareList-2021357462,appendToSoftwareList>>
-* <<apidoc-kickstart_profile_software-getSoftwareDetails-289304070,getSoftwareDetails>>
-* <<apidoc-kickstart_profile_software-getSoftwareList-1280821776,getSoftwareList>>
-* <<apidoc-kickstart_profile_software-setSoftwareDetails-844789788,setSoftwareDetails>>
-* <<apidoc-kickstart_profile_software-setSoftwareList-34782860,setSoftwareList>>
-* <<apidoc-kickstart_profile_software-setSoftwareList-1071783182,setSoftwareList>>
+* <<apidoc-kickstart_profile_software-appendToSoftwareList-154177822,appendToSoftwareList>>
+* <<apidoc-kickstart_profile_software-getSoftwareDetails-165951629,getSoftwareDetails>>
+* <<apidoc-kickstart_profile_software-getSoftwareList-1289602009,getSoftwareList>>
+* <<apidoc-kickstart_profile_software-setSoftwareDetails-80867688,setSoftwareDetails>>
+* <<apidoc-kickstart_profile_software-setSoftwareList-4008846,setSoftwareList>>
+* <<apidoc-kickstart_profile_software-setSoftwareList-1037000742,setSoftwareList>>
 
 == Description
 
@@ -21,7 +21,7 @@ Provides methods to access and modify the software list
 kickstart.profile.software
 
 
-[#apidoc-kickstart_profile_software-appendToSoftwareList-2021357462]
+[#apidoc-kickstart_profile_software-appendToSoftwareList-154177822]
 == Method: appendToSoftwareList
 
 HTTP `POST`
@@ -50,7 +50,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile_software-getSoftwareDetails-289304070]
+[#apidoc-kickstart_profile_software-getSoftwareDetails-165951629]
 == Method: getSoftwareDetails
 
 HTTP `GET`
@@ -78,7 +78,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile_software-getSoftwareList-1280821776]
+[#apidoc-kickstart_profile_software-getSoftwareList-1289602009]
 == Method: getSoftwareList
 
 HTTP `GET`
@@ -104,7 +104,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile_software-setSoftwareDetails-844789788]
+[#apidoc-kickstart_profile_software-setSoftwareDetails-80867688]
 == Method: setSoftwareDetails
 
 HTTP `POST`
@@ -134,7 +134,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile_software-setSoftwareList-34782860]
+[#apidoc-kickstart_profile_software-setSoftwareList-4008846]
 == Method: setSoftwareList
 
 HTTP `POST`
@@ -162,7 +162,7 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile_software-setSoftwareList-1071783182]
+[#apidoc-kickstart_profile_software-setSoftwareList-1037000742]
 == Method: setSoftwareList
 
 HTTP `POST`
