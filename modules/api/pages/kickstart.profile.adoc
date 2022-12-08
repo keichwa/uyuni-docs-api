@@ -4,40 +4,40 @@
 
 == Available methods
 
-* <<apidoc-kickstart_profile-addIpRange-1802493587,addIpRange>>
-* <<apidoc-kickstart_profile-addScript-9714933,addScript>>
-* <<apidoc-kickstart_profile-addScript-690419645,addScript>>
-* <<apidoc-kickstart_profile-addScript-1512109971,addScript>>
-* <<apidoc-kickstart_profile-compareActivationKeys-1142383288,compareActivationKeys>>
-* <<apidoc-kickstart_profile-compareAdvancedOptions-1942085027,compareAdvancedOptions>>
-* <<apidoc-kickstart_profile-comparePackages-758113930,comparePackages>>
-* <<apidoc-kickstart_profile-downloadKickstart-5112121,downloadKickstart>>
-* <<apidoc-kickstart_profile-downloadRenderedKickstart-508269970,downloadRenderedKickstart>>
-* <<apidoc-kickstart_profile-getAdvancedOptions-1133143463,getAdvancedOptions>>
-* <<apidoc-kickstart_profile-getAvailableRepositories-2098086870,getAvailableRepositories>>
-* <<apidoc-kickstart_profile-getCfgPreservation-853075341,getCfgPreservation>>
-* <<apidoc-kickstart_profile-getChildChannels-416322179,getChildChannels>>
-* <<apidoc-kickstart_profile-getCustomOptions-928103158,getCustomOptions>>
-* <<apidoc-kickstart_profile-getKickstartTree-1068773063,getKickstartTree>>
-* <<apidoc-kickstart_profile-getRepositories-233852178,getRepositories>>
-* <<apidoc-kickstart_profile-getUpdateType-528162154,getUpdateType>>
-* <<apidoc-kickstart_profile-getVariables-1863515296,getVariables>>
-* <<apidoc-kickstart_profile-getVirtualizationType-2146952019,getVirtualizationType>>
-* <<apidoc-kickstart_profile-listIpRanges-1023063405,listIpRanges>>
-* <<apidoc-kickstart_profile-listScripts-1718792426,listScripts>>
-* <<apidoc-kickstart_profile-orderScripts-483189093,orderScripts>>
-* <<apidoc-kickstart_profile-removeIpRange-1372802818,removeIpRange>>
-* <<apidoc-kickstart_profile-removeScript-555545211,removeScript>>
-* <<apidoc-kickstart_profile-setAdvancedOptions-88328327,setAdvancedOptions>>
-* <<apidoc-kickstart_profile-setCfgPreservation-1284775193,setCfgPreservation>>
-* <<apidoc-kickstart_profile-setChildChannels-1964740634,setChildChannels>>
-* <<apidoc-kickstart_profile-setCustomOptions-669406950,setCustomOptions>>
-* <<apidoc-kickstart_profile-setKickstartTree-1612610711,setKickstartTree>>
-* <<apidoc-kickstart_profile-setLogging-1380499546,setLogging>>
-* <<apidoc-kickstart_profile-setRepositories-1971275760,setRepositories>>
-* <<apidoc-kickstart_profile-setUpdateType-210688344,setUpdateType>>
-* <<apidoc-kickstart_profile-setVariables-314771492,setVariables>>
-* <<apidoc-kickstart_profile-setVirtualizationType-1885867912,setVirtualizationType>>
+* <<apidoc-kickstart_profile-addIpRange-209524543,addIpRange>>
+* <<apidoc-kickstart_profile-addScript-1335077110,addScript>>
+* <<apidoc-kickstart_profile-addScript-1227700386,addScript>>
+* <<apidoc-kickstart_profile-addScript-1069736192,addScript>>
+* <<apidoc-kickstart_profile-compareActivationKeys-476152469,compareActivationKeys>>
+* <<apidoc-kickstart_profile-compareAdvancedOptions-1270490884,compareAdvancedOptions>>
+* <<apidoc-kickstart_profile-comparePackages-877317123,comparePackages>>
+* <<apidoc-kickstart_profile-downloadKickstart-1670283668,downloadKickstart>>
+* <<apidoc-kickstart_profile-downloadRenderedKickstart-1137069423,downloadRenderedKickstart>>
+* <<apidoc-kickstart_profile-getAdvancedOptions-1797553910,getAdvancedOptions>>
+* <<apidoc-kickstart_profile-getAvailableRepositories-77173924,getAvailableRepositories>>
+* <<apidoc-kickstart_profile-getCfgPreservation-736233691,getCfgPreservation>>
+* <<apidoc-kickstart_profile-getChildChannels-798483422,getChildChannels>>
+* <<apidoc-kickstart_profile-getCustomOptions-2118912967,getCustomOptions>>
+* <<apidoc-kickstart_profile-getKickstartTree-2052572633,getKickstartTree>>
+* <<apidoc-kickstart_profile-getRepositories-27796563,getRepositories>>
+* <<apidoc-kickstart_profile-getUpdateType-1948950538,getUpdateType>>
+* <<apidoc-kickstart_profile-getVariables-1055932985,getVariables>>
+* <<apidoc-kickstart_profile-getVirtualizationType-1610143599,getVirtualizationType>>
+* <<apidoc-kickstart_profile-listIpRanges-125173444,listIpRanges>>
+* <<apidoc-kickstart_profile-listScripts-1867721054,listScripts>>
+* <<apidoc-kickstart_profile-orderScripts-1602890186,orderScripts>>
+* <<apidoc-kickstart_profile-removeIpRange-317794116,removeIpRange>>
+* <<apidoc-kickstart_profile-removeScript-831019851,removeScript>>
+* <<apidoc-kickstart_profile-setAdvancedOptions-411382490,setAdvancedOptions>>
+* <<apidoc-kickstart_profile-setCfgPreservation-1590977463,setCfgPreservation>>
+* <<apidoc-kickstart_profile-setChildChannels-49322247,setChildChannels>>
+* <<apidoc-kickstart_profile-setCustomOptions-911673654,setCustomOptions>>
+* <<apidoc-kickstart_profile-setKickstartTree-8238713,setKickstartTree>>
+* <<apidoc-kickstart_profile-setLogging-451480761,setLogging>>
+* <<apidoc-kickstart_profile-setRepositories-1039486933,setRepositories>>
+* <<apidoc-kickstart_profile-setUpdateType-2110370842,setUpdateType>>
+* <<apidoc-kickstart_profile-setVariables-610844900,setVariables>>
+* <<apidoc-kickstart_profile-setVirtualizationType-395068544,setVirtualizationType>>
 
 == Description
 
@@ -49,8 +49,10 @@ Provides methods to access and modify many aspects of
 kickstart.profile
 
 
-[#apidoc-kickstart_profile-addIpRange-1802493587]
-== Method: addIpRange 
+[#apidoc-kickstart_profile-addIpRange-209524543]
+== Method: addIpRange
+
+HTTP `POST`
 
 Description:
 
@@ -61,9 +63,9 @@ Add an ip range to a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
-* [.string]#string#  label - The label of the
+* [.string]#string#  ksLabel - The label of the
  kickstart
  
 * [.string]#string#  min - The ip address making up the
@@ -80,8 +82,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-addScript-9714933]
-== Method: addScript 
+[#apidoc-kickstart_profile-addScript-1335077110]
+== Method: addScript
+
+HTTP `POST`
 
 Description:
 
@@ -92,7 +96,7 @@ Add a pre/post script to a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel - The kickstart label to
  add the script to.
@@ -120,8 +124,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-addScript-690419645]
-== Method: addScript 
+[#apidoc-kickstart_profile-addScript-1227700386]
+== Method: addScript
+
+HTTP `POST`
 
 Description:
 
@@ -132,7 +138,7 @@ Add a pre/post script to a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel - The kickstart label to
  add the script to.
@@ -162,8 +168,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-addScript-1512109971]
-== Method: addScript 
+[#apidoc-kickstart_profile-addScript-1069736192]
+== Method: addScript
+
+HTTP `POST`
 
 Description:
 
@@ -174,7 +182,7 @@ Add a pre/post script to a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel - The kickstart label to
  add the script to.
@@ -207,8 +215,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-compareActivationKeys-1142383288]
-== Method: compareActivationKeys 
+[#apidoc-kickstart_profile-compareActivationKeys-476152469]
+== Method: compareActivationKeys
+
+HTTP `POST`
 
 Description:
 
@@ -229,71 +239,61 @@ Parameters:
 
 Returns:
 
-* [.struct]#struct#  - Comparison Info
-      ** [.array]#array#  "kickstartLabel1" - Actual label of the first kickstart
+* [.struct]#struct#  Comparison Info
+** [.array]#array#  "kickstartLabel1" - Actual label of the first kickstart
                  profile is the key into the struct
-          ** [.array]#array# :
-              * [.struct]#struct#  - activation key
-     ** [.string]#string#  "key"
-     ** [.string]#string#  "description"
-     ** [.int]#int#  "usage_limit"
-     ** [.string]#string#  "base_channel_label"
-     ** [.array]#array#  "child_channel_labels"
-*** string - childChannelLabel
-     ** [.array]#array#  "entitlements"
-*** string - entitlementLabel
-     ** [.array]#array#  "server_group_ids"
-*** string - serverGroupId
-     ** [.array]#array#  "package_names"
-*** string - packageName - (deprecated by packages)
-     ** [.array]#array#  "packages"
-       *** [.struct]#struct#  - package
-         **** [.string]#string#  "name" - packageName
-         **** [.string]#string#  "arch" - archLabel - optional
-                 ** [.boolean]#boolean#  "universal_default"
-     ** [.boolean]#boolean#  "disabled"
-     ** [.string]#string#  "contact_method" - One of the following:
-       
-         ** default
-         ** ssh-push
-         ** ssh-push-tunnel
-       
-    
-                ** [.array]#array#  "kickstartLabel2" - Actual label of the second kickstart
+** [.array]#array# :
+              * [.struct]#struct#  activation key
+** [.string]#string#  "key"
+** [.string]#string#  "description"
+** [.int]#int#  "usage_limit"
+** [.string]#string#  "base_channel_label"
+** [.array]#string array#  "child_channel_labels" - childChannelLabel
+** [.array]#string array#  "entitlements" - entitlementLabel
+** [.array]#string array#  "server_group_ids" - serverGroupId
+** [.array]#string array#  "package_names" - packageName - (deprecated by packages)
+** [.array]#array#  "packages"
+*** [.struct]#struct#  package
+**** [.string]#string#  "name" - packageName
+**** [.string]#string#  "arch" - archLabel - optional
+** [.boolean]#boolean#  "universal_default"
+** [.boolean]#boolean#  "disabled"
+** [.string]#string#  "contact_method" - One of the following:
+*** default
+*** ssh-push
+*** ssh-push-tunnel
+ 
+** [.array]#array#  "kickstartLabel2" - Actual label of the second kickstart
                  profile is the key into the struct
-          ** [.array]#array# :
-              * [.struct]#struct#  - activation key
-     ** [.string]#string#  "key"
-     ** [.string]#string#  "description"
-     ** [.int]#int#  "usage_limit"
-     ** [.string]#string#  "base_channel_label"
-     ** [.array]#array#  "child_channel_labels"
-*** string - childChannelLabel
-     ** [.array]#array#  "entitlements"
-*** string - entitlementLabel
-     ** [.array]#array#  "server_group_ids"
-*** string - serverGroupId
-     ** [.array]#array#  "package_names"
-*** string - packageName - (deprecated by packages)
-     ** [.array]#array#  "packages"
-       *** [.struct]#struct#  - package
-         **** [.string]#string#  "name" - packageName
-         **** [.string]#string#  "arch" - archLabel - optional
-                 ** [.boolean]#boolean#  "universal_default"
-     ** [.boolean]#boolean#  "disabled"
-     ** [.string]#string#  "contact_method" - One of the following:
-       
-         ** default
-         ** ssh-push
-         ** ssh-push-tunnel
-       
-    
-             
+** [.array]#array# :
+              * [.struct]#struct#  activation key
+** [.string]#string#  "key"
+** [.string]#string#  "description"
+** [.int]#int#  "usage_limit"
+** [.string]#string#  "base_channel_label"
+** [.array]#string array#  "child_channel_labels" - childChannelLabel
+** [.array]#string array#  "entitlements" - entitlementLabel
+** [.array]#string array#  "server_group_ids" - serverGroupId
+** [.array]#string array#  "package_names" - packageName - (deprecated by packages)
+** [.array]#array#  "packages"
+*** [.struct]#struct#  package
+**** [.string]#string#  "name" - packageName
+**** [.string]#string#  "arch" - archLabel - optional
+** [.boolean]#boolean#  "universal_default"
+** [.boolean]#boolean#  "disabled"
+** [.string]#string#  "contact_method" - One of the following:
+*** default
+*** ssh-push
+*** ssh-push-tunnel
+ 
+ 
 
 
 
-[#apidoc-kickstart_profile-compareAdvancedOptions-1942085027]
-== Method: compareAdvancedOptions 
+[#apidoc-kickstart_profile-compareAdvancedOptions-1270490884]
+== Method: compareAdvancedOptions
+
+HTTP `POST`
 
 Description:
 
@@ -315,29 +315,31 @@ Parameters:
 
 Returns:
 
-* [.struct]#struct#  - Comparison Info
-      ** [.array]#array#  "kickstartLabel1" - Actual label of the first kickstart
+* [.struct]#struct#  Comparison Info
+** [.array]#array#  "kickstartLabel1" - Actual label of the first kickstart
                  profile is the key into the struct
-          ** [.array]#array# :
-              * [.struct]#struct#  - value
-          ** [.string]#string#  "name"
-          ** [.string]#string#  "value"
-          ** [.boolean]#boolean#  "enabled"
-       
-                ** [.array]#array#  "kickstartLabel2" - Actual label of the second kickstart
+** [.array]#array# :
+              * [.struct]#struct#  value
+** [.string]#string#  "name"
+** [.string]#string#  "value"
+** [.boolean]#boolean#  "enabled"
+ 
+** [.array]#array#  "kickstartLabel2" - Actual label of the second kickstart
                  profile is the key into the struct
-          ** [.array]#array# :
-              * [.struct]#struct#  - value
-          ** [.string]#string#  "name"
-          ** [.string]#string#  "value"
-          ** [.boolean]#boolean#  "enabled"
-       
-             
+** [.array]#array# :
+              * [.struct]#struct#  value
+** [.string]#string#  "name"
+** [.string]#string#  "value"
+** [.boolean]#boolean#  "enabled"
+ 
+ 
 
 
 
-[#apidoc-kickstart_profile-comparePackages-758113930]
-== Method: comparePackages 
+[#apidoc-kickstart_profile-comparePackages-877317123]
+== Method: comparePackages
+
+HTTP `POST`
 
 Description:
 
@@ -358,21 +360,21 @@ Parameters:
 
 Returns:
 
-* [.struct]#struct#  - Comparison Info
-      ** [.array]#array#  "kickstartLabel1" - Actual label of the first kickstart
+* [.struct]#struct#  Comparison Info
+** [.array]#array#  "kickstartLabel1" - Actual label of the first kickstart
                  profile is the key into the struct
-          ** [.array]#array# :
-*** [.string]#string#  - package name
-      ** [.array]#array#  "kickstartLabel2" - Actual label of the second kickstart
+** [.array]#string array#  package name
+** [.array]#array#  "kickstartLabel2" - Actual label of the second kickstart
                  profile is the key into the struct
-          ** [.array]#array# :
-*** [.string]#string#  - package name
-   
+** [.array]#string array#  package name
+ 
 
 
 
-[#apidoc-kickstart_profile-downloadKickstart-5112121]
-== Method: downloadKickstart 
+[#apidoc-kickstart_profile-downloadKickstart-1670283668]
+== Method: downloadKickstart
+
+HTTP `POST`
 
 Description:
 
@@ -383,13 +385,13 @@ Download the full contents of a kickstart file.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel - The label of the
  kickstart to download.
  
 * [.string]#string#  host - The host to use when
- referring to the Uyuni server. Usually this should be the FQDN,
+ referring to the SUSE Manager server. Usually this should be the FQDN,
  but could be the ip address or shortname as well.
  
 
@@ -403,8 +405,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-downloadRenderedKickstart-508269970]
-== Method: downloadRenderedKickstart 
+[#apidoc-kickstart_profile-downloadRenderedKickstart-1137069423]
+== Method: downloadRenderedKickstart
+
+HTTP `POST`
 
 Description:
 
@@ -415,7 +419,7 @@ Downloads the Cobbler-rendered Kickstart file.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel - The label of the
  kickstart to download.
@@ -428,8 +432,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-getAdvancedOptions-1133143463]
-== Method: getAdvancedOptions 
+[#apidoc-kickstart_profile-getAdvancedOptions-1797553910]
+== Method: getAdvancedOptions
+
+HTTP `GET`
 
 Description:
 
@@ -440,7 +446,7 @@ Get advanced options for a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel - Label of kickstart
  profile to be changed.
@@ -449,16 +455,18 @@ Parameters:
 Returns:
 
 * [.array]#array# :
- * [.struct]#struct#  - option
-          ** [.string]#string#  "name"
-          ** [.string]#string#  "arguments"
-       
-  
+ * [.struct]#struct#  option
+** [.string]#string#  "name"
+** [.string]#string#  "arguments"
+ 
+ 
 
 
 
-[#apidoc-kickstart_profile-getAvailableRepositories-2098086870]
-== Method: getAvailableRepositories 
+[#apidoc-kickstart_profile-getAvailableRepositories-77173924]
+== Method: getAvailableRepositories
+
+HTTP `GET`
 
 Description:
 
@@ -477,14 +485,15 @@ Parameters:
 
 Returns:
 
-* [.array]#array# :
-** [.string]#string#  - repositoryLabel
+* [.array]#string array#  repositoryLabel
  
 
 
 
-[#apidoc-kickstart_profile-getCfgPreservation-853075341]
-== Method: getCfgPreservation 
+[#apidoc-kickstart_profile-getCfgPreservation-736233691]
+== Method: getCfgPreservation
+
+HTTP `GET`
 
 Description:
 
@@ -495,9 +504,9 @@ Get ks.cfg preservation option for a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
-* [.string]#string#  kslabel - Label of kickstart
+* [.string]#string#  ksLabel - Label of kickstart
  profile to be changed.
  
 
@@ -509,8 +518,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-getChildChannels-416322179]
-== Method: getChildChannels 
+[#apidoc-kickstart_profile-getChildChannels-798483422]
+== Method: getChildChannels
+
+HTTP `GET`
 
 Description:
 
@@ -521,22 +532,23 @@ Get the child channels for a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
-* [.string]#string#  kslabel - Label of kickstart
+* [.string]#string#  ksLabel - Label of kickstart
  profile.
  
 
 Returns:
 
-* [.array]#array# :
-** [.string]#string#  - channelLabel
+* [.array]#string array#  channelLabel
  
 
 
 
-[#apidoc-kickstart_profile-getCustomOptions-928103158]
-== Method: getCustomOptions 
+[#apidoc-kickstart_profile-getCustomOptions-2118912967]
+== Method: getCustomOptions
+
+HTTP `GET`
 
 Description:
 
@@ -547,7 +559,7 @@ Get custom options for a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel
  
@@ -555,16 +567,18 @@ Parameters:
 Returns:
 
 * [.array]#array# :
- * [.struct]#struct#  - option
-          ** [.int]#int#  "id"
-          ** [.string]#string#  "arguments"
-       
-  
+ * [.struct]#struct#  option
+** [.int]#int#  "id"
+** [.string]#string#  "arguments"
+ 
+ 
 
 
 
-[#apidoc-kickstart_profile-getKickstartTree-1068773063]
-== Method: getKickstartTree 
+[#apidoc-kickstart_profile-getKickstartTree-2052572633]
+== Method: getKickstartTree
+
+HTTP `GET`
 
 Description:
 
@@ -575,9 +589,9 @@ Get the kickstart tree for a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
-* [.string]#string#  kslabel - Label of kickstart
+* [.string]#string#  ksLabel - Label of kickstart
  profile to be changed.
  
 
@@ -588,8 +602,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-getRepositories-233852178]
-== Method: getRepositories 
+[#apidoc-kickstart_profile-getRepositories-27796563]
+== Method: getRepositories
+
+HTTP `GET`
 
 Description:
 
@@ -607,14 +623,15 @@ Parameters:
 
 Returns:
 
-* [.array]#array# :
-** [.string]#string#  - repositoryLabel
+* [.array]#string array#  repositoryLabel
  
 
 
 
-[#apidoc-kickstart_profile-getUpdateType-528162154]
-== Method: getUpdateType 
+[#apidoc-kickstart_profile-getUpdateType-1948950538]
+== Method: getUpdateType
+
+HTTP `GET`
 
 Description:
 
@@ -625,9 +642,9 @@ Get the update type for a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
-* [.string]#string#  kslabel - Label of kickstart
+* [.string]#string#  ksLabel - Label of kickstart
  profile.
  
 
@@ -638,8 +655,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-getVariables-1863515296]
-== Method: getVariables 
+[#apidoc-kickstart_profile-getVariables-1055932985]
+== Method: getVariables
+
+HTTP `GET`
 
 Description:
 
@@ -658,15 +677,17 @@ Parameters:
 
 Returns:
 
-* [.struct]#struct#  - kickstart variable
-         ** [.string]#string#  "key"
-         ** [.string or int]#string or int#  "value"
-      
+* [.struct]#struct#  kickstart variable
+** [.string]#string#  "key"
+** [.string or int]#string or int#  "value"
+ 
 
 
 
-[#apidoc-kickstart_profile-getVirtualizationType-2146952019]
-== Method: getVirtualizationType 
+[#apidoc-kickstart_profile-getVirtualizationType-1610143599]
+== Method: getVirtualizationType
+
+HTTP `GET`
 
 Description:
 
@@ -690,8 +711,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-listIpRanges-1023063405]
-== Method: listIpRanges 
+[#apidoc-kickstart_profile-listIpRanges-125173444]
+== Method: listIpRanges
+
+HTTP `GET`
 
 Description:
 
@@ -702,25 +725,28 @@ List all ip ranges for a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
-* [.string]#string#  label - The label of the
+* [.string]#string#  ksLabel - The label of the
  kickstart
  
 
 Returns:
 
 * [.array]#array# :
- * [.struct]#struct#  - Kickstart Ip Range
-     ** [.string]#string#  "ksLabel" - The kickstart label associated with the ip range
-     ** [.string]#string#  "max" - The max ip of the range
-     ** [.string]#string#  "min" - The min ip of the range
-      
+ * [.struct]#struct#  kickstart IP range
+** [.string]#string#  "ksLabel" - the kickstart label associated with the IP range
+** [.string]#string#  "max" - the max IP of the range
+** [.string]#string#  "min" - the min IP of the range
+   
+ 
 
 
 
-[#apidoc-kickstart_profile-listScripts-1718792426]
-== Method: listScripts 
+[#apidoc-kickstart_profile-listScripts-1867721054]
+== Method: listScripts
+
+HTTP `GET`
 
 Description:
 
@@ -732,7 +758,7 @@ List the pre and post scripts for a kickstart profile
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel - The label of the
  kickstart
@@ -741,27 +767,30 @@ Parameters:
 Returns:
 
 * [.array]#array# :
- * [.struct]#struct#  - kickstart script
-          ** [.int]#int#  "id"
-          ** [.string]#string#  "name"
-          ** [.string]#string#  "contents"
-          ** [.string]#string#  "script_type" - Which type of script ('pre' or 'post').
-          ** [.string]#string#  "interpreter" - The scripting language interpreter to use
+ * [.struct]#struct#  kickstart script
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.string]#string#  "contents"
+** [.string]#string#  "script_type" - the type of script ('pre' or 'post')
+** [.string]#string#  "interpreter" - the scripting language interpreter to use
                       for this script.  An empty string indicates the default kickstart
                       shell.
-          ** [.boolean]#boolean#  "chroot" - True if the script will be executed within the
-                  chroot environment.
-          ** [.boolean]#boolean#  "erroronfail" - True if the script will throw an error if
-                  it fails.
-          ** [.boolean]#boolean#  "template" - True if templating using cobbler is enabled
-          ** [.boolean]#boolean#  "beforeRegistration" - True if script will run before the
-                  server registers and performs server actions.
-        
+** [.boolean]#boolean#  "chroot" - true if the script will be executed within the
+                  chroot environment
+** [.boolean]#boolean#  "erroronfail" - true if the script will throw an error if
+                  it fails
+** [.boolean]#boolean#  "template" - true if templating using cobbler is enabled
+** [.boolean]#boolean#  "beforeRegistration" - true if script will run before the
+                  server registers and performs server actions
+   
+ 
 
 
 
-[#apidoc-kickstart_profile-orderScripts-483189093]
-== Method: orderScripts 
+[#apidoc-kickstart_profile-orderScripts-1602890186]
+== Method: orderScripts
+
+HTTP `POST`
 
 Description:
 
@@ -778,20 +807,17 @@ Change the order that kickstart scripts will run for
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel - The label of the
  kickstart
  
-* [.array]#array# :
-** [.int]#int#  - IDs of the ordered pre scripts
+* [.array]#int array#  preScripts - IDs of the ordered pre scripts
  
-* [.array]#array# :
-** [.int]#int#  - IDs of the ordered post scripts that will run
+* [.array]#int array#  postScriptsBeforeRegistration - IDs of the ordered post scripts that will run
               before registration
  
-* [.array]#array# :
-** [.int]#int#  - IDs of the ordered post scripts that will run
+* [.array]#int array#  postScriptsAfterRegistration - IDs of the ordered post scripts that will run
               after registration
  
 
@@ -802,8 +828,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-removeIpRange-1372802818]
-== Method: removeIpRange 
+[#apidoc-kickstart_profile-removeIpRange-317794116]
+== Method: removeIpRange
+
+HTTP `POST`
 
 Description:
 
@@ -814,12 +842,12 @@ Remove an ip range from a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel - The kickstart label of
  the ip range you want to remove
  
-* [.string]#string#  ip_address - An Ip Address that
+* [.string]#string#  ipAddress - An Ip Address that
  falls within the range that you are wanting to remove. The min or max of
  the range will work.
  
@@ -832,8 +860,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-removeScript-555545211]
-== Method: removeScript 
+[#apidoc-kickstart_profile-removeScript-831019851]
+== Method: removeScript
+
+HTTP `POST`
 
 Description:
 
@@ -844,7 +874,7 @@ Remove a script from a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel - The kickstart from which
  to remove the script from.
@@ -860,8 +890,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-setAdvancedOptions-88328327]
-== Method: setAdvancedOptions 
+[#apidoc-kickstart_profile-setAdvancedOptions-411382490]
+== Method: setAdvancedOptions
+
+HTTP `POST`
 
 Description:
 
@@ -875,13 +907,13 @@ Set advanced options for a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel
  
-* [.array]#array# :
-      ** [.struct]#struct#  - advanced options
-          *** [.string]#string#  "name" - Name of the advanced option.
+* [.array]#array#  options
+** [.struct]#struct#  advanced options
+*** [.string]#string#  "name" - Name of the advanced option.
               Valid Option names: autostep, interactive, install, upgrade, text,
               network, cdrom, harddrive, nfs, url, lang, langsupport keyboard,
               mouse, device, deviceprobe, zerombr, clearpart, bootloader,
@@ -889,8 +921,8 @@ Parameters:
               key, ignoredisk, autopart, cmdline, firstboot, graphical, iscsi,
               iscsiname, logging, monitor, multipath, poweroff, halt, services,
               shutdown, user, vnc, zfcp, driverdisk, md5_crypt_rootpw
-          *** [.string]#string#  "arguments" - Arguments of the option
-          
+*** [.string]#string#  "arguments" - Arguments of the option
+ 
 
 Returns:
 
@@ -899,8 +931,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-setCfgPreservation-1284775193]
-== Method: setCfgPreservation 
+[#apidoc-kickstart_profile-setCfgPreservation-1590977463]
+== Method: setCfgPreservation
+
+HTTP `POST`
 
 Description:
 
@@ -911,9 +945,9 @@ Set ks.cfg preservation option for a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
-* [.string]#string#  kslabel - Label of kickstart
+* [.string]#string#  ksLabel - Label of kickstart
  profile to be changed.
  
 * [.boolean]#boolean#  preserve - whether or not
@@ -927,8 +961,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-setChildChannels-1964740634]
-== Method: setChildChannels 
+[#apidoc-kickstart_profile-setChildChannels-49322247]
+== Method: setChildChannels
+
+HTTP `POST`
 
 Description:
 
@@ -939,12 +975,12 @@ Set the child channels for a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
-* [.string]#string#  kslabel - Label of kickstart
+* [.string]#string#  ksLabel - Label of kickstart
  profile to be changed.
  
-* [.string[]]#string[]#  channelLabels - List of labels of child channels
+* [.array]#string array#  channelLabels - List of labels of child channels
  
 
 Returns:
@@ -954,8 +990,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-setCustomOptions-669406950]
-== Method: setCustomOptions 
+[#apidoc-kickstart_profile-setCustomOptions-911673654]
+== Method: setCustomOptions
+
+HTTP `POST`
 
 Description:
 
@@ -966,11 +1004,11 @@ Set custom options for a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel
  
-* [.string[]]#string[]#  options
+* [.array]#string array#  options
  
 
 Returns:
@@ -980,8 +1018,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-setKickstartTree-1612610711]
-== Method: setKickstartTree 
+[#apidoc-kickstart_profile-setKickstartTree-8238713]
+== Method: setKickstartTree
+
+HTTP `POST`
 
 Description:
 
@@ -992,9 +1032,9 @@ Set the kickstart tree for a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
-* [.string]#string#  kslabel - Label of kickstart
+* [.string]#string#  ksLabel - Label of kickstart
  profile to be changed.
  
 * [.string]#string#  kstreeLabel - Label of new
@@ -1008,8 +1048,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-setLogging-1380499546]
-== Method: setLogging 
+[#apidoc-kickstart_profile-setLogging-451480761]
+== Method: setLogging
+
+HTTP `POST`
 
 Description:
 
@@ -1020,9 +1062,9 @@ Set logging options for a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
-* [.string]#string#  kslabel - Label of kickstart
+* [.string]#string#  ksLabel - Label of kickstart
  profile to be changed.
  
 * [.boolean]#boolean#  pre - whether or not to log
@@ -1039,8 +1081,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-setRepositories-1971275760]
-== Method: setRepositories 
+[#apidoc-kickstart_profile-setRepositories-1039486933]
+== Method: setRepositories
+
+HTTP `POST`
 
 Description:
 
@@ -1055,8 +1099,7 @@ Parameters:
  
 * [.string]#string#  ksLabel
  
-* [.array]#array# :
-** [.string]#string#  - repositoryLabel
+* [.array]#string array#  repoLabels
  
 
 Returns:
@@ -1066,8 +1109,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-setUpdateType-210688344]
-== Method: setUpdateType 
+[#apidoc-kickstart_profile-setUpdateType-2110370842]
+== Method: setUpdateType
+
+HTTP `POST`
 
 Description:
 
@@ -1078,9 +1123,9 @@ Set the update typefor a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
-* [.string]#string#  kslabel - Label of kickstart
+* [.string]#string#  ksLabel - Label of kickstart
  profile to be changed.
  
 * [.string]#string#  updateType - The new update type
@@ -1094,8 +1139,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-setVariables-314771492]
-== Method: setVariables 
+[#apidoc-kickstart_profile-setVariables-610844900]
+== Method: setVariables
+
+HTTP `POST`
 
 Description:
 
@@ -1111,10 +1158,10 @@ Parameters:
  
 * [.string]#string#  ksLabel
  
-* [.struct]#struct#  - kickstart variable
-         ** [.string]#string#  "key"
-         ** [.string or int]#string or int#  "value"
-      
+* [.struct]#struct#  variables
+** [.string]#string#  "key"
+** [.string or int]#string or int#  "value"
+ 
 
 Returns:
 
@@ -1123,8 +1170,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile-setVirtualizationType-1885867912]
-== Method: setVirtualizationType 
+[#apidoc-kickstart_profile-setVirtualizationType-395068544]
+== Method: setVirtualizationType
+
+HTTP `POST`
 
 Description:
 

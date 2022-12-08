@@ -4,21 +4,23 @@
 
 == Available methods
 
-* <<apidoc-admin_monitoring-disable-1398327546,disable>>
-* <<apidoc-admin_monitoring-enable-75340801,enable>>
-* <<apidoc-admin_monitoring-getStatus-436399072,getStatus>>
+* <<apidoc-admin_monitoring-disable-26065947,disable>>
+* <<apidoc-admin_monitoring-enable-1504966484,enable>>
+* <<apidoc-admin_monitoring-getStatus-709955086,getStatus>>
 
 == Description
 
-Provides methods to manage the monitoring of the Uyuni server.
+Provides methods to manage the monitoring of the #product() server.
 
 *Namespace*:
 
 admin.monitoring
 
 
-[#apidoc-admin_monitoring-disable-1398327546]
-== Method: disable 
+[#apidoc-admin_monitoring-disable-26065947]
+== Method: disable
+
+HTTP `POST`
 
 Description:
 
@@ -35,18 +37,20 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-      ** [.struct]#struct#  - Exporters
-          *** [.string]#string#  "node"
-          *** [.string]#string#  "tomcat"
-          *** [.string]#string#  "taskomatic"
-          *** [.string]#string#  "postgres"
-          *** [.string]#string#  "self_monitoring"
-         
+** [.struct]#struct#  Exporters
+*** [.string]#string#  "node"
+*** [.string]#string#  "tomcat"
+*** [.string]#string#  "taskomatic"
+*** [.string]#string#  "postgres"
+*** [.string]#string#  "self_monitoring"
+ 
 
 
 
-[#apidoc-admin_monitoring-enable-75340801]
-== Method: enable 
+[#apidoc-admin_monitoring-enable-1504966484]
+== Method: enable
+
+HTTP `POST`
 
 Description:
 
@@ -63,18 +67,20 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-      ** [.struct]#struct#  - Exporters
-          *** [.string]#string#  "node"
-          *** [.string]#string#  "tomcat"
-          *** [.string]#string#  "taskomatic"
-          *** [.string]#string#  "postgres"
-          *** [.string]#string#  "self_monitoring"
-         
+** [.struct]#struct#  Exporters
+*** [.string]#string#  "node"
+*** [.string]#string#  "tomcat"
+*** [.string]#string#  "taskomatic"
+*** [.string]#string#  "postgres"
+*** [.string]#string#  "self_monitoring"
+ 
 
 
 
-[#apidoc-admin_monitoring-getStatus-436399072]
-== Method: getStatus 
+[#apidoc-admin_monitoring-getStatus-709955086]
+== Method: getStatus
+
+HTTP `GET`
 
 Description:
 
@@ -91,12 +97,12 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-      ** [.struct]#struct#  - Exporters
-          *** [.string]#string#  "node"
-          *** [.string]#string#  "tomcat"
-          *** [.string]#string#  "taskomatic"
-          *** [.string]#string#  "postgres"
-          *** [.string]#string#  "self_monitoring"
-         
+** [.struct]#struct#  Exporters
+*** [.string]#string#  "node"
+*** [.string]#string#  "tomcat"
+*** [.string]#string#  "taskomatic"
+*** [.string]#string#  "postgres"
+*** [.string]#string#  "self_monitoring"
+ 
 
 

@@ -4,11 +4,11 @@
 
 == Available methods
 
-* <<apidoc-kickstart_snippet-createOrUpdate-209501229,createOrUpdate>>
-* <<apidoc-kickstart_snippet-delete-917379055,delete>>
-* <<apidoc-kickstart_snippet-listAll-1530669727,listAll>>
-* <<apidoc-kickstart_snippet-listCustom-1398492607,listCustom>>
-* <<apidoc-kickstart_snippet-listDefault-1331108878,listDefault>>
+* <<apidoc-kickstart_snippet-createOrUpdate-84093742,createOrUpdate>>
+* <<apidoc-kickstart_snippet-delete-1833824722,delete>>
+* <<apidoc-kickstart_snippet-listAll-1472719920,listAll>>
+* <<apidoc-kickstart_snippet-listCustom-1922949345,listCustom>>
+* <<apidoc-kickstart_snippet-listDefault-46711852,listDefault>>
 
 == Description
 
@@ -19,8 +19,10 @@ Provides methods to create kickstart files
 kickstart.snippet
 
 
-[#apidoc-kickstart_snippet-createOrUpdate-209501229]
-== Method: createOrUpdate 
+[#apidoc-kickstart_snippet-createOrUpdate-84093742]
+== Method: createOrUpdate
+
+HTTP `POST`
 
 Description:
 
@@ -41,19 +43,21 @@ Parameters:
 
 Returns:
 
-* * [.struct]#struct#  - snippet
-     ** [.string]#string#  "name"
-     ** [.string]#string#  "contents"
-     ** [.string]#string#  "fragment" - The string to include in a kickstart
-                          file that will generate this snippet.
-     ** [.string]#string#  "file" - The local path to the file containing this snippet.
-     
+* * [.struct]#struct#  snippet
+** [.string]#string#  "name"
+** [.string]#string#  "contents"
+** [.string]#string#  "fragment" - the string to include in a kickstart
+                          file that will generate this snippet
+** [.string]#string#  "file" - the local path to the file containing this snippet
+  
  
 
 
 
-[#apidoc-kickstart_snippet-delete-917379055]
-== Method: delete 
+[#apidoc-kickstart_snippet-delete-1833824722]
+== Method: delete
+
+HTTP `POST`
 
 Description:
 
@@ -77,8 +81,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_snippet-listAll-1530669727]
-== Method: listAll 
+[#apidoc-kickstart_snippet-listAll-1472719920]
+== Method: listAll
+
+HTTP `GET`
 
 Description:
 
@@ -95,19 +101,21 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-            * [.struct]#struct#  - snippet
-     ** [.string]#string#  "name"
-     ** [.string]#string#  "contents"
-     ** [.string]#string#  "fragment" - The string to include in a kickstart
-                          file that will generate this snippet.
-     ** [.string]#string#  "file" - The local path to the file containing this snippet.
-    
-           
+            * [.struct]#struct#  snippet
+** [.string]#string#  "name"
+** [.string]#string#  "contents"
+** [.string]#string#  "fragment" - the string to include in a kickstart
+                          file that will generate this snippet
+** [.string]#string#  "file" - the local path to the file containing this snippet
+ 
+ 
 
 
 
-[#apidoc-kickstart_snippet-listCustom-1398492607]
-== Method: listCustom 
+[#apidoc-kickstart_snippet-listCustom-1922949345]
+== Method: listCustom
+
+HTTP `GET`
 
 Description:
 
@@ -125,19 +133,21 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-            * [.struct]#struct#  - snippet
-     ** [.string]#string#  "name"
-     ** [.string]#string#  "contents"
-     ** [.string]#string#  "fragment" - The string to include in a kickstart
-                          file that will generate this snippet.
-     ** [.string]#string#  "file" - The local path to the file containing this snippet.
-    
-           
+            * [.struct]#struct#  snippet
+** [.string]#string#  "name"
+** [.string]#string#  "contents"
+** [.string]#string#  "fragment" - the string to include in a kickstart
+                          file that will generate this snippet
+** [.string]#string#  "file" - the local path to the file containing this snippet
+ 
+ 
 
 
 
-[#apidoc-kickstart_snippet-listDefault-1331108878]
-== Method: listDefault 
+[#apidoc-kickstart_snippet-listDefault-46711852]
+== Method: listDefault
+
+HTTP `GET`
 
 Description:
 
@@ -155,13 +165,13 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-            * [.struct]#struct#  - snippet
-     ** [.string]#string#  "name"
-     ** [.string]#string#  "contents"
-     ** [.string]#string#  "fragment" - The string to include in a kickstart
-                          file that will generate this snippet.
-     ** [.string]#string#  "file" - The local path to the file containing this snippet.
-    
-           
+            * [.struct]#struct#  snippet
+** [.string]#string#  "name"
+** [.string]#string#  "contents"
+** [.string]#string#  "fragment" - the string to include in a kickstart
+                          file that will generate this snippet
+** [.string]#string#  "file" - the local path to the file containing this snippet
+ 
+ 
 
 

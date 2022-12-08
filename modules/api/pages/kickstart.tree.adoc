@@ -4,14 +4,14 @@
 
 == Available methods
 
-* <<apidoc-kickstart_tree-create-2063059370,create>>
-* <<apidoc-kickstart_tree-delete-546014245,delete>>
-* <<apidoc-kickstart_tree-deleteTreeAndProfiles-1053106531,deleteTreeAndProfiles>>
-* <<apidoc-kickstart_tree-getDetails-1682431013,getDetails>>
-* <<apidoc-kickstart_tree-list-1885192614,list>>
-* <<apidoc-kickstart_tree-listInstallTypes-1246101297,listInstallTypes>>
-* <<apidoc-kickstart_tree-rename-534955437,rename>>
-* <<apidoc-kickstart_tree-update-1528622589,update>>
+* <<apidoc-kickstart_tree-create-876994034,create>>
+* <<apidoc-kickstart_tree-delete-666389658,delete>>
+* <<apidoc-kickstart_tree-deleteTreeAndProfiles-564908963,deleteTreeAndProfiles>>
+* <<apidoc-kickstart_tree-getDetails-107131289,getDetails>>
+* <<apidoc-kickstart_tree-list-979865152,list>>
+* <<apidoc-kickstart_tree-listInstallTypes-573424492,listInstallTypes>>
+* <<apidoc-kickstart_tree-rename-2011281484,rename>>
+* <<apidoc-kickstart_tree-update-1834041945,update>>
 
 == Description
 
@@ -22,19 +22,21 @@ Provides methods to access and modify the kickstart trees.
 kickstart.tree
 
 
-[#apidoc-kickstart_tree-create-2063059370]
-== Method: create 
+[#apidoc-kickstart_tree-create-876994034]
+== Method: create
+
+HTTP `POST`
 
 Description:
 
-Create a Kickstart Tree (Distribution) in Uyuni.
+Create a Kickstart Tree (Distribution) in #product().
 
 
 
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  treeLabel - The new kickstart tree label.
  
@@ -45,7 +47,7 @@ Parameters:
  associate with the kickstart tree. 
  
 * [.string]#string#  installType - Label for
- KickstartInstallType (rhel_2.1, rhel_3, rhel_4, rhel_5, fedora_9).
+ KickstartInstallType (rhel_6, rhel_7, rhel_8, rhel_9, fedora_9).
  
 
 Returns:
@@ -55,19 +57,21 @@ Returns:
 
 
 
-[#apidoc-kickstart_tree-delete-546014245]
-== Method: delete 
+[#apidoc-kickstart_tree-delete-666389658]
+== Method: delete
+
+HTTP `POST`
 
 Description:
 
-Delete a Kickstart Tree (Distribution) from Uyuni.
+Delete a Kickstart Tree (Distribution) from #product().
 
 
 
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  treeLabel - Label for the
  kickstart tree to delete.
@@ -80,8 +84,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_tree-deleteTreeAndProfiles-1053106531]
-== Method: deleteTreeAndProfiles 
+[#apidoc-kickstart_tree-deleteTreeAndProfiles-564908963]
+== Method: deleteTreeAndProfiles
+
+HTTP `POST`
 
 Description:
 
@@ -94,7 +100,7 @@ Delete a kickstarttree and any profiles associated with
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  treeLabel - Label for the
  kickstart tree to delete.
@@ -107,8 +113,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_tree-getDetails-1682431013]
-== Method: getDetails 
+[#apidoc-kickstart_tree-getDetails-107131289]
+== Method: getDetails
+
+HTTP `GET`
 
 Description:
 
@@ -127,23 +135,25 @@ Parameters:
 
 Returns:
 
-* * [.struct]#struct#  - kickstartable tree
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "abs_path"
-   ** [.int]#int#  "channel_id"
-   * [.struct]#struct#  - kickstart install type
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "name"
+* * [.struct]#struct#  kickstartable tree
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "abs_path"
+** [.int]#int#  "channel_id"
+   * [.struct]#struct#  kickstart install type
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "name"
+ 
   
-   
  
 
 
 
-[#apidoc-kickstart_tree-list-1885192614]
-== Method: list 
+[#apidoc-kickstart_tree-list-979865152]
+== Method: list
+
+HTTP `POST`
 
 Description:
 
@@ -163,17 +173,20 @@ Parameters:
 Returns:
 
 * [.array]#array# :
- * [.struct]#struct#  - kickstartable tree
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "base_path"
-   ** [.int]#int#  "channel_id"
-    
+ * [.struct]#struct#  kickstartable tree
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "base_path"
+** [.int]#int#  "channel_id"
+   
+ 
 
 
 
-[#apidoc-kickstart_tree-listInstallTypes-1246101297]
-== Method: listInstallTypes 
+[#apidoc-kickstart_tree-listInstallTypes-573424492]
+== Method: listInstallTypes
+
+HTTP `GET`
 
 Description:
 
@@ -191,27 +204,30 @@ Parameters:
 Returns:
 
 * [.array]#array# :
- * [.struct]#struct#  - kickstart install type
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "name"
-    
+ * [.struct]#struct#  kickstart install type
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "name"
+   
+ 
 
 
 
-[#apidoc-kickstart_tree-rename-534955437]
-== Method: rename 
+[#apidoc-kickstart_tree-rename-2011281484]
+== Method: rename
+
+HTTP `POST`
 
 Description:
 
-Rename a Kickstart Tree (Distribution) in Uyuni.
+Rename a Kickstart Tree (Distribution) in #product().
 
 
 
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  originalLabel - Label for the
  kickstart tree to rename.
@@ -226,19 +242,21 @@ Returns:
 
 
 
-[#apidoc-kickstart_tree-update-1528622589]
-== Method: update 
+[#apidoc-kickstart_tree-update-1834041945]
+== Method: update
+
+HTTP `POST`
 
 Description:
 
-Edit a Kickstart Tree (Distribution) in Uyuni.
+Edit a Kickstart Tree (Distribution) in #product().
 
 
 
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  treeLabel - Label for the kickstart tree.
  
@@ -249,7 +267,7 @@ Parameters:
  associate with kickstart tree.
  
 * [.string]#string#  installType - Label for
- KickstartInstallType (rhel_2.1, rhel_3, rhel_4, rhel_5, fedora_9).
+ KickstartInstallType (rhel_6, rhel_7, rhel_8, rhel_9, fedora_9).
  
 
 Returns:

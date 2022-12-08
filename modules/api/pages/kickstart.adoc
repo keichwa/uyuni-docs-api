@@ -4,25 +4,25 @@
 
 == Available methods
 
-* <<apidoc-kickstart-cloneProfile-1760173749,cloneProfile>>
-* <<apidoc-kickstart-createProfile-1791032605,createProfile>>
-* <<apidoc-kickstart-createProfile-1950456251,createProfile>>
-* <<apidoc-kickstart-createProfileWithCustomUrl-1827192676,createProfileWithCustomUrl>>
-* <<apidoc-kickstart-createProfileWithCustomUrl-1679027895,createProfileWithCustomUrl>>
-* <<apidoc-kickstart-deleteProfile-2110350270,deleteProfile>>
-* <<apidoc-kickstart-disableProfile-1640299572,disableProfile>>
-* <<apidoc-kickstart-findKickstartForIp-471180970,findKickstartForIp>>
-* <<apidoc-kickstart-importFile-1202402952,importFile>>
-* <<apidoc-kickstart-importFile-1207695710,importFile>>
-* <<apidoc-kickstart-importFile-1229465441,importFile>>
-* <<apidoc-kickstart-importRawFile-772369088,importRawFile>>
-* <<apidoc-kickstart-importRawFile-226230494,importRawFile>>
-* <<apidoc-kickstart-isProfileDisabled-1872337398,isProfileDisabled>>
-* <<apidoc-kickstart-listAllIpRanges-587573968,listAllIpRanges>>
-* <<apidoc-kickstart-listAutoinstallableChannels-1395523773,listAutoinstallableChannels>>
-* <<apidoc-kickstart-listKickstartableChannels-732214059,listKickstartableChannels>>
-* <<apidoc-kickstart-listKickstarts-1478005042,listKickstarts>>
-* <<apidoc-kickstart-renameProfile-1577603673,renameProfile>>
+* <<apidoc-kickstart-cloneProfile-680072609,cloneProfile>>
+* <<apidoc-kickstart-createProfile-942829525,createProfile>>
+* <<apidoc-kickstart-createProfile-1246132954,createProfile>>
+* <<apidoc-kickstart-createProfileWithCustomUrl-153580963,createProfileWithCustomUrl>>
+* <<apidoc-kickstart-createProfileWithCustomUrl-621942110,createProfileWithCustomUrl>>
+* <<apidoc-kickstart-deleteProfile-1076721351,deleteProfile>>
+* <<apidoc-kickstart-disableProfile-665696527,disableProfile>>
+* <<apidoc-kickstart-findKickstartForIp-1386863459,findKickstartForIp>>
+* <<apidoc-kickstart-importFile-1633844381,importFile>>
+* <<apidoc-kickstart-importFile-1405230085,importFile>>
+* <<apidoc-kickstart-importFile-1872257073,importFile>>
+* <<apidoc-kickstart-importRawFile-1655088254,importRawFile>>
+* <<apidoc-kickstart-importRawFile-1178969461,importRawFile>>
+* <<apidoc-kickstart-isProfileDisabled-534213125,isProfileDisabled>>
+* <<apidoc-kickstart-listAllIpRanges-1890131314,listAllIpRanges>>
+* <<apidoc-kickstart-listAutoinstallableChannels-1107476456,listAutoinstallableChannels>>
+* <<apidoc-kickstart-listKickstartableChannels-467988572,listKickstartableChannels>>
+* <<apidoc-kickstart-listKickstarts-1168398461,listKickstarts>>
+* <<apidoc-kickstart-renameProfile-62505055,renameProfile>>
 
 == Description
 
@@ -33,8 +33,10 @@ Provides methods to create kickstart files
 kickstart
 
 
-[#apidoc-kickstart-cloneProfile-1760173749]
-== Method: cloneProfile 
+[#apidoc-kickstart-cloneProfile-680072609]
+== Method: cloneProfile
+
+HTTP `POST`
 
 Description:
 
@@ -45,7 +47,7 @@ Clone a Kickstart Profile
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabelToClone - Label of the
  kickstart profile to clone
@@ -60,8 +62,10 @@ Returns:
 
 
 
-[#apidoc-kickstart-createProfile-1791032605]
-== Method: createProfile 
+[#apidoc-kickstart-createProfile-942829525]
+== Method: createProfile
+
+HTTP `POST`
 
 Description:
 
@@ -72,7 +76,7 @@ Create a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  profileLabel - Label for the new
  kickstart profile.
@@ -84,7 +88,7 @@ Parameters:
  kickstartable tree to associate the new profile with.
  
 * [.string]#string#  kickstartHost - Kickstart hostname
- (of a Uyuni server or proxy) used to construct the default download URL for
+ (of a SUSE Manager server or proxy) used to construct the default download URL for
  the new kickstart profile.
  
 * [.string]#string#  rootPassword - Root password.
@@ -101,8 +105,10 @@ Returns:
 
 
 
-[#apidoc-kickstart-createProfile-1950456251]
-== Method: createProfile 
+[#apidoc-kickstart-createProfile-1246132954]
+== Method: createProfile
+
+HTTP `POST`
 
 Description:
 
@@ -113,7 +119,7 @@ Create a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  profileLabel - Label for the new
  kickstart profile.
@@ -125,7 +131,7 @@ Parameters:
  kickstartable tree to associate the new profile with.
  
 * [.string]#string#  kickstartHost - Kickstart hostname
- (of a Uyuni server or proxy) used to construct the default download URL for
+ (of a SUSE Manager server or proxy) used to construct the default download URL for
  the new kickstart profile.
  
 * [.string]#string#  rootPassword - Root password.
@@ -138,8 +144,10 @@ Returns:
 
 
 
-[#apidoc-kickstart-createProfileWithCustomUrl-1827192676]
-== Method: createProfileWithCustomUrl 
+[#apidoc-kickstart-createProfileWithCustomUrl-153580963]
+== Method: createProfileWithCustomUrl
+
+HTTP `POST`
 
 Description:
 
@@ -150,7 +158,7 @@ Create a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  profileLabel - Label for the new
  kickstart profile.
@@ -174,8 +182,10 @@ Returns:
 
 
 
-[#apidoc-kickstart-createProfileWithCustomUrl-1679027895]
-== Method: createProfileWithCustomUrl 
+[#apidoc-kickstart-createProfileWithCustomUrl-621942110]
+== Method: createProfileWithCustomUrl
+
+HTTP `POST`
 
 Description:
 
@@ -186,7 +196,7 @@ Create a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  profileLabel - Label for the new
  kickstart profile.
@@ -214,8 +224,10 @@ Returns:
 
 
 
-[#apidoc-kickstart-deleteProfile-2110350270]
-== Method: deleteProfile 
+[#apidoc-kickstart-deleteProfile-1076721351]
+== Method: deleteProfile
+
+HTTP `POST`
 
 Description:
 
@@ -226,7 +238,7 @@ Delete a kickstart profile
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel - The label of
  the kickstart profile you want to remove
@@ -239,8 +251,10 @@ Returns:
 
 
 
-[#apidoc-kickstart-disableProfile-1640299572]
-== Method: disableProfile 
+[#apidoc-kickstart-disableProfile-665696527]
+== Method: disableProfile
+
+HTTP `POST`
 
 Description:
 
@@ -251,7 +265,7 @@ Enable/Disable a Kickstart Profile
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  profileLabel - Label for the
  kickstart tree you want to en/disable
@@ -266,8 +280,10 @@ Returns:
 
 
 
-[#apidoc-kickstart-findKickstartForIp-471180970]
-== Method: findKickstartForIp 
+[#apidoc-kickstart-findKickstartForIp-1386863459]
+== Method: findKickstartForIp
+
+HTTP `GET`
 
 Description:
 
@@ -278,7 +294,7 @@ Find an associated kickstart for a given ip address.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ipAddress - The ip address to
  search for (i.e. 192.168.0.1)
@@ -291,8 +307,10 @@ Returns:
 
 
 
-[#apidoc-kickstart-importFile-1202402952]
-== Method: importFile 
+[#apidoc-kickstart-importFile-1633844381]
+== Method: importFile
+
+HTTP `POST`
 
 Description:
 
@@ -303,7 +321,7 @@ Import a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  profileLabel - Label for the new
  kickstart profile.
@@ -325,8 +343,10 @@ Returns:
 
 
 
-[#apidoc-kickstart-importFile-1207695710]
-== Method: importFile 
+[#apidoc-kickstart-importFile-1405230085]
+== Method: importFile
+
+HTTP `POST`
 
 Description:
 
@@ -337,7 +357,7 @@ Import a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  profileLabel - Label for the new
  kickstart profile.
@@ -349,7 +369,7 @@ Parameters:
  kickstartable tree to associate the new profile with.
  
 * [.string]#string#  kickstartHost - Kickstart hostname
- (of a Uyuni server or proxy) used to construct the default download URL for
+ (of a SUSE Manager server or proxy) used to construct the default download URL for
  the new kickstart profile. Using this option signifies that this default
  URL will be used instead of any url/nfs/cdrom/harddrive commands in the
  kickstart file itself.
@@ -365,8 +385,10 @@ Returns:
 
 
 
-[#apidoc-kickstart-importFile-1229465441]
-== Method: importFile 
+[#apidoc-kickstart-importFile-1872257073]
+== Method: importFile
+
+HTTP `POST`
 
 Description:
 
@@ -377,7 +399,7 @@ Import a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  profileLabel - Label for the new
  kickstart profile.
@@ -389,7 +411,7 @@ Parameters:
  kickstartable tree to associate the new profile with.
  
 * [.string]#string#  kickstartHost - Kickstart hostname
- (of a Uyuni server or proxy) used to construct the default download URL for
+ (of a SUSE Manager server or proxy) used to construct the default download URL for
  the new kickstart profile. Using this option signifies that this default
  URL will be used instead of any url/nfs/cdrom/harddrive commands in the
  kickstart file itself.
@@ -409,19 +431,21 @@ Returns:
 
 
 
-[#apidoc-kickstart-importRawFile-772369088]
-== Method: importRawFile 
+[#apidoc-kickstart-importRawFile-1655088254]
+== Method: importRawFile
+
+HTTP `POST`
 
 Description:
 
-Import a raw kickstart file into Uyuni.
+Import a raw kickstart file into #product().
 
 
 
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  profileLabel - Label for the new
  kickstart profile.
@@ -443,19 +467,21 @@ Returns:
 
 
 
-[#apidoc-kickstart-importRawFile-226230494]
-== Method: importRawFile 
+[#apidoc-kickstart-importRawFile-1178969461]
+== Method: importRawFile
+
+HTTP `POST`
 
 Description:
 
-Import a raw kickstart file into Uyuni.
+Import a raw kickstart file into #product().
 
 
 
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  profileLabel - Label for the new
  kickstart profile.
@@ -481,8 +507,10 @@ Returns:
 
 
 
-[#apidoc-kickstart-isProfileDisabled-1872337398]
-== Method: isProfileDisabled 
+[#apidoc-kickstart-isProfileDisabled-534213125]
+== Method: isProfileDisabled
+
+HTTP `GET`
 
 Description:
 
@@ -493,7 +521,7 @@ Returns whether a kickstart profile is disabled
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  profileLabel - kickstart profile label
  
@@ -505,8 +533,10 @@ Returns:
 
 
 
-[#apidoc-kickstart-listAllIpRanges-587573968]
-== Method: listAllIpRanges 
+[#apidoc-kickstart-listAllIpRanges-1890131314]
+== Method: listAllIpRanges
+
+HTTP `GET`
 
 Description:
 
@@ -518,22 +548,25 @@ List all Ip Ranges and their associated kickstarts available
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
 
 * [.array]#array# :
- * [.struct]#struct#  - Kickstart Ip Range
-     ** [.string]#string#  "ksLabel" - The kickstart label associated with the ip range
-     ** [.string]#string#  "max" - The max ip of the range
-     ** [.string]#string#  "min" - The min ip of the range
-      
+ * [.struct]#struct#  kickstart IP range
+** [.string]#string#  "ksLabel" - the kickstart label associated with the IP range
+** [.string]#string#  "max" - the max IP of the range
+** [.string]#string#  "min" - the min IP of the range
+   
+ 
 
 
 
-[#apidoc-kickstart-listAutoinstallableChannels-1395523773]
-== Method: listAutoinstallableChannels 
+[#apidoc-kickstart-listAutoinstallableChannels-1107476456]
+== Method: listAutoinstallableChannels
+
+HTTP `GET`
 
 Description:
 
@@ -544,45 +577,48 @@ List autoinstallable channels for the logged in user.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
 
 * [.array]#array# :
- * [.struct]#struct#  - channel
-      ** [.int]#int#  "id"
-      ** [.string]#string#  "name"
-      ** [.string]#string#  "label"
-      ** [.string]#string#  "arch_name"
-      ** [.string]#string#  "arch_label"
-      ** [.string]#string#  "summary"
-      ** [.string]#string#  "description"
-      ** [.string]#string#  "checksum_label"
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "last_modified"
-      ** [.string]#string#  "maintainer_name"
-      ** [.string]#string#  "maintainer_email"
-      ** [.string]#string#  "maintainer_phone"
-      ** [.string]#string#  "support_policy"
-      ** [.string]#string#  "gpg_key_url"
-      ** [.string]#string#  "gpg_key_id"
-      ** [.string]#string#  "gpg_key_fp"
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "yumrepo_last_sync" - (optional)
-      ** [.string]#string#  "end_of_life"
-      ** [.string]#string#  "parent_channel_label"
-      ** [.string]#string#  "clone_original"
-      ** [.array]#array# :
-          *** [.struct]#struct#  - contentSources
-              **** [.int]#int#  "id"
-              **** [.string]#string#  "label"
-              **** [.string]#string#  "sourceUrl"
-              **** [.string]#string#  "type"
-                     
+ * [.struct]#struct#  channel
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.string]#string#  "label"
+** [.string]#string#  "arch_name"
+** [.string]#string#  "arch_label"
+** [.string]#string#  "summary"
+** [.string]#string#  "description"
+** [.string]#string#  "checksum_label"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_modified"
+** [.string]#string#  "maintainer_name"
+** [.string]#string#  "maintainer_email"
+** [.string]#string#  "maintainer_phone"
+** [.string]#string#  "support_policy"
+** [.string]#string#  "gpg_key_url"
+** [.string]#string#  "gpg_key_id"
+** [.string]#string#  "gpg_key_fp"
+** [.dateTime.iso8601]#dateTime.iso8601#  "yumrepo_last_sync" - (optional)
+** [.string]#string#  "end_of_life"
+** [.string]#string#  "parent_channel_label"
+** [.string]#string#  "clone_original"
+** [.array]#array#  "contentSources"
+*** [.struct]#struct#  content source
+**** [.int]#int#  "id"
+**** [.string]#string#  "label"
+**** [.string]#string#  "sourceUrl"
+**** [.string]#string#  "type"
+   
+ 
 
 
 
-[#apidoc-kickstart-listKickstartableChannels-732214059]
-== Method: listKickstartableChannels 
+[#apidoc-kickstart-listKickstartableChannels-467988572]
+== Method: listKickstartableChannels
+
+HTTP `GET`
 
 Description:
 
@@ -593,45 +629,48 @@ List kickstartable channels for the logged in user.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
 
 * [.array]#array# :
- * [.struct]#struct#  - channel
-      ** [.int]#int#  "id"
-      ** [.string]#string#  "name"
-      ** [.string]#string#  "label"
-      ** [.string]#string#  "arch_name"
-      ** [.string]#string#  "arch_label"
-      ** [.string]#string#  "summary"
-      ** [.string]#string#  "description"
-      ** [.string]#string#  "checksum_label"
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "last_modified"
-      ** [.string]#string#  "maintainer_name"
-      ** [.string]#string#  "maintainer_email"
-      ** [.string]#string#  "maintainer_phone"
-      ** [.string]#string#  "support_policy"
-      ** [.string]#string#  "gpg_key_url"
-      ** [.string]#string#  "gpg_key_id"
-      ** [.string]#string#  "gpg_key_fp"
-      ** [.dateTime.iso8601]#dateTime.iso8601#  "yumrepo_last_sync" - (optional)
-      ** [.string]#string#  "end_of_life"
-      ** [.string]#string#  "parent_channel_label"
-      ** [.string]#string#  "clone_original"
-      ** [.array]#array# :
-          *** [.struct]#struct#  - contentSources
-              **** [.int]#int#  "id"
-              **** [.string]#string#  "label"
-              **** [.string]#string#  "sourceUrl"
-              **** [.string]#string#  "type"
-                     
+ * [.struct]#struct#  channel
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.string]#string#  "label"
+** [.string]#string#  "arch_name"
+** [.string]#string#  "arch_label"
+** [.string]#string#  "summary"
+** [.string]#string#  "description"
+** [.string]#string#  "checksum_label"
+** [.dateTime.iso8601]#dateTime.iso8601#  "last_modified"
+** [.string]#string#  "maintainer_name"
+** [.string]#string#  "maintainer_email"
+** [.string]#string#  "maintainer_phone"
+** [.string]#string#  "support_policy"
+** [.string]#string#  "gpg_key_url"
+** [.string]#string#  "gpg_key_id"
+** [.string]#string#  "gpg_key_fp"
+** [.dateTime.iso8601]#dateTime.iso8601#  "yumrepo_last_sync" - (optional)
+** [.string]#string#  "end_of_life"
+** [.string]#string#  "parent_channel_label"
+** [.string]#string#  "clone_original"
+** [.array]#array#  "contentSources"
+*** [.struct]#struct#  content source
+**** [.int]#int#  "id"
+**** [.string]#string#  "label"
+**** [.string]#string#  "sourceUrl"
+**** [.string]#string#  "type"
+   
+ 
 
 
 
-[#apidoc-kickstart-listKickstarts-1478005042]
-== Method: listKickstarts 
+[#apidoc-kickstart-listKickstarts-1168398461]
+== Method: listKickstarts
+
+HTTP `GET`
 
 Description:
 
@@ -643,37 +682,40 @@ Provides a list of kickstart profiles visible to the user's
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
 
 * [.array]#array# :
- * [.struct]#struct#  - kickstart
-          ** [.string]#string#  "label"
-          ** [.string]#string#  "tree_label"
-          ** [.string]#string#  "name"
-          ** [.boolean]#boolean#  "advanced_mode"
-          ** [.boolean]#boolean#  "org_default"
-          ** [.boolean]#boolean#  "active"
-          ** [.string]#string#  "update_type"
-      
+ * [.struct]#struct#  kickstart
+** [.string]#string#  "label"
+** [.string]#string#  "tree_label"
+** [.string]#string#  "name"
+** [.boolean]#boolean#  "advanced_mode"
+** [.boolean]#boolean#  "org_default"
+** [.boolean]#boolean#  "active"
+** [.string]#string#  "update_type"
+   
+ 
 
 
 
-[#apidoc-kickstart-renameProfile-1577603673]
-== Method: renameProfile 
+[#apidoc-kickstart-renameProfile-62505055]
+== Method: renameProfile
+
+HTTP `POST`
 
 Description:
 
-Rename a kickstart profile in Uyuni.
+Rename a kickstart profile in #product().
 
 
 
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  originalLabel - Label for the
  kickstart profile you want to rename

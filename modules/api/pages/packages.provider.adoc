@@ -4,9 +4,9 @@
 
 == Available methods
 
-* <<apidoc-packages_provider-associateKey-736233691,associateKey>>
-* <<apidoc-packages_provider-list-2052572633,list>>
-* <<apidoc-packages_provider-listKeys-1948950538,listKeys>>
+* <<apidoc-packages_provider-associateKey-1104718965,associateKey>>
+* <<apidoc-packages_provider-list-727095384,list>>
+* <<apidoc-packages_provider-listKeys-461688893,listKeys>>
 
 == Description
 
@@ -18,21 +18,23 @@ Methods to retrieve information about Package Providers associated with
 packages.provider
 
 
-[#apidoc-packages_provider-associateKey-736233691]
-== Method: associateKey 
+[#apidoc-packages_provider-associateKey-1104718965]
+== Method: associateKey
+
+HTTP `POST`
 
 Description:
 
 Associate a package security key and with the package provider.
       If the provider or key doesn't exist, it is created. User executing the
-      request must be a Uyuni administrator.
+      request must be a #product() administrator.
 
 
 
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  providerName - The provider name
  
@@ -49,51 +51,55 @@ Returns:
 
 
 
-[#apidoc-packages_provider-list-2052572633]
-== Method: list 
+[#apidoc-packages_provider-list-727095384]
+== Method: list
+
+HTTP `POST`
 
 Description:
 
 List all Package Providers.
- User executing the request must be a Uyuni administrator.
+ User executing the request must be a #product() administrator.
 
 
 
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
 
 * [.array]#array# :
-      * [.struct]#struct#  - package provider
-   ** [.string]#string#  "name"
-   ** [.array]#array#  "keys"
-      * [.struct]#struct#  - package security key
-     ** [.string]#string#  "key"
-     ** [.string]#string#  "type"
-    
-       
-   
+      * [.struct]#struct#  package provider
+** [.string]#string#  "name"
+** [.array]#array#  "keys"
+      * [.struct]#struct#  package security key
+** [.string]#string#  "key"
+** [.string]#string#  "type"
+ 
+ 
+ 
 
 
 
-[#apidoc-packages_provider-listKeys-1948950538]
-== Method: listKeys 
+[#apidoc-packages_provider-listKeys-461688893]
+== Method: listKeys
+
+HTTP `GET`
 
 Description:
 
 List all security keys associated with a package provider.
- User executing the request must be a Uyuni administrator.
+ User executing the request must be a #product() administrator.
 
 
 
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  providerName - The provider name
  
@@ -101,10 +107,10 @@ Parameters:
 Returns:
 
 * [.array]#array# :
-      * [.struct]#struct#  - package security key
-     ** [.string]#string#  "key"
-     ** [.string]#string#  "type"
-    
-   
+      * [.struct]#struct#  package security key
+** [.string]#string#  "key"
+** [.string]#string#  "type"
+ 
+ 
 
 

@@ -4,33 +4,34 @@
 
 == Available methods
 
-* <<apidoc-contentmanagement-attachFilter-341315292,attachFilter>>
-* <<apidoc-contentmanagement-attachSource-692731690,attachSource>>
-* <<apidoc-contentmanagement-attachSource-1850109919,attachSource>>
-* <<apidoc-contentmanagement-buildProject-602052569,buildProject>>
-* <<apidoc-contentmanagement-buildProject-1586365091,buildProject>>
-* <<apidoc-contentmanagement-createEnvironment-1907119907,createEnvironment>>
-* <<apidoc-contentmanagement-createFilter-719119378,createFilter>>
-* <<apidoc-contentmanagement-createProject-927724363,createProject>>
-* <<apidoc-contentmanagement-detachFilter-1059749024,detachFilter>>
-* <<apidoc-contentmanagement-detachSource-1340776217,detachSource>>
-* <<apidoc-contentmanagement-listFilterCriteria-312068212,listFilterCriteria>>
-* <<apidoc-contentmanagement-listFilters-909104361,listFilters>>
-* <<apidoc-contentmanagement-listProjectEnvironments-692827822,listProjectEnvironments>>
-* <<apidoc-contentmanagement-listProjectFilters-1888591894,listProjectFilters>>
-* <<apidoc-contentmanagement-listProjectSources-1482151715,listProjectSources>>
-* <<apidoc-contentmanagement-listProjects-1810650734,listProjects>>
-* <<apidoc-contentmanagement-lookupEnvironment-1098041703,lookupEnvironment>>
-* <<apidoc-contentmanagement-lookupFilter-2076083498,lookupFilter>>
-* <<apidoc-contentmanagement-lookupProject-1195378184,lookupProject>>
-* <<apidoc-contentmanagement-lookupSource-1263633989,lookupSource>>
-* <<apidoc-contentmanagement-promoteProject-175425856,promoteProject>>
-* <<apidoc-contentmanagement-removeEnvironment-255401554,removeEnvironment>>
-* <<apidoc-contentmanagement-removeFilter-277973172,removeFilter>>
-* <<apidoc-contentmanagement-removeProject-1862049087,removeProject>>
-* <<apidoc-contentmanagement-updateEnvironment-2075339084,updateEnvironment>>
-* <<apidoc-contentmanagement-updateFilter-1654453564,updateFilter>>
-* <<apidoc-contentmanagement-updateProject-1739257986,updateProject>>
+* <<apidoc-contentmanagement-attachFilter-1240091493,attachFilter>>
+* <<apidoc-contentmanagement-attachSource-2103229641,attachSource>>
+* <<apidoc-contentmanagement-attachSource-942901628,attachSource>>
+* <<apidoc-contentmanagement-buildProject-1329489396,buildProject>>
+* <<apidoc-contentmanagement-buildProject-2099052183,buildProject>>
+* <<apidoc-contentmanagement-createAppStreamFilters-1863497271,createAppStreamFilters>>
+* <<apidoc-contentmanagement-createEnvironment-1399108737,createEnvironment>>
+* <<apidoc-contentmanagement-createFilter-1251935072,createFilter>>
+* <<apidoc-contentmanagement-createProject-1225196709,createProject>>
+* <<apidoc-contentmanagement-detachFilter-1257669532,detachFilter>>
+* <<apidoc-contentmanagement-detachSource-2099922328,detachSource>>
+* <<apidoc-contentmanagement-listFilterCriteria-1706466507,listFilterCriteria>>
+* <<apidoc-contentmanagement-listFilters-1703412736,listFilters>>
+* <<apidoc-contentmanagement-listProjectEnvironments-785337150,listProjectEnvironments>>
+* <<apidoc-contentmanagement-listProjectFilters-394568342,listProjectFilters>>
+* <<apidoc-contentmanagement-listProjectSources-185354501,listProjectSources>>
+* <<apidoc-contentmanagement-listProjects-737434492,listProjects>>
+* <<apidoc-contentmanagement-lookupEnvironment-1595687022,lookupEnvironment>>
+* <<apidoc-contentmanagement-lookupFilter-1096030628,lookupFilter>>
+* <<apidoc-contentmanagement-lookupProject-626652764,lookupProject>>
+* <<apidoc-contentmanagement-lookupSource-2100962393,lookupSource>>
+* <<apidoc-contentmanagement-promoteProject-1723212594,promoteProject>>
+* <<apidoc-contentmanagement-removeEnvironment-909013150,removeEnvironment>>
+* <<apidoc-contentmanagement-removeFilter-1834816004,removeFilter>>
+* <<apidoc-contentmanagement-removeProject-1146011389,removeProject>>
+* <<apidoc-contentmanagement-updateEnvironment-1659650374,updateEnvironment>>
+* <<apidoc-contentmanagement-updateFilter-250219336,updateFilter>>
+* <<apidoc-contentmanagement-updateProject-1298670487,updateProject>>
 
 == Description
 
@@ -42,8 +43,10 @@ Provides methods to access and modify Content Lifecycle Management related entit
 contentmanagement
 
 
-[#apidoc-contentmanagement-attachFilter-341315292]
-== Method: attachFilter 
+[#apidoc-contentmanagement-attachFilter-1240091493]
+== Method: attachFilter
+
+HTTP `POST`
 
 Description:
 
@@ -54,32 +57,34 @@ Attach a Filter to a Project
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  projectLabel - Project label
  
-* [.int]#int#  id - Filter id to attach
+* [.int]#int#  filterId - filter ID to attach
  
 
 Returns:
 
-* * [.struct]#struct#  - Content Filter information
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "name"
-   ** [.int]#int#  "orgId"
-   ** [.entityType]#entityType#  "Entity type (e.g. 'package')"
-   ** [.rule]#rule#  "Rule (e.g. 'deny')"
-   ** [.struct]#struct#  - criteria
-       *** [.string]#string#  "matcher" - The matcher type of the filter (e.g. 'contains')
-       *** [.string]#string#  "field" - The entity field to match (e.g. 'name'
-       *** [.string]#string#  "value" - The field value to match (e.g. 'kernel')
-      
+* * [.struct]#struct#  content filter information
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.int]#int#  "orgId"
+** [.entityType]#entityType#  "entity type (e.g. 'package')"
+** [.rule]#rule#  "rule (e.g. 'deny')"
+** [.struct]#struct#  criteria
+*** [.string]#string#  "matcher" - the matcher type of the filter (e.g. 'contains')
+*** [.string]#string#  "field" - the entity field to match (e.g. 'name'
+*** [.string]#string#  "value" - the field value to match (e.g. 'kernel')
+  
  
 
 
 
-[#apidoc-contentmanagement-attachSource-692731690]
-== Method: attachSource 
+[#apidoc-contentmanagement-attachSource-2103229641]
+== Method: attachSource
+
+HTTP `POST`
 
 Description:
 
@@ -90,7 +95,7 @@ Attach a Source to a Project
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  projectLabel - Content Project label
  
@@ -103,18 +108,20 @@ Parameters:
 
 Returns:
 
-* * [.struct]#struct#  - Content Project Source information
-   ** [.string]#string#  "contentProjectLabel"
-   ** [.string]#string#  "type"
-   ** [.string]#string#  "state"
-     ** [.string]#string#  "channelLabel" - (If type is SW_CHANNEL) The label of channel associated with the source
-   
+* * [.struct]#struct#  content project source information
+** [.string]#string#  "contentProjectLabel"
+** [.string]#string#  "type"
+** [.string]#string#  "state"
+** [.string]#string#  "channelLabel" - (if type is SW_CHANNEL) the label of channel associated with the source
+  
  
 
 
 
-[#apidoc-contentmanagement-attachSource-1850109919]
-== Method: attachSource 
+[#apidoc-contentmanagement-attachSource-942901628]
+== Method: attachSource
+
+HTTP `POST`
 
 Description:
 
@@ -125,7 +132,7 @@ Attach a Source to a Project
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  projectLabel - Content Project label
  
@@ -136,68 +143,115 @@ Parameters:
 
 Returns:
 
-* * [.struct]#struct#  - Content Project Source information
-   ** [.string]#string#  "contentProjectLabel"
-   ** [.string]#string#  "type"
-   ** [.string]#string#  "state"
-     ** [.string]#string#  "channelLabel" - (If type is SW_CHANNEL) The label of channel associated with the source
+* * [.struct]#struct#  content project source information
+** [.string]#string#  "contentProjectLabel"
+** [.string]#string#  "type"
+** [.string]#string#  "state"
+** [.string]#string#  "channelLabel" - (if type is SW_CHANNEL) the label of channel associated with the source
+  
+ 
+
+
+
+[#apidoc-contentmanagement-buildProject-1329489396]
+== Method: buildProject
+
+HTTP `POST`
+
+Description:
+
+Build a Project
+
+
+
+
+Parameters:
+
+* [.string]#string#  sessionKey
+ 
+* [.string]#string#  projectLabel - Project label
+ 
+
+Returns:
+
+* [.int]#int#  - 1 on success, exception thrown otherwise.
+ 
+
+
+
+[#apidoc-contentmanagement-buildProject-2099052183]
+== Method: buildProject
+
+HTTP `POST`
+
+Description:
+
+Build a Project
+
+
+
+
+Parameters:
+
+* [.string]#string#  sessionKey
+ 
+* [.string]#string#  projectLabel - Project label
+ 
+* [.string]#string#  message - log message to be assigned to the build
+ 
+
+Returns:
+
+* [.int]#int#  - 1 on success, exception thrown otherwise.
+ 
+
+
+
+[#apidoc-contentmanagement-createAppStreamFilters-1863497271]
+== Method: createAppStreamFilters
+
+HTTP `POST`
+
+Description:
+
+Create Filters for AppStream Modular Channel and attach them to CLM Project
+
+
+
+
+Parameters:
+
+* [.string]#string#  sessionKey
+ 
+* [.string]#string#  prefix - Filter name prefix
+ 
+* [.string]#string#  channelLabel - Modular Channel label
+ 
+* [.string]#string#  projectLabel - Project label
+ 
+
+Returns:
+
+* [.array]#array# :
+ * [.struct]#struct#  content filter information
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.int]#int#  "orgId"
+** [.entityType]#entityType#  "entity type (e.g. 'package')"
+** [.rule]#rule#  "rule (e.g. 'deny')"
+** [.struct]#struct#  criteria
+*** [.string]#string#  "matcher" - the matcher type of the filter (e.g. 'contains')
+*** [.string]#string#  "field" - the entity field to match (e.g. 'name'
+*** [.string]#string#  "value" - the field value to match (e.g. 'kernel')
    
  
 
 
 
-[#apidoc-contentmanagement-buildProject-602052569]
-== Method: buildProject 
+[#apidoc-contentmanagement-createEnvironment-1399108737]
+== Method: createEnvironment
 
-Description:
-
-Build a Project
-
-
-
-
-Parameters:
-
-  * [.string]#string#  sessionKey
- 
-* [.string]#string#  projectLabel - Project label
- 
-
-Returns:
-
-* [.int]#int#  - 1 on success, exception thrown otherwise.
- 
-
-
-
-[#apidoc-contentmanagement-buildProject-1586365091]
-== Method: buildProject 
-
-Description:
-
-Build a Project
-
-
-
-
-Parameters:
-
-  * [.string]#string#  sessionKey
- 
-* [.string]#string#  projectLabel - Project label
- 
-* [.string]#string#  message - Log message to be assigned to the build
- 
-
-Returns:
-
-* [.int]#int#  - 1 on success, exception thrown otherwise.
- 
-
-
-
-[#apidoc-contentmanagement-createEnvironment-1907119907]
-== Method: createEnvironment 
+HTTP `POST`
 
 Description:
 
@@ -208,13 +262,13 @@ Create a Content Environment and appends it behind given Content Environment
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  projectLabel - Content Project label
  
 * [.string]#string#  predecessorLabel - Predecessor Environment label
  
-* [.string]#string#  label - new Content Environment label
+* [.string]#string#  envLabel - new Content Environment label
  
 * [.string]#string#  name - new Content Environment name
  
@@ -223,61 +277,62 @@ Parameters:
 
 Returns:
 
-* * [.struct]#struct#  - Content Environment information
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "name"
-   ** [.string]#string#  "description"
-   ** [.int]#int#  "version"
-   ** [.string]#string#  "status"
-   ** [.string]#string#  "contentProjectLabel"
-   ** [.string]#string#  "previousEnvironmentLabel"
-   ** [.string]#string#  "nextEnvironmentLabel"
-   
+* * [.struct]#struct#  content environment information
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "name"
+** [.string]#string#  "description"
+** [.int]#int#  "version"
+** [.string]#string#  "status"
+** [.string]#string#  "contentProjectLabel"
+** [.string]#string#  "previousEnvironmentLabel"
+** [.string]#string#  "nextEnvironmentLabel"
+  
  
 
 
 
-[#apidoc-contentmanagement-createFilter-719119378]
-== Method: createFilter 
+[#apidoc-contentmanagement-createFilter-1251935072]
+== Method: createFilter
+
+HTTP `POST`
 
 Description:
 
 Create a Content Filter
-  
-  
+ #paragraph_end()
+ #paragraph()
  The following filters are available (you can get the list in machine-readable format using
  the listFilterCriteria() endpoint):
-  
-  
+ #paragraph_end()
+ #paragraph()
  Package filtering:
- 
-    by name - field: name; matchers: contains or matches
-    by name, epoch, version, release and architecture - field: nevr or nevra; matcher: equals
-  
-  
-  
+ #itemlist()
+   #item("by name - field: name; matchers: contains or matches")
+   #item("by name, epoch, version, release and architecture - field: nevr or nevra; matcher: equals")
+  #itemlist_end()
+ #paragraph_end()
+ #paragraph()
  Errata/Patch filtering:
- 
-    by advisory name - field: advisory_name; matcher: equals or matches
-    by type - field: advisory_type (e.g. 'Security Advisory'); matcher: equals
-    by synopsis - field: synopsis; matcher: equals, contains or matches
-    by keyword - field: keyword; matcher: contains
-    by date - field: issue_date; matcher: greater or greatereq
-    by affected package name - field: package_name; matcher: contains_pkg_name or matches_pkg_name
-    by affected package with version - field: package_nevr; matcher: contains_pkg_lt_evr,
-   contains_pkg_le_evr, contains_pkg_eq_evr, contains_pkg_ge_evr or contains_pkg_gt_evr
- 
-  
-  
+ #itemlist()
+   #item("by advisory name - field: advisory_name; matcher: equals or matches")
+   #item("by type - field: advisory_type (e.g. 'Security Advisory'); matcher: equals")
+   #item("by synopsis - field: synopsis; matcher: equals, contains or matches")
+   #item("by keyword - field: keyword; matcher: contains")
+   #item("by date - field: issue_date; matcher: greater or greatereq")
+   #item("by affected package name - field: package_name; matcher: contains_pkg_name or matches_pkg_name")
+   #item("by affected package with version - field: package_nevr; matcher: contains_pkg_lt_evr,
+   contains_pkg_le_evr, contains_pkg_eq_evr, contains_pkg_ge_evr or contains_pkg_gt_evr")
+ #itemlist_end()
+ #paragraph_end()
+ #paragraph()
  Appstream module/stream filtering:
- 
-    by module name, stream - field: module_stream; matcher: equals; value: modulaneme:stream
- 
+ #itemlist()
+   #item("by module name, stream - field: module_stream; matcher: equals; value: modulaneme:stream")
+ #itemlist_end()
  Note: Only 'allow' rule is supported for appstream filters.
-  
-  
-
+ #paragraph_end()
+ #paragraph()
  Note: The 'matches' matcher works on Java regular expressions.
 
 
@@ -285,7 +340,7 @@ Create a Content Filter
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  name - Filter name
  
@@ -293,31 +348,33 @@ Parameters:
  
 * [.string]#string#  entityType - Filter entityType ('package' or 'erratum')
  
-* [.struct]#struct#  - criteria
-      ** [.string]#string#  "matcher" - The matcher type of the filter (e.g. 'contains')
-      ** [.string]#string#  "field" - The entity field to match (e.g. 'name'
-      ** [.string]#string#  "value" - The field value to match (e.g. 'kernel')
-   
+* [.struct]#struct#  criteria
+** [.string]#string#  "matcher" - The matcher type of the filter (e.g. 'contains')
+** [.string]#string#  "field" - The entity field to match (e.g. 'name'
+** [.string]#string#  "value" - The field value to match (e.g. 'kernel')
+ 
 
 Returns:
 
-* * [.struct]#struct#  - Content Filter information
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "name"
-   ** [.int]#int#  "orgId"
-   ** [.entityType]#entityType#  "Entity type (e.g. 'package')"
-   ** [.rule]#rule#  "Rule (e.g. 'deny')"
-   ** [.struct]#struct#  - criteria
-       *** [.string]#string#  "matcher" - The matcher type of the filter (e.g. 'contains')
-       *** [.string]#string#  "field" - The entity field to match (e.g. 'name'
-       *** [.string]#string#  "value" - The field value to match (e.g. 'kernel')
-      
+* * [.struct]#struct#  content filter information
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.int]#int#  "orgId"
+** [.entityType]#entityType#  "entity type (e.g. 'package')"
+** [.rule]#rule#  "rule (e.g. 'deny')"
+** [.struct]#struct#  criteria
+*** [.string]#string#  "matcher" - the matcher type of the filter (e.g. 'contains')
+*** [.string]#string#  "field" - the entity field to match (e.g. 'name'
+*** [.string]#string#  "value" - the field value to match (e.g. 'kernel')
+  
  
 
 
 
-[#apidoc-contentmanagement-createProject-927724363]
-== Method: createProject 
+[#apidoc-contentmanagement-createProject-1225196709]
+== Method: createProject
+
+HTTP `POST`
 
 Description:
 
@@ -328,9 +385,9 @@ Create Content Project
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
-* [.string]#string#  label - Content Project label
+* [.string]#string#  projectLabel - Content Project label
  
 * [.string]#string#  name - Content Project name
  
@@ -339,21 +396,23 @@ Parameters:
 
 Returns:
 
-* * [.struct]#struct#  - Content Project information
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "name"
-   ** [.string]#string#  "description"
-   ** [.dateTime.iso8601]#dateTime.iso8601#  "lastBuildDate"
-   ** [.int]#int#  "orgId"
-   ** [.string]#string#  "firstEnvironment label"
-   
+* * [.struct]#struct#  content project information
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "name"
+** [.string]#string#  "description"
+** [.dateTime.iso8601]#dateTime.iso8601#  "lastBuildDate"
+** [.int]#int#  "orgId"
+** [.string]#string#  "firstEnvironment"
+  
  
 
 
 
-[#apidoc-contentmanagement-detachFilter-1059749024]
-== Method: detachFilter 
+[#apidoc-contentmanagement-detachFilter-1257669532]
+== Method: detachFilter
+
+HTTP `POST`
 
 Description:
 
@@ -364,11 +423,11 @@ Detach a Filter from a Project
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  projectLabel - Project label
  
-* [.int]#int#  id - Filter id to detach
+* [.int]#int#  filterId - filter ID to detach
  
 
 Returns:
@@ -378,8 +437,10 @@ Returns:
 
 
 
-[#apidoc-contentmanagement-detachSource-1340776217]
-== Method: detachSource 
+[#apidoc-contentmanagement-detachSource-2099922328]
+== Method: detachSource
+
+HTTP `POST`
 
 Description:
 
@@ -390,7 +451,7 @@ Detach a Source from a Project
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  projectLabel - Content Project label
  
@@ -406,8 +467,10 @@ Returns:
 
 
 
-[#apidoc-contentmanagement-listFilterCriteria-312068212]
-== Method: listFilterCriteria 
+[#apidoc-contentmanagement-listFilterCriteria-1706466507]
+== Method: listFilterCriteria
+
+HTTP `GET`
 
 Description:
 
@@ -418,22 +481,24 @@ List of available filter criteria
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
 
 * [.array]#array# :
- ** [.struct]#struct#  - Filter Criteria
- *** [.string]#string#  "type"
- *** [.string]#string#  "matcher"
- *** [.string]#string#  "field"
-   
+** [.struct]#struct#  Filter Criteria
+*** [.string]#string#  "type"
+*** [.string]#string#  "matcher"
+*** [.string]#string#  "field"
+ 
 
 
 
-[#apidoc-contentmanagement-listFilters-909104361]
-== Method: listFilters 
+[#apidoc-contentmanagement-listFilters-1703412736]
+== Method: listFilters
+
+HTTP `GET`
 
 Description:
 
@@ -444,29 +509,31 @@ List all Content Filters visible to given user
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
 
 * [.array]#array# :
- * [.struct]#struct#  - Content Filter information
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "name"
-   ** [.int]#int#  "orgId"
-   ** [.entityType]#entityType#  "Entity type (e.g. 'package')"
-   ** [.rule]#rule#  "Rule (e.g. 'deny')"
-   ** [.struct]#struct#  - criteria
-       *** [.string]#string#  "matcher" - The matcher type of the filter (e.g. 'contains')
-       *** [.string]#string#  "field" - The entity field to match (e.g. 'name'
-       *** [.string]#string#  "value" - The field value to match (e.g. 'kernel')
-     
-  
+ * [.struct]#struct#  content filter information
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.int]#int#  "orgId"
+** [.entityType]#entityType#  "entity type (e.g. 'package')"
+** [.rule]#rule#  "rule (e.g. 'deny')"
+** [.struct]#struct#  criteria
+*** [.string]#string#  "matcher" - the matcher type of the filter (e.g. 'contains')
+*** [.string]#string#  "field" - the entity field to match (e.g. 'name'
+*** [.string]#string#  "value" - the field value to match (e.g. 'kernel')
+ 
+ 
 
 
 
-[#apidoc-contentmanagement-listProjectEnvironments-692827822]
-== Method: listProjectEnvironments 
+[#apidoc-contentmanagement-listProjectEnvironments-785337150]
+== Method: listProjectEnvironments
+
+HTTP `GET`
 
 Description:
 
@@ -477,7 +544,7 @@ List Environments in a Content Project with the respect to their ordering
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  projectLabel - Content Project label
  
@@ -485,23 +552,25 @@ Parameters:
 Returns:
 
 * [.array]#array# :
- * [.struct]#struct#  - Content Environment information
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "name"
-   ** [.string]#string#  "description"
-   ** [.int]#int#  "version"
-   ** [.string]#string#  "status"
-   ** [.string]#string#  "contentProjectLabel"
-   ** [.string]#string#  "previousEnvironmentLabel"
-   ** [.string]#string#  "nextEnvironmentLabel"
-  
-  
+ * [.struct]#struct#  content environment information
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "name"
+** [.string]#string#  "description"
+** [.int]#int#  "version"
+** [.string]#string#  "status"
+** [.string]#string#  "contentProjectLabel"
+** [.string]#string#  "previousEnvironmentLabel"
+** [.string]#string#  "nextEnvironmentLabel"
+ 
+ 
 
 
 
-[#apidoc-contentmanagement-listProjectFilters-1888591894]
-== Method: listProjectFilters 
+[#apidoc-contentmanagement-listProjectFilters-394568342]
+== Method: listProjectFilters
+
+HTTP `GET`
 
 Description:
 
@@ -512,7 +581,7 @@ List all Filters associated with a Project
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  projectLabel - Project label
  
@@ -520,26 +589,28 @@ Parameters:
 Returns:
 
 * [.array]#array# :
- * [.struct]#struct#  - Assigned Content Filter information
-   ** [.string]#string#  "state"
-   * [.struct]#struct#  - Content Filter information
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "name"
-   ** [.int]#int#  "orgId"
-   ** [.entityType]#entityType#  "Entity type (e.g. 'package')"
-   ** [.rule]#rule#  "Rule (e.g. 'deny')"
-   ** [.struct]#struct#  - criteria
-       *** [.string]#string#  "matcher" - The matcher type of the filter (e.g. 'contains')
-       *** [.string]#string#  "field" - The entity field to match (e.g. 'name'
-       *** [.string]#string#  "value" - The field value to match (e.g. 'kernel')
-     
-  
-  
+ * [.struct]#struct#  assigned content filter information
+** [.string]#string#  "state"
+   * [.struct]#struct#  content filter information
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.int]#int#  "orgId"
+** [.entityType]#entityType#  "entity type (e.g. 'package')"
+** [.rule]#rule#  "rule (e.g. 'deny')"
+** [.struct]#struct#  criteria
+*** [.string]#string#  "matcher" - the matcher type of the filter (e.g. 'contains')
+*** [.string]#string#  "field" - the entity field to match (e.g. 'name'
+*** [.string]#string#  "value" - the field value to match (e.g. 'kernel')
+ 
+ 
+ 
 
 
 
-[#apidoc-contentmanagement-listProjectSources-1482151715]
-== Method: listProjectSources 
+[#apidoc-contentmanagement-listProjectSources-185354501]
+== Method: listProjectSources
+
+HTTP `GET`
 
 Description:
 
@@ -550,7 +621,7 @@ List Content Project Sources
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  projectLabel - Content Project label
  
@@ -558,18 +629,20 @@ Parameters:
 Returns:
 
 * [.array]#array# :
- * [.struct]#struct#  - Content Project Source information
-   ** [.string]#string#  "contentProjectLabel"
-   ** [.string]#string#  "type"
-   ** [.string]#string#  "state"
-     ** [.string]#string#  "channelLabel" - (If type is SW_CHANNEL) The label of channel associated with the source
-  
-  
+ * [.struct]#struct#  content project source information
+** [.string]#string#  "contentProjectLabel"
+** [.string]#string#  "type"
+** [.string]#string#  "state"
+** [.string]#string#  "channelLabel" - (if type is SW_CHANNEL) the label of channel associated with the source
+ 
+ 
 
 
 
-[#apidoc-contentmanagement-listProjects-1810650734]
-== Method: listProjects 
+[#apidoc-contentmanagement-listProjects-737434492]
+== Method: listProjects
+
+HTTP `GET`
 
 Description:
 
@@ -580,27 +653,29 @@ List Content Projects visible to user
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 
 Returns:
 
 * [.array]#array# :
- * [.struct]#struct#  - Content Project information
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "name"
-   ** [.string]#string#  "description"
-   ** [.dateTime.iso8601]#dateTime.iso8601#  "lastBuildDate"
-   ** [.int]#int#  "orgId"
-   ** [.string]#string#  "firstEnvironment label"
-  
-  
+ * [.struct]#struct#  content project information
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "name"
+** [.string]#string#  "description"
+** [.dateTime.iso8601]#dateTime.iso8601#  "lastBuildDate"
+** [.int]#int#  "orgId"
+** [.string]#string#  "firstEnvironment"
+ 
+ 
 
 
 
-[#apidoc-contentmanagement-lookupEnvironment-1098041703]
-== Method: lookupEnvironment 
+[#apidoc-contentmanagement-lookupEnvironment-1595687022]
+== Method: lookupEnvironment
+
+HTTP `GET`
 
 Description:
 
@@ -611,7 +686,7 @@ Look up Content Environment based on Content Project and Content Environment lab
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  projectLabel - Content Project label
  
@@ -620,57 +695,61 @@ Parameters:
 
 Returns:
 
-* * [.struct]#struct#  - Content Environment information
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "name"
-   ** [.string]#string#  "description"
-   ** [.int]#int#  "version"
-   ** [.string]#string#  "status"
-   ** [.string]#string#  "contentProjectLabel"
-   ** [.string]#string#  "previousEnvironmentLabel"
-   ** [.string]#string#  "nextEnvironmentLabel"
-   
+* * [.struct]#struct#  content environment information
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "name"
+** [.string]#string#  "description"
+** [.int]#int#  "version"
+** [.string]#string#  "status"
+** [.string]#string#  "contentProjectLabel"
+** [.string]#string#  "previousEnvironmentLabel"
+** [.string]#string#  "nextEnvironmentLabel"
+  
  
 
 
 
-[#apidoc-contentmanagement-lookupFilter-2076083498]
-== Method: lookupFilter 
+[#apidoc-contentmanagement-lookupFilter-1096030628]
+== Method: lookupFilter
+
+HTTP `GET`
 
 Description:
 
-Lookup a Content Filter by id
+Lookup a Content Filter by ID
 
 
 
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
-* [.int]#int#  id - Filter id
+* [.int]#int#  filterId - Filter ID
  
 
 Returns:
 
-* * [.struct]#struct#  - Content Filter information
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "name"
-   ** [.int]#int#  "orgId"
-   ** [.entityType]#entityType#  "Entity type (e.g. 'package')"
-   ** [.rule]#rule#  "Rule (e.g. 'deny')"
-   ** [.struct]#struct#  - criteria
-       *** [.string]#string#  "matcher" - The matcher type of the filter (e.g. 'contains')
-       *** [.string]#string#  "field" - The entity field to match (e.g. 'name'
-       *** [.string]#string#  "value" - The field value to match (e.g. 'kernel')
-      
+* * [.struct]#struct#  content filter information
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.int]#int#  "orgId"
+** [.entityType]#entityType#  "entity type (e.g. 'package')"
+** [.rule]#rule#  "rule (e.g. 'deny')"
+** [.struct]#struct#  criteria
+*** [.string]#string#  "matcher" - the matcher type of the filter (e.g. 'contains')
+*** [.string]#string#  "field" - the entity field to match (e.g. 'name'
+*** [.string]#string#  "value" - the field value to match (e.g. 'kernel')
+  
  
 
 
 
-[#apidoc-contentmanagement-lookupProject-1195378184]
-== Method: lookupProject 
+[#apidoc-contentmanagement-lookupProject-626652764]
+== Method: lookupProject
+
+HTTP `GET`
 
 Description:
 
@@ -681,28 +760,30 @@ Look up Content Project with given label
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
-* [.string]#string#  label - Content Project label
+* [.string]#string#  projectLabel - Content Project label
  
 
 Returns:
 
-* * [.struct]#struct#  - Content Project information
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "name"
-   ** [.string]#string#  "description"
-   ** [.dateTime.iso8601]#dateTime.iso8601#  "lastBuildDate"
-   ** [.int]#int#  "orgId"
-   ** [.string]#string#  "firstEnvironment label"
-   
+* * [.struct]#struct#  content project information
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "name"
+** [.string]#string#  "description"
+** [.dateTime.iso8601]#dateTime.iso8601#  "lastBuildDate"
+** [.int]#int#  "orgId"
+** [.string]#string#  "firstEnvironment"
+  
  
 
 
 
-[#apidoc-contentmanagement-lookupSource-1263633989]
-== Method: lookupSource 
+[#apidoc-contentmanagement-lookupSource-2100962393]
+== Method: lookupSource
+
+HTTP `GET`
 
 Description:
 
@@ -713,7 +794,7 @@ Look up Content Project Source
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  projectLabel - Content Project label
  
@@ -724,18 +805,20 @@ Parameters:
 
 Returns:
 
-* * [.struct]#struct#  - Content Project Source information
-   ** [.string]#string#  "contentProjectLabel"
-   ** [.string]#string#  "type"
-   ** [.string]#string#  "state"
-     ** [.string]#string#  "channelLabel" - (If type is SW_CHANNEL) The label of channel associated with the source
-   
+* * [.struct]#struct#  content project source information
+** [.string]#string#  "contentProjectLabel"
+** [.string]#string#  "type"
+** [.string]#string#  "state"
+** [.string]#string#  "channelLabel" - (if type is SW_CHANNEL) the label of channel associated with the source
+  
  
 
 
 
-[#apidoc-contentmanagement-promoteProject-175425856]
-== Method: promoteProject 
+[#apidoc-contentmanagement-promoteProject-1723212594]
+== Method: promoteProject
+
+HTTP `POST`
 
 Description:
 
@@ -746,7 +829,7 @@ Promote an Environment in a Project
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  projectLabel - Project label
  
@@ -760,8 +843,10 @@ Returns:
 
 
 
-[#apidoc-contentmanagement-removeEnvironment-255401554]
-== Method: removeEnvironment 
+[#apidoc-contentmanagement-removeEnvironment-909013150]
+== Method: removeEnvironment
+
+HTTP `POST`
 
 Description:
 
@@ -772,7 +857,7 @@ Remove a Content Environment
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  projectLabel - Content Project label
  
@@ -786,8 +871,10 @@ Returns:
 
 
 
-[#apidoc-contentmanagement-removeFilter-277973172]
-== Method: removeFilter 
+[#apidoc-contentmanagement-removeFilter-1834816004]
+== Method: removeFilter
+
+HTTP `POST`
 
 Description:
 
@@ -798,9 +885,9 @@ Remove a Content Filter
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
-* [.int]#int#  id - Filter id
+* [.int]#int#  filterId - Filter ID
  
 
 Returns:
@@ -810,8 +897,10 @@ Returns:
 
 
 
-[#apidoc-contentmanagement-removeProject-1862049087]
-== Method: removeProject 
+[#apidoc-contentmanagement-removeProject-1146011389]
+== Method: removeProject
+
+HTTP `POST`
 
 Description:
 
@@ -822,9 +911,9 @@ Remove Content Project
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
-* [.string]#string#  label - Content Project label
+* [.string]#string#  projectLabel - Content Project label
  
 
 Returns:
@@ -834,8 +923,10 @@ Returns:
 
 
 
-[#apidoc-contentmanagement-updateEnvironment-2075339084]
-== Method: updateEnvironment 
+[#apidoc-contentmanagement-updateEnvironment-1659650374]
+== Method: updateEnvironment
+
+HTTP `POST`
 
 Description:
 
@@ -846,42 +937,44 @@ Update Content Environment with given label
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  projectLabel - Content Project label
  
 * [.string]#string#  envLabel - Content Environment label
  
-* [.struct]#struct#  - data
-      ** [.string]#string#  "name" - Content Environment name
-      ** [.string]#string#  "description" - Content Environment description
-   
+* [.struct]#struct#  props
+** [.string]#string#  "name" - Content Environment name
+** [.string]#string#  "description" - Content Environment description
+ 
 
 Returns:
 
-* * [.struct]#struct#  - Content Environment information
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "name"
-   ** [.string]#string#  "description"
-   ** [.int]#int#  "version"
-   ** [.string]#string#  "status"
-   ** [.string]#string#  "contentProjectLabel"
-   ** [.string]#string#  "previousEnvironmentLabel"
-   ** [.string]#string#  "nextEnvironmentLabel"
-   
+* * [.struct]#struct#  content environment information
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "name"
+** [.string]#string#  "description"
+** [.int]#int#  "version"
+** [.string]#string#  "status"
+** [.string]#string#  "contentProjectLabel"
+** [.string]#string#  "previousEnvironmentLabel"
+** [.string]#string#  "nextEnvironmentLabel"
+  
  
 
 
 
-[#apidoc-contentmanagement-updateFilter-1654453564]
-== Method: updateFilter 
+[#apidoc-contentmanagement-updateFilter-250219336]
+== Method: updateFilter
+
+HTTP `POST`
 
 Description:
 
 Update a Content Filter
-  
-  
+ #paragraph_end()
+ #paragraph()
  See also: createFilter(), listFilterCriteria()
 
 
@@ -889,39 +982,41 @@ Update a Content Filter
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
-* [.int]#int#  filterId - Filter id
+* [.int]#int#  filterId - Filter ID
  
 * [.string]#string#  name - New filter name
  
 * [.string]#string#  rule - New filter rule ('deny' or 'allow')
  
-* [.struct]#struct#  - criteria
-      ** [.string]#string#  "matcher" - The matcher type of the filter (e.g. 'contains')
-      ** [.string]#string#  "field" - The entity field to match (e.g. 'name'
-      ** [.string]#string#  "value" - The field value to match (e.g. 'kernel')
-   
+* [.struct]#struct#  criteria
+** [.string]#string#  "matcher" - The matcher type of the filter (e.g. 'contains')
+** [.string]#string#  "field" - The entity field to match (e.g. 'name'
+** [.string]#string#  "value" - The field value to match (e.g. 'kernel')
+ 
 
 Returns:
 
-* * [.struct]#struct#  - Content Filter information
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "name"
-   ** [.int]#int#  "orgId"
-   ** [.entityType]#entityType#  "Entity type (e.g. 'package')"
-   ** [.rule]#rule#  "Rule (e.g. 'deny')"
-   ** [.struct]#struct#  - criteria
-       *** [.string]#string#  "matcher" - The matcher type of the filter (e.g. 'contains')
-       *** [.string]#string#  "field" - The entity field to match (e.g. 'name'
-       *** [.string]#string#  "value" - The field value to match (e.g. 'kernel')
-      
+* * [.struct]#struct#  content filter information
+** [.int]#int#  "id"
+** [.string]#string#  "name"
+** [.int]#int#  "orgId"
+** [.entityType]#entityType#  "entity type (e.g. 'package')"
+** [.rule]#rule#  "rule (e.g. 'deny')"
+** [.struct]#struct#  criteria
+*** [.string]#string#  "matcher" - the matcher type of the filter (e.g. 'contains')
+*** [.string]#string#  "field" - the entity field to match (e.g. 'name'
+*** [.string]#string#  "value" - the field value to match (e.g. 'kernel')
+  
  
 
 
 
-[#apidoc-contentmanagement-updateProject-1739257986]
-== Method: updateProject 
+[#apidoc-contentmanagement-updateProject-1298670487]
+== Method: updateProject
+
+HTTP `POST`
 
 Description:
 
@@ -932,26 +1027,26 @@ Update Content Project with given label
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
-* [.string]#string#  label - Content Project label
+* [.string]#string#  projectLabel - Content Project label
  
-* [.struct]#struct#  - data
-      ** [.string]#string#  "name" - Content Project name
-      ** [.string]#string#  "description" - Content Project description
-   
+* [.struct]#struct#  props
+** [.string]#string#  "name" - Content Project name
+** [.string]#string#  "description" - Content Project description
+ 
 
 Returns:
 
-* * [.struct]#struct#  - Content Project information
-   ** [.int]#int#  "id"
-   ** [.string]#string#  "label"
-   ** [.string]#string#  "name"
-   ** [.string]#string#  "description"
-   ** [.dateTime.iso8601]#dateTime.iso8601#  "lastBuildDate"
-   ** [.int]#int#  "orgId"
-   ** [.string]#string#  "firstEnvironment label"
-   
+* * [.struct]#struct#  content project information
+** [.int]#int#  "id"
+** [.string]#string#  "label"
+** [.string]#string#  "name"
+** [.string]#string#  "description"
+** [.dateTime.iso8601]#dateTime.iso8601#  "lastBuildDate"
+** [.int]#int#  "orgId"
+** [.string]#string#  "firstEnvironment"
+  
  
 
 

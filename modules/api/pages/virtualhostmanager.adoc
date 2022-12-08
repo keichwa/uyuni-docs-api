@@ -4,12 +4,12 @@
 
 == Available methods
 
-* <<apidoc-virtualhostmanager-create-1313152922,create>>
-* <<apidoc-virtualhostmanager-delete-2015935595,delete>>
-* <<apidoc-virtualhostmanager-getDetail-794413935,getDetail>>
-* <<apidoc-virtualhostmanager-getModuleParameters-102027291,getModuleParameters>>
-* <<apidoc-virtualhostmanager-listAvailableVirtualHostGathererModules-1623964247,listAvailableVirtualHostGathererModules>>
-* <<apidoc-virtualhostmanager-listVirtualHostManagers-2023156074,listVirtualHostManagers>>
+* <<apidoc-virtualhostmanager-create-1203429941,create>>
+* <<apidoc-virtualhostmanager-delete-2136509382,delete>>
+* <<apidoc-virtualhostmanager-getDetail-1034461954,getDetail>>
+* <<apidoc-virtualhostmanager-getModuleParameters-831300922,getModuleParameters>>
+* <<apidoc-virtualhostmanager-listAvailableVirtualHostGathererModules-565661811,listAvailableVirtualHostGathererModules>>
+* <<apidoc-virtualhostmanager-listVirtualHostManagers-1274740515,listVirtualHostManagers>>
 
 == Description
 
@@ -20,8 +20,10 @@ Provides the namespace for the Virtual Host Manager methods.
 virtualhostmanager
 
 
-[#apidoc-virtualhostmanager-create-1313152922]
-== Method: create 
+[#apidoc-virtualhostmanager-create-1203429941]
+== Method: create
+
+HTTP `POST`
 
 Description:
 
@@ -32,7 +34,7 @@ Creates a Virtual Host Manager from given arguments
 
 Parameters:
 
-* [.string]#string#  sessionKey - Session token, issued at login
+* [.string]#string#  sessionKey
  
 * [.string]#string#  label - Virtual Host Manager label
  
@@ -48,8 +50,10 @@ Returns:
 
 
 
-[#apidoc-virtualhostmanager-delete-2015935595]
-== Method: delete 
+[#apidoc-virtualhostmanager-delete-2136509382]
+== Method: delete
+
+HTTP `POST`
 
 Description:
 
@@ -60,7 +64,7 @@ Deletes a Virtual Host Manager with a given label
 
 Parameters:
 
-* [.string]#string#  sessionKey - Session token, issued at login
+* [.string]#string#  sessionKey
  
 * [.string]#string#  label - Virtual Host Manager label
  
@@ -72,8 +76,10 @@ Returns:
 
 
 
-[#apidoc-virtualhostmanager-getDetail-794413935]
-== Method: getDetail 
+[#apidoc-virtualhostmanager-getDetail-1034461954]
+== Method: getDetail
+
+HTTP `GET`
 
 Description:
 
@@ -84,25 +90,27 @@ Gets details of a Virtual Host Manager with a given label
 
 Parameters:
 
-* [.string]#string#  sessionKey - Session token, issued at login
+* [.string]#string#  sessionKey
  
 * [.string]#string#  label - Virtual Host Manager label
  
 
 Returns:
 
-* * [.struct]#struct#  - virtual host manager
-      ** [.string]#string#  "label"
-      ** [.int]#int#  "org_id"
-      ** [.string]#string#  "gatherer_module"
-      ** [.struct]#struct#  "configs"
-    
+* * [.struct]#struct#  virtual host manager
+** [.string]#string#  "label"
+** [.int]#int#  "org_id"
+** [.string]#string#  "gatherer_module"
+** [.struct]#struct#  "configs"
+  
  
 
 
 
-[#apidoc-virtualhostmanager-getModuleParameters-102027291]
-== Method: getModuleParameters 
+[#apidoc-virtualhostmanager-getModuleParameters-831300922]
+== Method: getModuleParameters
+
+HTTP `GET`
 
 Description:
 
@@ -114,7 +122,7 @@ Get a list of parameters for a virtual-host-gatherer module.
 
 Parameters:
 
-* [.string]#string#  sessionKey - Session token, issued at login
+* [.string]#string#  sessionKey
  
 * [.string]#string#  moduleName - The name of the module
  
@@ -126,8 +134,10 @@ Returns:
 
 
 
-[#apidoc-virtualhostmanager-listAvailableVirtualHostGathererModules-1623964247]
-== Method: listAvailableVirtualHostGathererModules 
+[#apidoc-virtualhostmanager-listAvailableVirtualHostGathererModules-565661811]
+== Method: listAvailableVirtualHostGathererModules
+
+HTTP `GET`
 
 Description:
 
@@ -138,19 +148,20 @@ List all available modules from virtual-host-gatherer
 
 Parameters:
 
-* [.string]#string#  sessionKey - Session token, issued at login
+* [.string]#string#  sessionKey
  
 
 Returns:
 
-* [.array]#array# :
-** [.string]#string#  - moduleName
+* [.array]#string array#  moduleName
  
 
 
 
-[#apidoc-virtualhostmanager-listVirtualHostManagers-2023156074]
-== Method: listVirtualHostManagers 
+[#apidoc-virtualhostmanager-listVirtualHostManagers-1274740515]
+== Method: listVirtualHostManagers
+
+HTTP `GET`
 
 Description:
 
@@ -161,18 +172,18 @@ Lists Virtual Host Managers visible to a user
 
 Parameters:
 
-* [.string]#string#  sessionKey - Session token, issued at login
+* [.string]#string#  sessionKey
  
 
 Returns:
 
 * [.array]#array# :
-         * [.struct]#struct#  - virtual host manager
-      ** [.string]#string#  "label"
-      ** [.int]#int#  "org_id"
-      ** [.string]#string#  "gatherer_module"
-      ** [.struct]#struct#  "configs"
-   
-      
+         * [.struct]#struct#  virtual host manager
+** [.string]#string#  "label"
+** [.int]#int#  "org_id"
+** [.string]#string#  "gatherer_module"
+** [.struct]#struct#  "configs"
+ 
+ 
 
 

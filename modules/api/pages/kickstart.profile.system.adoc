@@ -4,26 +4,26 @@
 
 == Available methods
 
-* <<apidoc-kickstart_profile_system-addFilePreservations-1433607373,addFilePreservations>>
-* <<apidoc-kickstart_profile_system-addKeys-66348462,addKeys>>
-* <<apidoc-kickstart_profile_system-checkConfigManagement-1704853566,checkConfigManagement>>
-* <<apidoc-kickstart_profile_system-checkRemoteCommands-1846614763,checkRemoteCommands>>
-* <<apidoc-kickstart_profile_system-disableConfigManagement-383823787,disableConfigManagement>>
-* <<apidoc-kickstart_profile_system-disableRemoteCommands-1185648203,disableRemoteCommands>>
-* <<apidoc-kickstart_profile_system-enableConfigManagement-1597802092,enableConfigManagement>>
-* <<apidoc-kickstart_profile_system-enableRemoteCommands-1436937891,enableRemoteCommands>>
-* <<apidoc-kickstart_profile_system-getLocale-1611348974,getLocale>>
-* <<apidoc-kickstart_profile_system-getPartitioningScheme-966802636,getPartitioningScheme>>
-* <<apidoc-kickstart_profile_system-getRegistrationType-453562991,getRegistrationType>>
-* <<apidoc-kickstart_profile_system-getSELinux-14818675,getSELinux>>
-* <<apidoc-kickstart_profile_system-listFilePreservations-814565761,listFilePreservations>>
-* <<apidoc-kickstart_profile_system-listKeys-513761429,listKeys>>
-* <<apidoc-kickstart_profile_system-removeFilePreservations-1963645656,removeFilePreservations>>
-* <<apidoc-kickstart_profile_system-removeKeys-209128279,removeKeys>>
-* <<apidoc-kickstart_profile_system-setLocale-311642344,setLocale>>
-* <<apidoc-kickstart_profile_system-setPartitioningScheme-34264652,setPartitioningScheme>>
-* <<apidoc-kickstart_profile_system-setRegistrationType-1100176029,setRegistrationType>>
-* <<apidoc-kickstart_profile_system-setSELinux-2051550010,setSELinux>>
+* <<apidoc-kickstart_profile_system-addFilePreservations-932380376,addFilePreservations>>
+* <<apidoc-kickstart_profile_system-addKeys-39846973,addKeys>>
+* <<apidoc-kickstart_profile_system-checkConfigManagement-1092992060,checkConfigManagement>>
+* <<apidoc-kickstart_profile_system-checkRemoteCommands-1222416720,checkRemoteCommands>>
+* <<apidoc-kickstart_profile_system-disableConfigManagement-1253785665,disableConfigManagement>>
+* <<apidoc-kickstart_profile_system-disableRemoteCommands-1398450119,disableRemoteCommands>>
+* <<apidoc-kickstart_profile_system-enableConfigManagement-682914321,enableConfigManagement>>
+* <<apidoc-kickstart_profile_system-enableRemoteCommands-1131634336,enableRemoteCommands>>
+* <<apidoc-kickstart_profile_system-getLocale-612412611,getLocale>>
+* <<apidoc-kickstart_profile_system-getPartitioningScheme-1755838330,getPartitioningScheme>>
+* <<apidoc-kickstart_profile_system-getRegistrationType-1853194041,getRegistrationType>>
+* <<apidoc-kickstart_profile_system-getSELinux-2076021838,getSELinux>>
+* <<apidoc-kickstart_profile_system-listFilePreservations-1579030959,listFilePreservations>>
+* <<apidoc-kickstart_profile_system-listKeys-711487917,listKeys>>
+* <<apidoc-kickstart_profile_system-removeFilePreservations-902907387,removeFilePreservations>>
+* <<apidoc-kickstart_profile_system-removeKeys-859361949,removeKeys>>
+* <<apidoc-kickstart_profile_system-setLocale-1340283293,setLocale>>
+* <<apidoc-kickstart_profile_system-setPartitioningScheme-1491860427,setPartitioningScheme>>
+* <<apidoc-kickstart_profile_system-setRegistrationType-1082705382,setRegistrationType>>
+* <<apidoc-kickstart_profile_system-setSELinux-585257927,setSELinux>>
 
 == Description
 
@@ -34,13 +34,14 @@ Provides methods to set various properties of a kickstart profile.
 kickstart.profile.system
 
 
-[#apidoc-kickstart_profile_system-addFilePreservations-1433607373]
-== Method: addFilePreservations 
+[#apidoc-kickstart_profile_system-addFilePreservations-932380376]
+== Method: addFilePreservations
+
+HTTP `POST`
 
 Description:
 
-Adds the given list of file preservations to the specified kickstart
- profile.
+Adds the given list of file preservations to the specified kickstart profile.
 
 
 
@@ -49,10 +50,9 @@ Parameters:
 
 * [.string]#string#  sessionKey
  
-* [.string]#string#  kickstartLabel
+* [.string]#string#  ksLabel - the kickstart profile label
  
-* [.array]#array# :
-** [.string]#string#  - filePreservations
+* [.array]#string array#  filePreservations - the list identifying the file preservations to add
  
 
 Returns:
@@ -62,8 +62,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile_system-addKeys-66348462]
-== Method: addKeys 
+[#apidoc-kickstart_profile_system-addKeys-39846973]
+== Method: addKeys
+
+HTTP `POST`
 
 Description:
 
@@ -76,10 +78,9 @@ Parameters:
 
 * [.string]#string#  sessionKey
  
-* [.string]#string#  kickstartLabel
+* [.string]#string#  ksLabel - the kickstart profile label
  
-* [.array]#array# :
-** [.string]#string#  - keyDescription
+* [.array]#string array#  descriptions - the list identifying the keys to add
  
 
 Returns:
@@ -89,8 +90,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile_system-checkConfigManagement-1704853566]
-== Method: checkConfigManagement 
+[#apidoc-kickstart_profile_system-checkConfigManagement-1092992060]
+== Method: checkConfigManagement
+
+HTTP `POST`
 
 Description:
 
@@ -101,21 +104,22 @@ Check the configuration management status for a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel - the kickstart profile label
  
 
 Returns:
 
-* [.boolean]#boolean#  enabled - true if configuration
- management is enabled; otherwise, false
+* [.boolean]#boolean#  true if configuration management is enabled; otherwise, false
  
 
 
 
-[#apidoc-kickstart_profile_system-checkRemoteCommands-1846614763]
-== Method: checkRemoteCommands 
+[#apidoc-kickstart_profile_system-checkRemoteCommands-1222416720]
+== Method: checkRemoteCommands
+
+HTTP `POST`
 
 Description:
 
@@ -126,21 +130,22 @@ Check the remote commands status flag for a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel - the kickstart profile label
  
 
 Returns:
 
-* [.boolean]#boolean#  enabled - true if remote
- commands support is enabled; otherwise, false
+* [.boolean]#boolean#  true if remote commands support is enabled; otherwise, false
  
 
 
 
-[#apidoc-kickstart_profile_system-disableConfigManagement-383823787]
-== Method: disableConfigManagement 
+[#apidoc-kickstart_profile_system-disableConfigManagement-1253785665]
+== Method: disableConfigManagement
+
+HTTP `POST`
 
 Description:
 
@@ -152,7 +157,7 @@ Disables the configuration management flag in a kickstart profile
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel - the kickstart profile label
  
@@ -164,8 +169,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile_system-disableRemoteCommands-1185648203]
-== Method: disableRemoteCommands 
+[#apidoc-kickstart_profile_system-disableRemoteCommands-1398450119]
+== Method: disableRemoteCommands
+
+HTTP `POST`
 
 Description:
 
@@ -178,7 +185,7 @@ Disables the remote command flag in a kickstart profile
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel - the kickstart profile label
  
@@ -190,8 +197,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile_system-enableConfigManagement-1597802092]
-== Method: enableConfigManagement 
+[#apidoc-kickstart_profile_system-enableConfigManagement-682914321]
+== Method: enableConfigManagement
+
+HTTP `POST`
 
 Description:
 
@@ -203,7 +212,7 @@ Enables the configuration management flag in a kickstart profile
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel - the kickstart profile label
  
@@ -215,21 +224,23 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile_system-enableRemoteCommands-1436937891]
-== Method: enableRemoteCommands 
+[#apidoc-kickstart_profile_system-enableRemoteCommands-1131634336]
+== Method: enableRemoteCommands
+
+HTTP `POST`
 
 Description:
 
 Enables the remote command flag in a kickstart profile
  so that a system created using this profile
-  will be capable of running remote commands
+ will be capable of running remote commands
 
 
 
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel - the kickstart profile label
  
@@ -241,8 +252,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile_system-getLocale-1611348974]
-== Method: getLocale 
+[#apidoc-kickstart_profile_system-getLocale-612412611]
+== Method: getLocale
+
+HTTP `GET`
 
 Description:
 
@@ -260,19 +273,19 @@ Parameters:
 
 Returns:
 
-* [.struct]#struct#  - locale info
-              ** [.string]#string#  "locale"
-              ** [.boolean]#boolean#  "useUtc"
-                  
-                      ** true - the hardware clock uses UTC
-                      ** false - the hardware clock does not use UTC
-                  
-           
+* [.struct]#struct#  locale info
+** [.string]#string#  "locale"
+** [.boolean]#boolean#  "useUtc"
+*** true - the hardware clock uses UTC
+*** false - the hardware clock does not use UTC
+ 
 
 
 
-[#apidoc-kickstart_profile_system-getPartitioningScheme-966802636]
-== Method: getPartitioningScheme 
+[#apidoc-kickstart_profile_system-getPartitioningScheme-1755838330]
+== Method: getPartitioningScheme
+
+HTTP `GET`
 
 Description:
 
@@ -283,23 +296,23 @@ Get the partitioning scheme for a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
-* [.string]#string#  ksLabel - The label of a kickstart
- profile.
+* [.string]#string#  ksLabel - the label of a kickstart profile
  
 
 Returns:
 
-* [.array]#array# :
-** [.string]#string#  - A list of partitioning commands used to
+* [.array]#string array#  a list of partitioning commands used to
  setup the partitions, logical volumes and volume groups
  
 
 
 
-[#apidoc-kickstart_profile_system-getRegistrationType-453562991]
-== Method: getRegistrationType 
+[#apidoc-kickstart_profile_system-getRegistrationType-1853194041]
+== Method: getRegistrationType
+
+HTTP `POST`
 
 Description:
 
@@ -315,23 +328,23 @@ Parameters:
 
 * [.string]#string#  sessionKey
  
-* [.string]#string#  kickstartLabel
+* [.string]#string#  ksLabel - the kickstart profile label
  
 
 Returns:
 
-* [.string]#string#  registrationType
-      
-         * reactivation
-         * deletion
-         * none
-      
+* [.string]#string#  the registration type
+** reactivation
+** deletion
+** none
  
 
 
 
-[#apidoc-kickstart_profile_system-getSELinux-14818675]
-== Method: getSELinux 
+[#apidoc-kickstart_profile_system-getSELinux-2076021838]
+== Method: getSELinux
+
+HTTP `GET`
 
 Description:
 
@@ -343,25 +356,25 @@ Retrieves the SELinux enforcing mode property of a kickstart
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel - the kickstart profile label
  
 
 Returns:
 
-* [.string]#string#  enforcingMode
-      
-          * enforcing
-          * permissive
-          * disabled
-      
+* [.string]#string#  enforcing mode
+** enforcing
+** permissive
+** disabled
  
 
 
 
-[#apidoc-kickstart_profile_system-listFilePreservations-814565761]
-== Method: listFilePreservations 
+[#apidoc-kickstart_profile_system-listFilePreservations-1579030959]
+== Method: listFilePreservations
+
+HTTP `GET`
 
 Description:
 
@@ -375,23 +388,24 @@ Parameters:
 
 * [.string]#string#  sessionKey
  
-* [.string]#string#  kickstartLabel
+* [.string]#string#  ksLabel - the kickstart profile label
  
 
 Returns:
 
 * [.array]#array# :
-         * [.struct]#struct#  - file list
-     ** [.string]#string#  "name"
-     ** [.array]#array#  "file_names"
-*** string - name
-    
-      
+         * [.struct]#struct#  file list
+** [.string]#string#  "name"
+** [.array]#string array#  "file_names" - the list of file names
+ 
+ 
 
 
 
-[#apidoc-kickstart_profile_system-listKeys-513761429]
-== Method: listKeys 
+[#apidoc-kickstart_profile_system-listKeys-711487917]
+== Method: listKeys
+
+HTTP `GET`
 
 Description:
 
@@ -405,22 +419,24 @@ Parameters:
 
 * [.string]#string#  sessionKey
  
-* [.string]#string#  kickstartLabel
+* [.string]#string#  ksLabel - the kickstart profile label
  
 
 Returns:
 
 * [.array]#array# :
-          ** [.struct]#struct#  - key
-              *** [.string]#string#  "description"
-              *** [.string]#string#  "type"
-              *** [.string]#string#  "content"
-                 
+** [.struct]#struct#  key
+*** [.string]#string#  "description"
+*** [.string]#string#  "type"
+*** [.string]#string#  "content"
+ 
 
 
 
-[#apidoc-kickstart_profile_system-removeFilePreservations-1963645656]
-== Method: removeFilePreservations 
+[#apidoc-kickstart_profile_system-removeFilePreservations-902907387]
+== Method: removeFilePreservations
+
+HTTP `POST`
 
 Description:
 
@@ -434,10 +450,9 @@ Parameters:
 
 * [.string]#string#  sessionKey
  
-* [.string]#string#  kickstartLabel
+* [.string]#string#  ksLabel - the kickstart profile label
  
-* [.array]#array# :
-** [.string]#string#  - filePreservations
+* [.array]#string array#  filePreservations - the list identifying the file preservations to add
  
 
 Returns:
@@ -447,8 +462,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile_system-removeKeys-209128279]
-== Method: removeKeys 
+[#apidoc-kickstart_profile_system-removeKeys-859361949]
+== Method: removeKeys
+
+HTTP `POST`
 
 Description:
 
@@ -461,10 +478,9 @@ Parameters:
 
 * [.string]#string#  sessionKey
  
-* [.string]#string#  kickstartLabel
+* [.string]#string#  ksLabel - the kickstart profile label
  
-* [.array]#array# :
-** [.string]#string#  - keyDescription
+* [.array]#string array#  descriptions - the list identifying the keys to remove
  
 
 Returns:
@@ -474,8 +490,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile_system-setLocale-311642344]
-== Method: setLocale 
+[#apidoc-kickstart_profile_system-setLocale-1340283293]
+== Method: setLocale
+
+HTTP `POST`
 
 Description:
 
@@ -493,10 +511,8 @@ Parameters:
 * [.string]#string#  locale - the locale
  
 * [.boolean]#boolean#  useUtc
-      
-          * true - the hardware clock uses UTC
-          * false - the hardware clock does not use UTC
-      
+** true - the hardware clock uses UTC
+** false - the hardware clock does not use UTC
  
 
 Returns:
@@ -506,8 +522,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile_system-setPartitioningScheme-34264652]
-== Method: setPartitioningScheme 
+[#apidoc-kickstart_profile_system-setPartitioningScheme-1491860427]
+== Method: setPartitioningScheme
+
+HTTP `POST`
 
 Description:
 
@@ -518,12 +536,11 @@ Set the partitioning scheme for a kickstart profile.
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
-* [.string]#string#  ksLabel - The label of the
- kickstart profile to update.
+* [.string]#string#  ksLabel - the label of the kickstart profile to update
  
-* [.string[]]#string[]#  scheme - The partitioning scheme
+* [.array]#string array#  scheme - the partitioning scheme
  is a list of partitioning command strings used to setup the partitions,
  volume groups and logical volumes.
  
@@ -535,8 +552,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile_system-setRegistrationType-1100176029]
-== Method: setRegistrationType 
+[#apidoc-kickstart_profile_system-setRegistrationType-1082705382]
+== Method: setRegistrationType
+
+HTTP `POST`
 
 Description:
 
@@ -552,17 +571,15 @@ Parameters:
 
 * [.string]#string#  sessionKey
  
-* [.string]#string#  kickstartLabel
+* [.string]#string#  ksLabel - the kickstart profile label
  
 * [.string]#string#  registrationType
-      
-         * reactivation - to try and generate a reactivation key
+** reactivation - to try and generate a reactivation key
               and use that to register the system when reprovisioning a system.
-         * deletion - to try and delete the existing system profile
+** deletion - to try and delete the existing system profile
               and reregister the system being reprovisioned as new
-         * none - to preserve the status quo and leave the current system
+** none - to preserve the status quo and leave the current system
               as a duplicate on a reprovision.
-      
  
 
 Returns:
@@ -572,8 +589,10 @@ Returns:
 
 
 
-[#apidoc-kickstart_profile_system-setSELinux-2051550010]
-== Method: setSELinux 
+[#apidoc-kickstart_profile_system-setSELinux-585257927]
+== Method: setSELinux
+
+HTTP `POST`
 
 Description:
 
@@ -586,16 +605,14 @@ Sets the SELinux enforcing mode property of a kickstart profile
 
 Parameters:
 
-  * [.string]#string#  sessionKey
+* [.string]#string#  sessionKey
  
 * [.string]#string#  ksLabel - the kickstart profile label
  
-* [.string]#string#  enforcingMode - the selinux enforcing mode
-      
-          * enforcing
-          * permissive
-          * disabled
-      
+* [.string]#string#  enforcingMode - the SELinux enforcing mode
+** enforcing
+** permissive
+** disabled
  
 
 Returns:
